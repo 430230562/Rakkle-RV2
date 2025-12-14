@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Rakkle Special Meat need -->
+  <RakkleMeatAddiction.label>香料肉丸需求</RakkleMeatAddiction.label>
+  <!-- EN: Without regular doses of Rakkle Special Meat, the person will die. -->
+  <RakkleMeatAddiction.description>如果不定期食用香料肉丸，这个拉克将会死亡。</RakkleMeatAddiction.description>
+  <!-- EN: unmet -->
+  <RakkleMeatAddiction.stages.unmet.label>未满足</RakkleMeatAddiction.stages.unmet.label>
+  
+</LanguageData>

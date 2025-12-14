@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Tastier Armory - Medieval European Armors</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName =
+						"Rakkle"]/alienRace/raceRestriction/whiteApparelList</xpath>
+					<value>
+						<!-- Plates -->
+						<li>TC_Brigandine</li>
+						<li>TC_BrigandinePlate</li>
+						<li>TC_CoatOfPlates</li>
+						<li>TC_GambesonCoat</li>
+						<li>TC_Hauberk</li>
+						<li>TC_MailleVest</li>
+						<li>TC_PlateCuirass</li>
+
+						<!-- Other -->
+						<li>TC_ReinforcedGambeson</li>
+						<li>TC_BacketPack</li>
+						<li>TC_Sack</li>
+						<li>TC_ArmingDoublet</li>
+						<li>TC_Chaperon</li>
+						<li>TC_Cloak</li>
+						<li>TC_Dress</li>
+						<li>TC_FancyCoat</li>
+						<li>TC_Hood</li>
+						<li>TC_Surcoat</li>
+						<li>TC_Tunic</li>
+						<li>TC_Armet_Visor</li>
+						<li>TC_Armet</li>
+						<li>TC_Armet_UP</li>
+						<li>TC_Bascinet_Visor</li>
+						<li>TC_Bascinet</li>
+						<li>TC_Bascinet_UP</li>
+						<li>TC_BascinetOpen</li>
+						<li>TC_CoifWithSecret</li>
+						<li>TC_Greathelm</li>
+						<li>TC_KettleHat</li>
+						<li>TC_Nasal</li>
+						<li>TC_NasalCoif</li>
+						<li>TC_Sallet_Visor</li>
+						<li>TC_Sallet</li>
+						<li>TC_Sallet_UP</li>
+						<li>TC_SalletFixedVisor_Visor</li>
+						<li>TC_SalletFixedVisor</li>
+						<li>TC_SalletFixedVisor_UP</li>
+						<li>TC_SalletOpen</li>
+						<li>TC_SpectacleHelmet</li>
+						<li>TC_MailleMittens</li>
+						<li>TC_PlateMittens</li>
+
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName =
+						"Rakkle"]/alienRace/graphicPaths/apparel/individualPaths</xpath>
+					<value>
+
+						<!-- chain -->
+						<li>
+							<key>TC_Brigandine</key>
+							<value>Rakkles/Apparel/Glitterskin/Glitterskin</value>
+						</li>
+						<li>
+							<key>TC_BrigandinePlate</key>
+							<value>Rakkles/Apparel/Glitterskin/Glitterskin</value>
+						</li>
+						<li>
+							<key>TC_Hauberk</key>
+							<value>Rakkles/Apparel/Glitterskin/Glitterskin</value>
+						</li>
+
+						<!-- heavy -->
+						<li>
+							<key>TC_CoatOfPlates</key>
+							<value>Things/Pawn/Humanlike/Apparel/PlateArmor/PlateArmor</value>
+						</li>
+						<li>
+							<key>TC_MailleVest</key>
+							<value>Things/Pawn/Humanlike/Apparel/PlateArmor/PlateArmor</value>
+						</li>
+						<li>
+							<key>TC_PlateCuirass</key>
+							<value>Things/Pawn/Humanlike/Apparel/PlateArmor/PlateArmor</value>
+						</li>
+
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

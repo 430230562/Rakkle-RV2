@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rakkle (unofficial update)</name>
+	<author>sunny</author>
+	<supportedVersions>
+		<li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>HumanoidAlienRaces</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+     <li>
+            <packageId>Nabber.RimVore2</packageId>
+            <displayName>RimVore-2</displayName>
+            <downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
+        </li>
+		<li>
+			<packageId>goudaquiche.MoharFramework</packageId>
+			<displayName>MoHARframework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>goudaquiche.MoharFramework</li>
+	</loadAfter>
+	<packageId>jkviolet.rakkleracemode</packageId>
+	<description>
+	Version: 1.6.01\n
+    unofficial continuation of 1.6 of JKV's rakkle mod
+    ==Rakkle the rattle snake==
+
+	Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After their discovery, human colonies rounded them up and genetically altered them to have near-human intelligence, but also decreased aggression and appearances better suited to human tastes. They were also modified to give birth to females more often than males, creating a biological need for species interbreeding.
+	The newly created Rakkle species were managed by a company known as The Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the company's interest. Future generations within the facilities were conditioned and raised as slaves and livestock.
+	After a series of escapes and revolts on planet after planet, a coalition of freed Rakkle began colonies of their own, resisting capture and invasion to create a new world where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these settlements continue to grow in size and number.
+
+
+    == Race Characteristics ==
+
+    - Shedding: Rakkle shed periodically.
+    
+    -- Advantages --
+    - Fast movement speed: Rakkle move faster than humans. Other species will have a hard time escaping a rakkle chase.
+    - Melee Battle Bonus: Rakkle have higher melee combat capability than humans. They are stronger than humans in combat, whether with guns or bare hands, due to their use of teeth and tails.
+    - Strong tail: Rakkle have no legs. Instead, they have a large tail that is stronger than a human leg.
+    - Long meal cycle: Rakkle can retain a maximum of 5 calories. If they eat raw meat balls, a rakkle food, they can last for about 5 days.
+                            *Caution: If rakkle are not fed raw meat balls, they will lose this advantage.
+    - High maximum adaptive temperature: Rakkle can withstand hot weather.
+    - Permanent immunity to food poisoning.
+    
+    -- Weaknesses --
+    - Carnivorous: Rakkle are carnivores and do not like eating vegetables. Cooked meals can be consumed, but with a mood disadvantage.
+    - Different organ locations: The heart, kidney, and liver of rakkle are located in the upper tail. While the upper tail protects their organs, it also increases their vulnerability.
+    - Very slow cultivation: Rakkle develop significantly slower than humans.
+    - High probability of food poisoning: When rakkle cook, there is a higher chance of causing food poisoning compared to humans.
+    - High minimum adaptive temperature: Rakkle are very vulnerable to cold environments.
+    
+    
+    == Contents ==
+    - Vanilla clothing is available. All clothing is tailored to fit their unique bodies!
+    - Some species-specific clothing items
+    - Two species-specific foods
+    - Helmintics can be produced using snake skins (This can treat Gut worms and muscle parasites)
+    - Race-specific backstories
+    - Rakkle Permanent Enemy Faction
+    - Rakkle Friendship Faction (do not request support; they do not like fighting.)
+    
+    
+    == P.S. ==
+    - If you are using the apparel re-texture mod, I recommend using the following mod alongside it.
+      https://steamcommunity.com/sharedfiles/filedetails/?id=2037354634
+
+
+    == Special thanks ==
+    - Rimworld korea discord server members
+    - Gouda quiche https://steamcommunity.com/profiles/76561197992216829/myworkshopfiles/?appid=294100 (MoHar hediffs)
+    - DC inside rimworld minor gallery
+
+	</description>
+</ModMetaData>

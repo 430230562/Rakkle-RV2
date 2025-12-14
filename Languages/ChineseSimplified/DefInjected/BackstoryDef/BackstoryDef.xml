@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Little more than an attack animal, [PAWN_nameDef] is bred to follow orders, engage in combat, and claim victory for its officers. Frequently used as enforcers for the Cradle, it has little empathy for living things not in its chain of command. -->
+  <CDR_Attacker.description>[PAWN_nameDef]不过就是一种用于攻击的动物罢了，它被培育出来就是为了服从命令、参与战斗，并为其长官赢得胜利。它常被用作“响尾蛇”的执法者，对于不在其指挥链内的生物几乎没有同理心。</CDR_Attacker.description>
+  <!-- EN: Cradle attacker -->
+  <CDR_Attacker.title>响尾蛇 袭击者</CDR_Attacker.title>
+  <!-- EN: Cradle attacker -->
+  <CDR_Attacker.titleShort>袭击者</CDR_Attacker.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was sold  only as breeding stock. Its price was based on its appearance, not its capability or intelligence - though it may surpass those expectations. It may display some signs of personality, but can be easily overridden by a command. -->
+  <CDR_Breeder.description>[PAWN_nameDef]仅作为种畜被售卖。它的价格是基于其外观而定的，并非依据其能力或智力 —— 尽管它有可能超出那些预期。它或许会展现出一些个性特征，但一道命令就能轻易使其服从，让那些个性特征不起作用。</CDR_Breeder.description>
+  <!-- EN: Cradle Breeder -->
+  <CDR_Breeder.title>响尾蛇 种畜</CDR_Breeder.title>
+  <!-- EN: Cradle Breeder -->
+  <CDR_Breeder.titleShort>种畜</CDR_Breeder.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] began [PAWN_possessive] life as a Free Rakkle, but was then recovered by Cradle officers and pressed back into servitude. [PAWN_possessive] did not take well to the reconditioning, and is now withdrawn, as if merely waiting for death. -->
+  <CDR_Captured.description>[PAWN_nameDef]曾开始过[PAWN_possessive]自由生活，但随后被“响尾蛇”的官员们抓回，并重新被迫沦为奴仆。[PAWN_possessive]对这种重改造适应得并不好，现在变得沉默寡言、孤僻退缩，仿佛只是在等待死亡降临。</CDR_Captured.description>
+  <!-- EN: Cradle captured -->
+  <CDR_Captured.title>响尾蛇 俘虏</CDR_Captured.title>
+  <!-- EN: Cradle captured -->
+  <CDR_Captured.titleShort>俘虏</CDR_Captured.titleShort>
+  
+  <!-- EN: Brutish and efficient, [PAWN_nameDef] was bred to be an enforcer within The Cradle's officers. It is cunning, and uses all of its wits and talent to make its commander's wishes reality. -->
+  <CDR_Elite.description>[PAWN_nameDef]生性野蛮却行事高效，它被培育出来就是为了在“响尾蛇”的官员群体中充当执法者的角色。它很狡猾，会运用自己所有的智慧与才能，将其指挥官的意愿变为现实。</CDR_Elite.description>
+  <!-- EN: Cradle elite attacker -->
+  <CDR_Elite.title>响尾蛇 精锐袭击者</CDR_Elite.title>
+  <!-- EN: Cradle elite attacker -->
+  <CDR_Elite.titleShort>精锐袭击者</CDR_Elite.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] became an oddity in Rakkle breeding when the aggression reduction failed to take hold. It has a volatile temper and will fight anyone with little or no provocation, but can be controlled with the right compensation. -->
+  <CDR_FightingSnake.description>由于降低攻击性的改造未能奏效，[PAWN_nameDef]在拉克繁育场中就成了一个异类。它性情暴躁多变，哪怕受到极少的刺激甚至毫无缘由，都会与任何人打斗，但只要给予恰当的补偿，它还是能够被控制住的。</CDR_FightingSnake.description>
+  <!-- EN: Cradle Fighting Snake -->
+  <CDR_FightingSnake.title>响尾蛇 斗蛇</CDR_FightingSnake.title>
+  <!-- EN: Cradle Fighting Snake -->
+  <CDR_FightingSnake.titleShort>斗蛇</CDR_FightingSnake.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is the figurehead leader of the Cradle settlement. It knows its existence is one of appearances, but the lavish circumstances of its position banishes any thoughts it may have about the morality of its existence. It need only follow the orders of the Cradle, and its survival and comfort are assured. -->
+  <CDR_Leader.description>[PAWN_nameDef]是“响尾蛇”据点的名义领袖。它清楚自己的存在只是一种表象，不过其所处职位所带来的奢华环境，驱散了它可能会有的、关于自身存在是否符合道德的任何想法。它只需遵从“响尾蛇”下达的命令，就能确保自身的生存以及舒适的生活。</CDR_Leader.description>
+  <!-- EN: Cradle leader -->
+  <CDR_Leader.title>响尾蛇 首领</CDR_Leader.title>
+  <!-- EN: Cradle leader -->
+  <CDR_Leader.titleShort>首领</CDR_Leader.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was bred and sold to be cattle. Be it as breeding or experimentation, its stock is often comprised of those who are completely broken by the Cradle conditioning or in some other way defective as products. -->
+  <CDR_Livestock.description>[PAWN_nameDef]被繁育出来并当作牲畜售卖。无论是用于繁殖还是实验，其群体通常由那些被“响尾蛇”的驯化手段彻底摧垮的个体，或者在其他方面作为产品存在缺陷的个体所组成。</CDR_Livestock.description>
+  <!-- EN: Cradle Livestock -->
+  <CDR_Livestock.title>响尾蛇 家畜</CDR_Livestock.title>
+  <!-- EN: Cradle Livestock -->
+  <CDR_Livestock.titleShort>家畜</CDR_Livestock.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is trained to be, in every sense, the perfect hostess and housekeeper. It has etiquette and servitude drilled into its genes, and will do whatever is necessary to please its masters. -->
+  <CDR_Maid.description>[PAWN_nameDef]被训练成为从各方面来看都堪称完美的女招待兼管家。礼仪和奴性被深深地烙印在了它的基因当中，为了取悦主人，它会做任何必要的事情。</CDR_Maid.description>
+  <!-- EN: Cradle Maid -->
+  <CDR_Maid.title>响尾蛇 女仆</CDR_Maid.title>
+  <!-- EN: Cradle Maid -->
+  <CDR_Maid.titleShort>女仆</CDR_Maid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is well suited to farm labor. Gardening and animal husbandry come easily to it. It can fix simple things, but it is no artisan. -->
+  <CDR_serf.description>[PAWN_nameDef]很适合从事农场劳作。园艺和畜牧对它来说轻而易举。它能修理一些简单的物件，但算不上是能工巧匠。</CDR_serf.description>
+  <!-- EN: Cradle serf -->
+  <CDR_serf.title>响尾蛇 农奴</CDR_serf.title>
+  <!-- EN: Cradle serf -->
+  <CDR_serf.titleShort>农奴</CDR_serf.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a Cradle slave stock. It was broken by the conditioning, but maintains enough intelligence to obey simple commands. -->
+  <CDR_Slave.description>[PAWN_nameDef]属于 “响尾蛇”的奴隶种群。它被驯化手段摧垮了，但还保留着足够的智力来遵从简单的命令。</CDR_Slave.description>
+  <!-- EN: Cradle Slave -->
+  <CDR_Slave.title>响尾蛇 奴隶</CDR_Slave.title>
+  <!-- EN: Cradle Slave -->
+  <CDR_Slave.titleShort>奴隶</CDR_Slave.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was bred specifically to be a toy for its buyers. Lacking any sense of free will or self-preservation, it will often follow orders without a second thought - only enough to be sure its masters are having fun. -->
+  <CDR_Toy.description>[PAWN_nameDef]是专门被培育出来作为买家的玩物的。它缺乏自由意志和自我保护意识，常常会不假思索地遵从命令 —— 只要能确保主人玩得开心就足够了。</CDR_Toy.description>
+  <!-- EN: Cradle Toy -->
+  <CDR_Toy.title>响尾蛇 玩具</CDR_Toy.title>
+  <!-- EN: Cradle Toy -->
+  <CDR_Toy.titleShort>玩具</CDR_Toy.titleShort>
+  
+  <!-- EN: Only just passing the company standards of behavior, [PAWN_nameDef] was sold to be a simple laborer. It can follow orders and retain simple instructions, but does little of its own thinking and cannot perform more complex tasks. -->
+  <CDR_Workman.description>[PAWN_nameDef]仅仅是刚刚达到公司的行为标准，就被售卖去做一名普通劳工了。它能够听从命令并记住简单的指示，但几乎不会自主思考，也没办法执行更为复杂的任务。</CDR_Workman.description>
+  <!-- EN: Cradle Workman -->
+  <CDR_Workman.title>响尾蛇 工人</CDR_Workman.title>
+  <!-- EN: Cradle Workman -->
+  <CDR_Workman.titleShort>工人</CDR_Workman.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was promising even by The Cradle's high standards, and was marketed as useful for even leadership or municipal duties in society. It looks forward to helping its community grow. -->
+  <CRD_CradleLeaderChild.description>[PAWN_nameDef]即便按照“响尾蛇”的高标准来看也是很有潜力的，并且被作为在社会中，甚至可以担当领导职责或市政事务工作的有用之才来进行推销。它期待着助力自己所在的社区发展壮大。</CRD_CradleLeaderChild.description>
+  <!-- EN: Cradle Cradle Leader Child -->
+  <CRD_CradleLeaderChild.title>响尾蛇 未来领袖</CRD_CradleLeaderChild.title>
+  <!-- EN: Cradle leader child -->
+  <CRD_CradleLeaderChild.titleShort>未来领袖</CRD_CradleLeaderChild.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is fresh from the arms of The Cradle; a blank slate ready and willing to serve the needs of its newest masters. -->
+  <CRD_YoungGoods.description>[PAWN_nameDef]刚脱离“响尾蛇”的怀抱，就像一张白纸，已然准备好并且乐意去满足其新主人的各种需求。</CRD_YoungGoods.description>
+  <!-- EN: Cradle Young Goods -->
+  <CRD_YoungGoods.title>响尾蛇 幼年商品</CRD_YoungGoods.title>
+  <!-- EN: Young Goods -->
+  <CRD_YoungGoods.titleShort>幼年商品</CRD_YoungGoods.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was a slave in a small human settlement. Once the settlemnt was itself overrun by raiders, anyone left alive had nowhere else to go. [PAWN_nameDef] survived in the wild for a time, but ultimately could not survive on [PAWN_possessive] own, and sought help. -->
+  <Rakkle_AbandonedYoungSlave.description>[PAWN_nameDef]曾是一个小型人类聚居地的奴隶。这个聚居地遭到劫掠者的洗劫，所有幸存者都无处可去了。[PAWN_nameDef]在野外独自生存了一段时间，但最终无法靠自己存活下去，于是便寻求帮助了。</Rakkle_AbandonedYoungSlave.description>
+  <!-- EN: Rakkle Abandoned young slave -->
+  <Rakkle_AbandonedYoungSlave.title>拉克 被遗弃的年轻奴隶</Rakkle_AbandonedYoungSlave.title>
+  <!-- EN: Abandoned young slave -->
+  <Rakkle_AbandonedYoungSlave.titleShort>被遗弃的年轻奴隶</Rakkle_AbandonedYoungSlave.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] built [PAWN_possessive] career from ruins. A colony, ravaged by conflict, was burned to the ground. [PAWN_nameDef] was bought as a laborer, but [PAWN_possessive] skill with engineering and planning cemented [PAWN_possessive] position in rebuilding the colony for the remaining residents. In spite of [PAWN_possessive] kindness, however, the remaining residents soured, with the looming threat of Cradle agents returning to reduce their home to ash once again. [PAWN_nameDef] was driven out into the wilderness to find a new home. -->
+  <Rakkle_Architect.description>[PAWN_nameDef]从废墟中建立起[PAWN_possessive]事业。一个饱受战乱蹂躏的殖民地被夷为平地。[PAWN_nameDef]被买来当劳工，但[PAWN_nameDef]在为剩余居民重建殖民地时，它工程和规划方面的技能提升了[PAWN_possessive]地位。然而，尽管[PAWN_nameDef]心地善良，剩余的居民却因为担心响尾蛇特工再次来袭，将他们的家园再次化为灰烬的潜在威胁而变得冷漠。[PAWN_nameDef]被驱赶到荒野中去寻找新的家园。</Rakkle_Architect.description>
+  <!-- EN: Rakkle Architect -->
+  <Rakkle_Architect.title>拉克 建筑师</Rakkle_Architect.title>
+  <!-- EN: Architect -->
+  <Rakkle_Architect.titleShort>建筑师</Rakkle_Architect.titleShort>
+  
+  <!-- EN: Beyond any other pursuit, [PAWN_nameDef] feels the most gratification when making art. [PAWN_pronoun] will do anything that allows [PAWN_objective] to keep following [PAWN_possessive] artistic visions. -->
+  <Rakkle_Artist.description>相较于其他，[PAWN_nameDef]在进行艺术创作时能感受到最大的满足。[PAWN_pronoun]愿意做任何能让[PAWN_objective]得以继续追随[PAWN_possessive]艺术构想的事。</Rakkle_Artist.description>
+  <!-- EN: Rakkle Artist -->
+  <Rakkle_Artist.title>拉克 艺术家</Rakkle_Artist.title>
+  <!-- EN: Artist -->
+  <Rakkle_Artist.titleShort>艺术家</Rakkle_Artist.titleShort>
+  
+  <!-- EN: After losing colony and family to Cradle aggressors, [PAWN_nameDef] swore an oath of revenge. [PAWN_pronoun] watched, acting as a corpse, as the rest of [PAWN_possessive] family was brutally murdered by slavers. [PAWN_pronoun] will not rest until The Cradle as an entity no longer exists. -->
+  <Rakkle_Avenger.description>在殖民地和家人被响尾蛇侵略者夺走之后，[PAWN_nameDef]立下了复仇的誓言。[PAWN_pronoun]当时佯装死去，眼睁睁看着它的家人被奴隶贩子残忍杀害。[PAWN_pronoun]想要消灭响尾蛇，不达目的誓不罢休。</Rakkle_Avenger.description>
+  <!-- EN: Rakkle Avenger -->
+  <Rakkle_Avenger.title>拉克 复仇者</Rakkle_Avenger.title>
+  <!-- EN: Avenger -->
+  <Rakkle_Avenger.titleShort>复仇者</Rakkle_Avenger.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a savant with ore and forge. [PAWN_pronoun] would rather work in tools and materials than anything, but makes a living in the harsh Rim by making weapons. -->
+  <Rakkle_Blacksmith.description>[PAWN_nameDef]是一位精通矿石与锻造的天才。[PAWN_pronoun]只愿摆弄工具和材料，而不愿做其他任何事，其在环境恶劣的“边缘”靠制造武器维持生计。</Rakkle_Blacksmith.description>
+  <!-- EN: Rakkle Blacksmith -->
+  <Rakkle_Blacksmith.title>拉克 铁匠</Rakkle_Blacksmith.title>
+  <!-- EN: Blacksmith -->
+  <Rakkle_Blacksmith.titleShort>铁匠</Rakkle_Blacksmith.titleShort>
+  
+  <!-- EN: The world of fighting for survival and freedom never appealed to [PAWN_nameDef], who much preferred books and study. Teased as a booksnake, [PAWN_pronoun] hopes that [PAWN_pronoun] can cross words over blades, and draw discussion before firearms. -->
+  <Rakkle_BookWorm.description>为生存和自由而战斗的世界从来都引不起[PAWN_nameDef]的兴趣，[PAWN_pronoun]更喜欢书籍和钻研学问。因此被人取笑为“书蛇”，[PAWN_pronoun]希望自己能够以文字胜过刀剑，在动用枪炮之前先展开讨论。</Rakkle_BookWorm.description>
+  <!-- EN: Rakkle Booksnake -->
+  <Rakkle_BookWorm.title>拉克 书蛇</Rakkle_BookWorm.title>
+  <!-- EN: Booksnake -->
+  <Rakkle_BookWorm.titleShort>书蛇</Rakkle_BookWorm.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was raised in a smaller Rakkle settlement, that lacked the resources to care for everyone properly. Without parents to look after [PAWN_possessive], [PAWN_pronoun] took what [PAWN_pronoun] wanted through force and coercion. -->
+  <Rakkle_Bully.description>[PAWN_nameDef]在一个规模较小的拉克聚居地长大，那里缺乏足够资源来妥善照顾每一个人。由于没有父母照顾[PAWN_possessive]，[PAWN_pronoun]便通过武力和胁迫手段去获取自己想要的东西。</Rakkle_Bully.description>
+  <!-- EN: Rakkle Bully -->
+  <Rakkle_Bully.title>拉克 恶霸</Rakkle_Bully.title>
+  <!-- EN: Bully -->
+  <Rakkle_Bully.titleShort>恶霸</Rakkle_Bully.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is an assistant of [PAWN_possessive] settlement's butcher. Though most of their work is for food and consumption, the work did teach [PAWN_nameDef] the important skill of quickly relieving most organic creatures of their limbs. -->
+  <Rakkle_Butcher.description>[PAWN_nameDef]是其所在聚居地的屠夫的助手。尽管他们的大部分工作都是为了获取食物以供食用，但这份工作确实教会了[PAWN_nameDef]一项重要技能，那就是能迅速将大多数有机生物的肢体卸下。</Rakkle_Butcher.description>
+  <!-- EN: Rakkle Butcher -->
+  <Rakkle_Butcher.title>拉克 屠夫</Rakkle_Butcher.title>
+  <!-- EN: Butcher -->
+  <Rakkle_Butcher.titleShort>屠夫</Rakkle_Butcher.titleShort>
+  
+  <!-- EN: While Rakkle are ordinarily non-aggressive, desperation drove [PAWN_nameDef] to extremes. The property of a small but vicious gang of enforcers, [PAWN_pronoun] was frequently forced to fight and work without food or sleep for days. In a desperate fit of fury, [PAWN_pronoun] turned on [PAWN_possessive] captors, eating some of them to pacify the raw hunger in [PAWN_possessive] stomach. Free, but aimless, [PAWN_pronoun] wanders the land for [PAWN_possessive] next meal, or just a place to rest. -->
+  <Rakkle_CannibalSnake.description>虽然拉克通常没有攻击性，但绝望驱使[PAWN_nameDef]走向了极端。生存于一个规模虽小却很凶残的执法者团伙，[PAWN_pronoun]经常被迫在连续几天没有食物、无法睡觉的情况下打斗和劳作。在一阵绝望的狂怒中，[PAWN_pronoun]对那些囚禁自己的人发起反击，甚至吃掉了他们中的一些人，以缓解腹中那强烈的饥饿感。[PAWN_pronoun]获得了自由，却漫无目的地游荡在这片土地上，寻找下一顿饭，或者只是一个可以休息的地方。</Rakkle_CannibalSnake.description>
+  <!-- EN: Rakkle Cannibal snake -->
+  <Rakkle_CannibalSnake.title>拉克 同类相食者</Rakkle_CannibalSnake.title>
+  <!-- EN: Cannibal snake -->
+  <Rakkle_CannibalSnake.titleShort>同类相食者</Rakkle_CannibalSnake.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is the adopted child of a notable seamster. While [PAWN_pronoun] managed to escape many of the harsh realities of living in the Rim, perhaps the things [PAWN_pronoun] learned will be of some use now out on [PAWN_possessive] own. -->
+  <Rakkle_ClothingStoreKid.description>[PAWN_nameDef]是一位有名的裁缝的养子。虽然[PAWN_pronoun]避开了生活在“边缘”的诸多残酷现实，但或许[PAWN_pronoun]所学的东西如今在独自闯荡时会派上些用场。</Rakkle_ClothingStoreKid.description>
+  <!-- EN: Rakkle Clothing store kid -->
+  <Rakkle_ClothingStoreKid.title>拉克 服装店的孩子</Rakkle_ClothingStoreKid.title>
+  <!-- EN: Clothing store kid -->
+  <Rakkle_ClothingStoreKid.titleShort>服装店的孩子</Rakkle_ClothingStoreKid.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] grew up in a Free Rakkle settlement, dreaming of adventure and unaware of the burden [PAWN_pronoun] was born into. -->
+  <Rakkle_ColonyKid.description>[PAWN_nameDef]在一个自由的拉克聚居地长大，[PAWN_pronoun]怀揣着冒险的梦想，却并未意识到自己生来就背负的重担。</Rakkle_ColonyKid.description>
+  <!-- EN: Rakkle Colony kid -->
+  <Rakkle_ColonyKid.title>拉克 殖民地的孩子</Rakkle_ColonyKid.title>
+  <!-- EN: colony kid -->
+  <Rakkle_ColonyKid.titleShort>殖民地的孩子</Rakkle_ColonyKid.titleShort>
+  
+  <!-- EN: Born with more brawn than average in a large colony, [PAWN_nameDef] found more success hauling materials and helping on construction sites. Though [PAWN_pronoun] struggles to learn more complex subjects, none can doubt [PAWN_possessive] work ethic. -->
+  <Rakkle_ConstructionWorker.description>[PAWN_nameDef]出生在一个大型殖民地，生来就比常人更为强壮，[PAWN_pronoun]在搬运材料，以及工地帮忙方面取得了更多的成就。尽管[PAWN_pronoun]在学习更复杂的科目时颇为吃力，但没人会质疑[PAWN_possessive]的工作操守。</Rakkle_ConstructionWorker.description>
+  <!-- EN: Rakkle Construction worker -->
+  <Rakkle_ConstructionWorker.title>拉克 建筑工人</Rakkle_ConstructionWorker.title>
+  <!-- EN: Construction worker -->
+  <Rakkle_ConstructionWorker.titleShort>建筑工人</Rakkle_ConstructionWorker.titleShort>
+  
+  <!-- EN: Curiosity killed the cat, but it failed to kill [PAWN_nameDef]. [PAWN_pronoun] never stopped asking questions, and though it causes [PAWN_possessive] problems [PAWN_pronoun] is always eager to dig deeper to understand the world around [PAWN_possessive]. -->
+  <Rakkle_CuriousChild.description>好奇害死猫，但好奇没能害死[PAWN_nameDef]。[PAWN_pronoun]从不停下提问的脚步，尽管这给[PAWN_possessive]带来了不少麻烦，但[PAWN_pronoun]总是热切地想要更深入地挖掘，以了解周围的这个世界。</Rakkle_CuriousChild.description>
+  <!-- EN: Rakkle Curious child -->
+  <Rakkle_CuriousChild.title>拉克 好奇的孩子</Rakkle_CuriousChild.title>
+  <!-- EN: Curious child -->
+  <Rakkle_CuriousChild.titleShort>好奇的孩子</Rakkle_CuriousChild.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was sold at birth to a family of high-ranking politicians and public servants. Though [PAWN_pronoun] was never intended to do any municipal work, living and sleeping with a range of officials gave [PAWN_possessive] a particular insight into how government functions. As [PAWN_pronoun] grew up [PAWN_pronoun] developed a talent for guiding people and mediating arguments. Rather than doing things [PAWN_objective]self, [PAWN_pronoun] understands the potential in having others do things for [PAWN_possessive]. -->
+  <Rakkle_Diplomat.description>[PAWN_nameDef]一出生就被卖给了一个由高级政客和公职人员组成的家庭。尽管[PAWN_pronoun]从没想过要从事任何市政工作，但与一众官员一同生活起居让[PAWN_possessive]对政府的运作方式有了独特的见解。随着[PAWN_pronoun]逐渐长大，[PAWN_pronoun]养成了引导他人以及调解争端的才能。[PAWN_pronoun]并非凡事都亲力亲为，[PAWN_pronoun]明白让别人为自己做事所蕴含的潜力。</Rakkle_Diplomat.description>
+  <!-- EN: Rakkle Diplomat -->
+  <Rakkle_Diplomat.title>拉克 调律者</Rakkle_Diplomat.title>
+  <!-- EN: Diplomat -->
+  <Rakkle_Diplomat.titleShort>调律者</Rakkle_Diplomat.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was never trained for medical work, but seeing battlefield after battlefield and helping the fallen in triage educated [PAWN_pronoun] better than any academy could have. [PAWN_pronoun] greatest desire is to cure more common colds than blade and bullet wounds. -->
+  <Rakkle_Doctor.description>[PAWN_nameDef]从未接受过医疗工作方面的专业训练，但在目睹了一场又一场的战场惨状，并在伤检分类救治中帮助伤者后，[PAWN_pronoun]所受到的教育远比任何学院能给予的都要好。[PAWN_pronoun]最大的愿望是治愈更多的普通感冒，而非处理刀剑和枪伤。</Rakkle_Doctor.description>
+  <!-- EN: Rakkle Doctor -->
+  <Rakkle_Doctor.title>拉克 医生</Rakkle_Doctor.title>
+  <!-- EN: Doctor -->
+  <Rakkle_Doctor.titleShort>医生</Rakkle_Doctor.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a young Rakkle kidnapped by a cannibal tribe. [PAWN_pronoun] spent months watching friends and family disappear one after the other without much hope for survival. After digging a tunnel in secret, [PAWN_nameDef] managed to escape, keeping [PAWN_possessive] life but bearing the scars of missing family and broken innocence. -->
+  <Rakkle_EmergencyFood.description>[PAWN_nameDef]是一名被食人部落绑架的年轻拉克。[PAWN_pronoun]数月来眼睁睁看着朋友和家人一个接一个地消失，几乎看不到生存的希望。在秘密挖掘了一条地道后，[PAWN_nameDef]设法逃脱了，保住了[PAWN_possessive]性命，但却留下了失去家人的伤痛以及破碎的纯真。</Rakkle_EmergencyFood.description>
+  <!-- EN: Rakkle Emergency food -->
+  <Rakkle_EmergencyFood.title>拉克 应急食品</Rakkle_EmergencyFood.title>
+  <!-- EN: Emergency food -->
+  <Rakkle_EmergencyFood.titleShort>应急食品</Rakkle_EmergencyFood.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was intended to be high-quality stock for a colony's leader, but [PAWN_possessive] independent nature wouldn't allow it. When the transport vessel crash landed several miles from its destination, [PAWN_pronoun] took the opportunity to flee [PAWN_possessive] captors and never turn back. -->
+  <Rakkle_EscapedGoods.description>[PAWN_nameDef]原本是要被当作某个殖民地领导者的优质奴畜，但[PAWN_possessive]独立的性格不允许这样的事发生。当运输飞船在距离目的地数英里的地方坠毁着陆后，[PAWN_pronoun]抓住机会逃离了那些囚禁自己的人，并且再也没有回头。</Rakkle_EscapedGoods.description>
+  <!-- EN: Rakkle Escaped goods -->
+  <Rakkle_EscapedGoods.title>拉克 逃脱的商品</Rakkle_EscapedGoods.title>
+  <!-- EN: Escaped goods -->
+  <Rakkle_EscapedGoods.titleShort>逃脱的商品</Rakkle_EscapedGoods.titleShort>
+  
+  <!-- EN: Rakkle farmers are a bit of an oddity, but [PAWN_nameDef] takes pride in [PAWN_possessive] work. Many of the things [PAWN_pronoun] grows are unpalatable to [PAWN_possessive], but [PAWN_pronoun] enjoys the challenge of making edible things grow in the harsh environments of the Rim. -->
+  <Rakkle_Farmer.description>拉克族的农民算是有点奇特，不过[PAWN_nameDef]为自己的工作感到自豪。[PAWN_pronoun]所种植的许多东西，连 [PAWN_possessive]自己都觉得不可口，但[PAWN_pronoun]很享受在“边缘”这样恶劣的环境中，种植出可食用作物的挑战。</Rakkle_Farmer.description>
+  <!-- EN: Rakkle Farmer -->
+  <Rakkle_Farmer.title>拉克 农民</Rakkle_Farmer.title>
+  <!-- EN: Farmer -->
+  <Rakkle_Farmer.titleShort>农民</Rakkle_Farmer.titleShort>
+  
+  <!-- EN: One can tell by a single look into [PAWN_nameDef]'s eyes that there are no thoughts rolling behind them. [PAWN_pronoun] gets through life on charm, the kindness of others, or just plain dumb luck. -->
+  <Rakkle_Fool.description>只需看一眼[PAWN_nameDef]的眼睛，就能知道其眼神背后并没有隐藏什么想法。[PAWN_pronoun]靠着自身魅力、他人的善意，又或者纯粹是靠运气混日子。</Rakkle_Fool.description>
+  <!-- EN: Rakkle Fool -->
+  <Rakkle_Fool.title>拉克 笨蛋</Rakkle_Fool.title>
+  <!-- EN: Fool -->
+  <Rakkle_Fool.titleShort>笨蛋</Rakkle_Fool.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a gifted child among Rakkle youths, and received a high level of education. [PAWN_pronoun] did very well but could not stand the pressure and expectations, fleeing [PAWN_possessive] home colony. -->
+  <Rakkle_GiftedChild.description>[PAWN_nameDef]在拉克族的年轻人中是个天赋异禀的孩子，并且接受了高等教育。[PAWN_pronoun]成绩十分优异，但却无法承受压力和他人的期望，于是逃离了[PAWN_possessive]家乡。</Rakkle_GiftedChild.description>
+  <!-- EN: Rakkle Gifted child -->
+  <Rakkle_GiftedChild.title>拉克 天赋异禀的孩子</Rakkle_GiftedChild.title>
+  <!-- EN: Gifted child -->
+  <Rakkle_GiftedChild.titleShort>天赋异禀的孩子</Rakkle_GiftedChild.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] lived through three successive raids on [PAWN_possessive] home colony, once from raiders and twice from The Cradle itself. [PAWN_pronoun] will fight with [PAWN_possessive] life to protect people from that oppression. -->
+  <Rakkle_Guard.description>[PAWN_nameDef]经历了对[PAWN_possessive]家乡的连续三次的袭击，其中一次是来自劫掠者，另外两次来自“响尾蛇”。[PAWN_pronoun]将会拼上[PAWN_possessive]性命去保护人们免受那种压迫。</Rakkle_Guard.description>
+  <!-- EN: Rakkle Guard -->
+  <Rakkle_Guard.title>拉克 守卫</Rakkle_Guard.title>
+  <!-- EN: Guard -->
+  <Rakkle_Guard.titleShort>守卫</Rakkle_Guard.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has only one passion: ballistics. Anything with a projectile, [PAWN_pronoun] can operate. While [PAWN_pronoun] is not particularly hostile towards others, [PAWN_pronoun] claims to take pride in never missing a target. -->
+  <Rakkle_Gunner.description>[PAWN_nameDef]只有一个爱好：弹道学。任何带有抛射物的器械，[PAWN_pronoun]都能操作。虽然[PAWN_pronoun]对他人并不是特别怀有敌意，但[PAWN_pronoun]宣称，从不失手是自己引以为傲的事。</Rakkle_Gunner.description>
+  <!-- EN: Rakkle Gunner -->
+  <Rakkle_Gunner.title>拉克 炮手</Rakkle_Gunner.title>
+  <!-- EN: Gunner -->
+  <Rakkle_Gunner.titleShort>炮手</Rakkle_Gunner.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] understands that hunting is necessary for many to survive, but [PAWN_pronoun] is in it for the thrill. [PAWN_pronoun] does not care for safety and will chase a single quarry for weeks just for the satisfaction of taking it down. -->
+  <Rakkle_Hunter.description>[PAWN_nameDef]明白狩猎对很多人来说是生存所必需的，但[PAWN_pronoun]参与狩猎却是为了寻求刺激。[PAWN_pronoun]不在意安全问题，会为了享受将猎物拿下的那种满足感，而花数周时间去追逐某只猎物。</Rakkle_Hunter.description>
+  <!-- EN: Rakkle Hunter -->
+  <Rakkle_Hunter.title>拉克 猎手</Rakkle_Hunter.title>
+  <!-- EN: Hunter -->
+  <Rakkle_Hunter.titleShort>猎手</Rakkle_Hunter.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] apprenticed under a famous hunter while living in the outskirts of a smaller Free Rakkle settlement. [PAWN_possessive] mentor was slow to praise, but [PAWN_nameDef]'s skill cannot be doubted. -->
+  <Rakkle_HunterAssistant.description>[PAWN_nameDef]在一个较小的自由拉克聚居地的郊外生活时，曾师从一位著名的猎人当学徒。[PAWN_possessive]导师不轻易夸赞人，但[PAWN_nameDef]的技艺是毋庸置疑的。</Rakkle_HunterAssistant.description>
+  <!-- EN: Rakkle Hunter assistant -->
+  <Rakkle_HunterAssistant.title>拉克 猎人助手</Rakkle_HunterAssistant.title>
+  <!-- EN: Hunter assistant -->
+  <Rakkle_HunterAssistant.titleShort>猎人助手</Rakkle_HunterAssistant.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s rise to stardom was sudden and meteoric. Though many people in the Rim have more important concerns than a pretty face, [PAWN_possessive] songs about hope for the future and union of peoples captures hearts of adults and children the planet around. [PAWN_pronoun] travels the surface to spread [PAWN_possessive] message and spread [PAWN_possessive] reach to even bigger stages. -->
+  <Rakkle_Idol.description>[PAWN_nameDef]的成名之路突如其来且如流星般迅速。尽管“边缘”的许多人有着比欣赏一张漂亮脸蛋更为重要的事要操心，但[PAWN_possessive]那些关于对未来的希望以及人类团结的歌曲，却俘获了这颗星球上大人和小孩的心。[PAWN_pronoun]穿梭于各地，传播自己的理念，并且将自己的影响力拓展到更大的舞台上。</Rakkle_Idol.description>
+  <!-- EN: Rakkle Idol -->
+  <Rakkle_Idol.title>拉克 偶像</Rakkle_Idol.title>
+  <!-- EN: Idol -->
+  <Rakkle_Idol.titleShort>偶像</Rakkle_Idol.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was inspired by [PAWN_possessive] favorite idol, but had little opportunity in [PAWN_possessive] small Free Rakkle settlement. [PAWN_pronoun] set out to find larger horizons and more fans [PAWN_pronoun] could call [PAWN_possessive] own. -->
+  <Rakkle_IdolTrainee.description>[PAWN_nameDef]受到了其最爱的偶像的启发，但在[PAWN_pronoun]所在的那个小小的自由拉克聚居地，[PAWN_nameDef]几乎没什么机会。[PAWN_pronoun]于是出发去寻找更广阔的天地，以及更多能称得上是[PAWN_possessive]自己的粉丝。</Rakkle_IdolTrainee.description>
+  <!-- EN: Rakkle Idol trainee -->
+  <Rakkle_IdolTrainee.title>拉克 偶像练习生</Rakkle_IdolTrainee.title>
+  <!-- EN: Idol trainee -->
+  <Rakkle_IdolTrainee.titleShort>偶像练习生</Rakkle_IdolTrainee.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a youthful Rakkle, still innocent to life in the Rim. -->
+  <Rakkle_ImmatureChild.description>[PAWN_nameDef]是一名年轻的拉克，对“边缘”地带的生活仍懵懂无知。</Rakkle_ImmatureChild.description>
+  <!-- EN: Rakkle Immature child -->
+  <Rakkle_ImmatureChild.title>拉克 幼稚的孩童</Rakkle_ImmatureChild.title>
+  <!-- EN: Immature child -->
+  <Rakkle_ImmatureChild.titleShort>幼稚的孩童</Rakkle_ImmatureChild.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was bought and owned by a very wealthy family as a pet. As a result, [PAWN_pronoun] never had to do much work for anything, and hated any time [PAWN_pronoun] had to. Though [PAWN_possessive] needs were always met at home, [PAWN_possessive] owners being imprisoned for extortion and larceny put [PAWN_pronoun] out on the street, where no one else was as driven to care of [PAWN_possessive]. -->
+  <Rakkle_Lazy.description>[PAWN_nameDef]被一个非常富有的家庭买下当作宠物来养。因此，[PAWN_pronoun]从来不用为任何事做太多工作，而且讨厌任何需要自己干活的时候。尽管在家里[PAWN_possessive]的需求总能得到满足，但当[PAWN_possessive]的主人们因敲诈勒索和盗窃被关进监狱后，[PAWN_pronoun]就被赶到了大街上，而在那里，再也没有人像之前的主人那样用心照顾[PAWN_possessive]了。</Rakkle_Lazy.description>
+  <!-- EN: Rakkle Lazy -->
+  <Rakkle_Lazy.title>拉克 慵懒爱宠</Rakkle_Lazy.title>
+  <!-- EN: Lazy -->
+  <Rakkle_Lazy.titleShort>慵懒爱宠</Rakkle_Lazy.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] found [PAWN_possessive] first taste of gourmet food in the kitchens of [PAWN_possessive] wealthy owner's estate. [PAWN_pronoun] could not get enonugh, but when the owner passed away, even as an independent Rakkle [PAWN_pronoun] could not find work as a chef. [PAWN_pronoun] set off to find someone who could appreciate [PAWN_possessive] talents. -->
+  <Rakkle_LittleGlutton.description>[PAWN_nameDef]在其富有的主人庄园的厨房里，初次品尝到了美食的滋味。[PAWN_pronoun]对此欲罢不能，然而当主人去世后，即便作为一名独立的拉克，[PAWN_pronoun]也没能找到厨师的工作。[PAWN_pronoun]于是动身出发，去寻找能够赏识[PAWN_possessive]才华的人。</Rakkle_LittleGlutton.description>
+  <!-- EN: Rakkle Little glutton -->
+  <Rakkle_LittleGlutton.title>拉克 小馋猫</Rakkle_LittleGlutton.title>
+  <!-- EN: Little glutton -->
+  <Rakkle_LittleGlutton.titleShort>小馋猫</Rakkle_LittleGlutton.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was purchased by an interplanetary merchant to assist with bookkeeping, but showed promise in the trading profession itself. Eventually [PAWN_pronoun] was allowed to run routes and make deals on behalf of [PAWN_possessive] manager. -->
+  <Rakkle_Merchant.description>[PAWN_nameDef]被一位星际商人买下，协助其做簿记工作，但[PAWN_pronoun]在贸易这一行业展现出了潜力。最终，[PAWN_pronoun]被允许代表[PAWN_possessive]雇主跑业务、做交易。</Rakkle_Merchant.description>
+  <!-- EN: Rakkle Merchant -->
+  <Rakkle_Merchant.title>拉克 商人</Rakkle_Merchant.title>
+  <!-- EN: Merchant -->
+  <Rakkle_Merchant.titleShort> 商人</Rakkle_Merchant.titleShort>
+  
+  <!-- EN: Mining is not a savory job to many, but [PAWN_nameDef] is happy to do it. Some wild Rakkles used to live underground, and [PAWN_pronoun] is more comfortable around rocks and ore than dealing with society. -->
+  <Rakkle_Miner.description>对很多人来说，采矿并不是一份令人向往的工作，但[PAWN_nameDef]却乐意从事这份工作。一些野生的拉克曾经生活在地下，比起与社会打交道，[PAWN_pronoun]在岩石和矿石周围会感觉更自在些。</Rakkle_Miner.description>
+  <!-- EN: Rakkle Miner -->
+  <Rakkle_Miner.title>拉克 矿工</Rakkle_Miner.title>
+  <!-- EN: Miner -->
+  <Rakkle_Miner.titleShort>矿工</Rakkle_Miner.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was always prized for [PAWN_possessive] particular beauty. Statuesque features combined with a hypnotic voice and magnetic charm meant that even after [PAWN_possessive] adopted family could not hold on to [PAWN_possessive], [PAWN_pronoun] could get whatever [PAWN_pronoun] wanted by asking the right way. -->
+  <Rakkle_Model.description>[PAWN_nameDef]一直因其出众的美貌而备受珍视。端庄优美的容貌，再加上令人着迷的嗓音和极具吸引力的魅力，这意味着即便[PAWN_possessive]收养家庭留不住[PAWN_pronoun]，[PAWN_pronoun]也能通过恰当的请求方式得到自己想要的任何东西。</Rakkle_Model.description>
+  <!-- EN: Rakkle Model -->
+  <Rakkle_Model.title>拉克 模特</Rakkle_Model.title>
+  <!-- EN: Model -->
+  <Rakkle_Model.titleShort>模特</Rakkle_Model.titleShort>
+  
+  <!-- EN: After [PAWN_possessive] parents died as a result of civil unrest, [PAWN_nameDef] was forced to live on the fringes of [PAWN_possessive] home colony as an outcast. Harsh realities are [PAWN_possessive] everyday existence, and [PAWN_pronoun] will do whatever is necessary to survive in the Rim. -->
+  <Rakkle_Orphan.description>在[PAWN_possessive]的父母因内乱去世后，[PAWN_nameDef]被迫作为一个被遗弃者，生活在[PAWN_possessive]家乡的边际。残酷的现实就是[PAWN_possessive]每天的生活写照，而[PAWN_pronoun]会为了能在“边缘”地带生存下去，做任何必要的事。</Rakkle_Orphan.description>
+  <!-- EN: Rakkle Orphan -->
+  <Rakkle_Orphan.title>拉克 孤儿</Rakkle_Orphan.title>
+  <!-- EN: Orphan -->
+  <Rakkle_Orphan.titleShort>孤儿</Rakkle_Orphan.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] runs the colony orphanage. [PAWN_pronoun] [PAWN_objective]self was fortunate enough to have a kind adoptive family, but [PAWN_pronoun] knew many of [PAWN_possessive] friends, as well as other children, had no such luck. [PAWN_pronoun] knows [PAWN_pronoun] can't save every lost child out there, but intends to try. -->
+  <Rakkle_OrphanageDirector.description>[PAWN_nameDef]经营着殖民地的孤儿院。[PAWN_pronoun]自己很幸运，有一个善良的收养家庭，但[PAWN_pronoun]知道[PAWN_possessive]的许多朋友以及其他孩子并没有这样的好运气。[PAWN_pronoun]明白自己没办法拯救外面每一个孤苦无依的孩子，但还是打算尽力一试。</Rakkle_OrphanageDirector.description>
+  <!-- EN: Rakkle Orphanage director -->
+  <Rakkle_OrphanageDirector.title>拉克 孤儿院院长</Rakkle_OrphanageDirector.title>
+  <!-- EN: Orphanage director -->
+  <Rakkle_OrphanageDirector.titleShort>孤儿院院长</Rakkle_OrphanageDirector.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was born and raised in the wild to a small Rakkle family. [PAWN_pronoun] spent [PAWN_possessive] days out in the woods around [PAWN_possessive] house, learning the names and properties of local flora. Eventually the area grew smaller as [PAWN_pronoun] grew older, and [PAWN_pronoun] left to find a wider world with ever stranger plant life. -->
+  <Rakkle_PlantLover.description>[PAWN_nameDef]出生在一个小小的拉克家族，并在野外长大。[PAWN_pronoun]整日都在自家房子周围的树林里度过，学习当地各种植物的名称和特性。随着[PAWN_pronoun]年龄渐长，那片区域对他来说变得越来越小了，于是[PAWN_pronoun]便离开此地，去寻找一个有着更奇特植物的更广阔世界。</Rakkle_PlantLover.description>
+  <!-- EN: Rakkle Plant lover -->
+  <Rakkle_PlantLover.title>拉克 植物爱好者</Rakkle_PlantLover.title>
+  <!-- EN: Plant lover -->
+  <Rakkle_PlantLover.titleShort>植物爱好者</Rakkle_PlantLover.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] matured faster than their peers in [PAWN_possessive] home colony, becoming something of an older sibling for many. [PAWN_pronoun] often needed to learn new things rapidly, for the benefit of [PAWN_possessive] family. -->
+  <Rakkle_PrecociousChild.description>[PAWN_nameDef]在[PAWN_possessive]家乡殖民地比同龄人成熟得更快，对很多人来说就像是一位兄长或大姐般的存在。[PAWN_pronoun]常常需要为了家人的利益，快速学习新事物。</Rakkle_PrecociousChild.description>
+  <!-- EN: Trading Precocious child -->
+  <Rakkle_PrecociousChild.title>拉克 早熟的孩子</Rakkle_PrecociousChild.title>
+  <!-- EN: Precocious child -->
+  <Rakkle_PrecociousChild.titleShort>早熟的孩子</Rakkle_PrecociousChild.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was a gifted child, and readily took to [PAWN_possessive] studies. [PAWN_pronoun] sometimes may act as a teacher or lecturer when necessary, but [PAWN_pronoun] is much more comfortable in [PAWN_possessive] laboratory. -->
+  <Rakkle_Professor.description>[PAWN_nameDef]是个天赋异禀的孩子，并且欣然投入到[PAWN_possessive]学业当中。必要时，[PAWN_pronoun]有时会充当老师或讲师的角色，但[PAWN_pronoun]在[PAWN_possessive]实验室里会自在得多。</Rakkle_Professor.description>
+  <!-- EN: Rakkle Professor -->
+  <Rakkle_Professor.title>拉克 教授</Rakkle_Professor.title>
+  <!-- EN: Professor -->
+  <Rakkle_Professor.titleShort>教授</Rakkle_Professor.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] managed a family ranch for years, learning the needs of the local fauna. [PAWN_pronoun] can't help [PAWN_possessive] carnivorous nature, but [PAWN_pronoun] appreciates the relationship people need with their livestock. -->
+  <Rakkle_Rancher.description>[PAWN_nameDef]经营家族牧场多年，了解当地动物的需求。[PAWN_pronoun]无法克制[PAWN_possessive]食肉的天性，但[PAWN_pronoun]明白人们与自家牲畜之间所需建立的那种关系。</Rakkle_Rancher.description>
+  <!-- EN: Rakkle Rancher -->
+  <Rakkle_Rancher.title>拉克 牧场主</Rakkle_Rancher.title>
+  <!-- EN: Rancher -->
+  <Rakkle_Rancher.titleShort>牧场主</Rakkle_Rancher.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] sewed clothes for [PAWN_possessive] entire Free Rakkle settlement, before it was attacked and burned to the ground. With no place to go, [PAWN_pronoun] needs a new place to weave [PAWN_possessive] masterpieces. -->
+  <Rakkle_Seamstress.description>[PAWN_nameDef]曾为整个自由的拉克聚居地缝制衣服，后来该地遭到袭击并被付之一炬。由于无处可去，[PAWN_pronoun]需要一个新地方来编织[PAWN_possessive]那些杰作了。</Rakkle_Seamstress.description>
+  <!-- EN: Rakkle Seamstress -->
+  <Rakkle_Seamstress.title>拉克 裁缝</Rakkle_Seamstress.title>
+  <!-- EN: Seamstress -->
+  <Rakkle_Seamstress.titleShort>裁缝</Rakkle_Seamstress.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] could never stand being seen, and [PAWN_pronoun] took care to stay out of sight whenever possible. Attention always brought trouble for [PAWN_possessive] and [PAWN_pronoun] only enters a colony out of necessity. Perhaps this time, it will end differently... -->
+  <Rakkle_Shutin.description>[PAWN_nameDef]向来无法忍受被人看见，只要有可能，[PAWN_pronoun]就会小心翼翼地避开旁人的视线。他人的关注总会给[PAWN_possessive]招来麻烦，而且[PAWN_pronoun]只有在迫不得已的情况下才会进入某个殖民地。也许这一次，情况会有所不同……</Rakkle_Shutin.description>
+  <!-- EN: Rakkle shut in -->
+  <Rakkle_Shutin.title>拉克 内向者</Rakkle_Shutin.title>
+  <!-- EN: shut in -->
+  <Rakkle_Shutin.titleShort>内向者</Rakkle_Shutin.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] began [PAWN_possessive] life as a slave to a colony slumlord, often being used as a bribe [PAWN_objective]self to placate officials. After murdering [PAWN_possessive] owner, [PAWN_pronoun] left the colony to find refuge elsewhere. -->
+  <Rakkle_Slumsnake.description>[PAWN_nameDef]最初是贫民窟房东的一名奴隶，常常被当作贿赂品去安抚官员们。在杀死了[PAWN_possessive]主人之后，[PAWN_pronoun]离开了那个殖民地，去别处寻找庇护之所。</Rakkle_Slumsnake.description>
+  <!-- EN: Rakkle Slumsnake -->
+  <Rakkle_Slumsnake.title>拉克 贫民</Rakkle_Slumsnake.title>
+  <!-- EN: Slumsnake -->
+  <Rakkle_Slumsnake.titleShort>贫民</Rakkle_Slumsnake.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] wanted to be a teacher of some kind, but could never manage the grades in school to make it. Instead, [PAWN_pronoun] does the next thing [PAWN_pronoun] can think of and shares wisdom and knowledge through weaving stories for children. -->
+  <Rakkle_Storyteller.description>[PAWN_nameDef]曾想成为一名教师，但在学校里成绩总是不理想，没能实现这个愿望。于是，[PAWN_pronoun]做了自己能想到的另一件事，那就是通过给孩子们编故事来分享智慧与知识。</Rakkle_Storyteller.description>
+  <!-- EN: Rakkle Storyteller -->
+  <Rakkle_Storyteller.title>拉克 讲故事的家伙</Rakkle_Storyteller.title>
+  <!-- EN: Storyteller -->
+  <Rakkle_Storyteller.titleShort>讲故事的家伙</Rakkle_Storyteller.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] learned how to survive in the periphery at the academy. [PAW_pronoun] learned to make lasting friendships and stand together against the harsh realities of life in the galaxy. -->
+  <Rakkle_Student.description>[PAWN_nameDef]在学院里学会了如何在边缘地带生存。[PAWN_pronoun]还学会了建立长久的友谊，并团结起来对抗银河系中残酷的生活现实。</Rakkle_Student.description>
+  <!-- EN: Rakkle Student -->
+  <Rakkle_Student.title>拉克 学生</Rakkle_Student.title>
+  <!-- EN: Student -->
+  <Rakkle_Student.titleShort>学生</Rakkle_Student.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] never had the advantage of living in a Free Rakkle settlement. [PAWN_possessive] youth was spent in the depths of Cradle laboratories; the subject of test after test of endurance and psychology. After a particularly grueling battery of tests, [PAWN_pronoun] fully lost [PAWN_possessive] grip on reality. -->
+  <Rakkle_Subject.description>[PAWN_nameDef]从来没有在自由的拉克聚居地生活过。[PAWN_possessive]年少时光是在响尾蛇实验室的深处度过的；[PAWN_nameDef]成了耐力和心理方面一次又一次测试的对象。在经历了一系列尤为严酷的测试后，[PAWN_pronoun]完全丧失了对现实的把握能力。</Rakkle_Subject.description>
+  <!-- EN: Rakkle Subject -->
+  <Rakkle_Subject.title>拉克 实验对象</Rakkle_Subject.title>
+  <!-- EN: Subject -->
+  <Rakkle_Subject.titleShort>实验对象</Rakkle_Subject.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] trained in a large colony to be a teacher as a missionary for smaller settlements. [PAWN_possessive] gentle and supportive demeanor make [PAWN_objective] ideal for the job. -->
+  <Rakkle_Teacher.description>[PAWN_nameDef]在一个大的聚居地接受培训，旨在成为一名教师，作为前往较小聚居地的传教士。[PAWN_possessive]温和且善于鼓励他人的习惯，使[PAWN_nameDef]成为这项工作的理想人选。</Rakkle_Teacher.description>
+  <!-- EN: Rakkle Teacher -->
+  <Rakkle_Teacher.title>拉克 教师</Rakkle_Teacher.title>
+  <!-- EN: Teacher -->
+  <Rakkle_Teacher.titleShort>教师</Rakkle_Teacher.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] avoided capture for years, until [PAWN_possessive] pursuers gave up and left [PAWN_possessive] for dead. However, life in the rim is even harder for Rakkles not integrated into communities, so [PAWN_nameDef] decided to face the challenge of joining one. -->
+  <Rakkle_WildSnake.description>[PAWN_nameDef]多年来一直在躲避追捕，直到追捕者放弃，并以为[PAWN_nameDef]已死。然而，对于未融入社群的拉克来说，“边缘”的生活更加艰难，所以[PAWN_nameDef]决定直面融入一个社群的挑战。</Rakkle_WildSnake.description>
+  <!-- EN: Rakkle Wild snake -->
+  <Rakkle_WildSnake.title>拉克 野蛇</Rakkle_WildSnake.title>
+  <!-- EN: Wild snake -->
+  <Rakkle_WildSnake.titleShort>野蛇</Rakkle_WildSnake.titleShort>
+  
+</LanguageData>

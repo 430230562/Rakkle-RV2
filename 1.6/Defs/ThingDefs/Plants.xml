@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>RS_Plant_Beetroot</defName>
+		<label>beetroot</label>
+		<description>A highly nutritious red beet. Beetroot grow well even in somewhat poor soil, and can be prepared as a meat substitute.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/RS_Beetroot/RS_Beetroot</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>14</pathCost>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RS_RawBeetroot</harvestedThingDef>
+			<harvestYield>9</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>4.8</growDays>
+			<immatureGraphicPath>Things/Plant/RS_Beetroot/RS_Beetroot_Immature</immatureGraphicPath>
+			<visualSizeRange>0.3~1.05</visualSizeRange>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>RS_RawBeetroot</defName>
+		<label>beetroots</label>
+		<description>Raw beetroots.</description>
+		<possessionCount>10</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/PlantFoodRaw/RS_RawBeetroot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<uiIconForStackCount>3</uiIconForStackCount>
+		<statBases>
+			<MarketValue>1.3</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>25</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

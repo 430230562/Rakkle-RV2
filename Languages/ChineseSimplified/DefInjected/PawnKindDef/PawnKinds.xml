@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cradle leader -->
+  <CradleLeader.label>响尾蛇首领</CradleLeader.label>
+  
+  <!-- EN: cradle elite gunner -->
+  <CRD_EliteGunner.label>响尾蛇精锐炮手</CRD_EliteGunner.label>
+  
+  <!-- EN: cradle elite slasher -->
+  <CRD_EliteSlasher.label>响尾蛇精锐剑士</CRD_EliteSlasher.label>
+  
+  <!-- EN: cradle goods -->
+  <CRD_Goods.label>响尾蛇商品</CRD_Goods.label>
+  
+  <!-- EN: cradle gunner -->
+  <CRD_Gunner.label>响尾蛇炮手</CRD_Gunner.label>
+  
+  <!-- EN: cradle heavy gunner -->
+  <CRD_HeavyGunner.label>响尾蛇重炮手</CRD_HeavyGunner.label>
+  
+  <!-- EN: cradle kidnapper -->
+  <CRD_Kidnapper.label>响尾蛇绑匪</CRD_Kidnapper.label>
+  
+  <!-- EN: cradle sapper -->
+  <CRD_Sapper.label>响尾蛇工兵</CRD_Sapper.label>
+  
+  <!-- EN: Rakkle ShieldSlaves -->
+  <CRD_ShieldSlave.label>蛇妖奴隶</CRD_ShieldSlave.label>
+  
+  <!-- EN: rakkle slasher -->
+  <CRD_Slasher.label>蛇妖刀斧手</CRD_Slasher.label>
+  
+  <!-- EN: Rakkle colonist -->
+  <RS_Colonist.label>蛇妖殖民者</RS_Colonist.label>
+  
+  <!-- EN: Rakkle Fugitive -->
+  <RS_Fugitive.label>蛇妖逃犯</RS_Fugitive.label>
+  
+</LanguageData>

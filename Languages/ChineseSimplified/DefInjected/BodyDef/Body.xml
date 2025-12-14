@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Rakkle -->
+  <Rakkle.label>蛇妖</Rakkle.label>
+  <!-- EN: left lung -->
+  <Rakkle.corePart.parts.left_lung.customLabel>左肺</Rakkle.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <Rakkle.corePart.parts.right_lung.customLabel>右肺</Rakkle.corePart.parts.right_lung.customLabel>
+  <!-- EN: left eye -->
+  <Rakkle.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>左眼</Rakkle.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <Rakkle.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>右眼</Rakkle.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <Rakkle.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>左耳</Rakkle.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <Rakkle.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>右耳</Rakkle.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: fangs -->
+  <Rakkle.corePart.parts.Neck.parts.Head.parts.Jaw.parts.fangs.customLabel>毒牙</Rakkle.corePart.parts.Neck.parts.Head.parts.Jaw.parts.fangs.customLabel>
+  <!-- EN: venom glands -->
+  <Rakkle.corePart.parts.Neck.parts.Head.parts.Jaw.parts.fangs.parts.venom_glands.customLabel>毒腺</Rakkle.corePart.parts.Neck.parts.Head.parts.Jaw.parts.fangs.parts.venom_glands.customLabel>
+  <!-- EN: left shoulder -->
+  <Rakkle.corePart.parts.left_shoulder.customLabel>左肩</Rakkle.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>左锁骨</Rakkle.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.customLabel>左臂</Rakkle.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>左肱骨</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>左桡骨</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>左手</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左尾指</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>左无名指</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左中指</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左食指</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左拇指</Rakkle.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Rakkle.corePart.parts.right_shoulder.customLabel>右肩</Rakkle.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>右锁骨</Rakkle.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.customLabel>右臂</Rakkle.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>右肱骨</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>右桡骨</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>右手</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右尾指</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>右无名指</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <!-- EN: right middle finger -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右中指</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右食指</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右拇指</Rakkle.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: Upper tail -->
+  <Rakkle.corePart.parts.Upper_tail.customLabel>尾巴</Rakkle.corePart.parts.Upper_tail.customLabel>
+  <!-- EN: left kidney -->
+  <Rakkle.corePart.parts.Upper_tail.parts.left_kidney.customLabel>左肾</Rakkle.corePart.parts.Upper_tail.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <Rakkle.corePart.parts.Upper_tail.parts.right_kidney.customLabel>右肾</Rakkle.corePart.parts.Upper_tail.parts.right_kidney.customLabel>
+  <!-- EN: Upper tailbone -->
+  <Rakkle.corePart.parts.Upper_tail.parts.Upper_tailbone.customLabel>上尾骨</Rakkle.corePart.parts.Upper_tail.parts.Upper_tailbone.customLabel>
+  <!-- EN: upper bellyscale -->
+  <Rakkle.corePart.parts.Upper_tail.parts.Upper_tailbone.parts.upper_bellyscale.customLabel>上腹部</Rakkle.corePart.parts.Upper_tail.parts.Upper_tailbone.parts.upper_bellyscale.customLabel>
+  <!-- EN: Lower tail -->
+  <Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.customLabel>下尾部</Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.customLabel>
+  <!-- EN: Lower tailbone -->
+  <Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.Lower_tailbone.customLabel>下尾骨</Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.Lower_tailbone.customLabel>
+  <!-- EN: lower bellyscale -->
+  <Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.lower_bellyscale.customLabel>下腹部</Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.lower_bellyscale.customLabel>
+  <!-- EN: Rattle -->
+  <Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.Rattle.customLabel>尾响环</Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.Rattle.customLabel>
+  
+</LanguageData>

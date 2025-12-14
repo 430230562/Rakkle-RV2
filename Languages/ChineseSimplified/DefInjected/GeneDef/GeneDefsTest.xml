@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Rakkle hair -->
+  <Hair_Rakkle.label>蛇妖头发</Hair_Rakkle.label>
+  <!-- EN: Rakkle hair. -->
+  <Hair_Rakkle.description>蛇妖头发</Hair_Rakkle.description>
+  
+  <!-- EN: Rakkle Body -->
+  <RakkleBody.label>蛇妖身体</RakkleBody.label>
+  <!-- EN: Rakkle Body. -->
+  <RakkleBody.description>蛇妖身体</RakkleBody.description>
+  
+  <!-- EN: Rakkle Special Meat dependency -->
+  <RakkleDependency.label>香料肉丸依赖</RakkleDependency.label>
+  <!-- EN: Carriers of this gene need to ingest Rakkle Special Meat on a regular basis to survive. -->
+  <RakkleDependency.description>携带这种基因的人需要定期食用香料肉丸才能存活。</RakkleDependency.description>
+  
+  <!-- EN: Rakkle Head -->
+  <RakkleHead.label>蛇妖头</RakkleHead.label>
+  <!-- EN: Rakkle Head. -->
+  <RakkleHead.description>蛇妖头</RakkleHead.description>
+  
+  <!-- EN: Rakkle Tail (1) -->
+  <RakkleTail1.label>蛇妖尾1</RakkleTail1.label>
+  <!-- EN: Rakkle Tail. -->
+  <RakkleTail1.description>蛇妖尾</RakkleTail1.description>
+  
+  <!-- EN: Rakkle Tail (2) -->
+  <RakkleTail2.label>蛇妖尾2</RakkleTail2.label>
+  <!-- EN: Rakkle Tail. -->
+  <RakkleTail2.description>蛇妖尾</RakkleTail2.description>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle1.label>蛇妖肤色</Skin_Rakkle1.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle1.description>原色皮肤</Skin_Rakkle1.description>
+  <!-- EN: Rakkle1 -->
+  <Skin_Rakkle1.labelShortAdj>蛇妖1</Skin_Rakkle1.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle10.label>蛇妖肤色</Skin_Rakkle10.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle10.description>原色皮肤</Skin_Rakkle10.description>
+  <!-- EN: Rakkle10 -->
+  <Skin_Rakkle10.labelShortAdj>蛇妖10</Skin_Rakkle10.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle11.label>蛇妖肤色</Skin_Rakkle11.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle11.description>原色皮肤</Skin_Rakkle11.description>
+  <!-- EN: Rakkle11 -->
+  <Skin_Rakkle11.labelShortAdj>蛇妖11</Skin_Rakkle11.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle12.label>蛇妖肤色</Skin_Rakkle12.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle12.description>原色皮肤</Skin_Rakkle12.description>
+  <!-- EN: Rakkle12 -->
+  <Skin_Rakkle12.labelShortAdj>蛇妖12</Skin_Rakkle12.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle13.label>蛇妖肤色</Skin_Rakkle13.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle13.description>原色皮肤</Skin_Rakkle13.description>
+  <!-- EN: Rakkle13 -->
+  <Skin_Rakkle13.labelShortAdj>蛇妖13</Skin_Rakkle13.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle15.label>蛇妖肤色</Skin_Rakkle15.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle15.description>原色皮肤</Skin_Rakkle15.description>
+  <!-- EN: Rakkle15 -->
+  <Skin_Rakkle15.labelShortAdj>蛇妖15</Skin_Rakkle15.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle2.label>蛇妖肤色</Skin_Rakkle2.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle2.description>原色皮肤</Skin_Rakkle2.description>
+  <!-- EN: Rakkle2 -->
+  <Skin_Rakkle2.labelShortAdj>蛇妖2</Skin_Rakkle2.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle3.label>蛇妖肤色</Skin_Rakkle3.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle3.description>原色皮肤</Skin_Rakkle3.description>
+  <!-- EN: Rakkle3 -->
+  <Skin_Rakkle3.labelShortAdj>蛇妖3</Skin_Rakkle3.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle4.label>蛇妖肤色</Skin_Rakkle4.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle4.description>原色皮肤</Skin_Rakkle4.description>
+  <!-- EN: Rakkle4 -->
+  <Skin_Rakkle4.labelShortAdj>蛇妖4</Skin_Rakkle4.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle5.label>蛇妖肤色</Skin_Rakkle5.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle5.description>原色皮肤</Skin_Rakkle5.description>
+  <!-- EN: Rakkle5 -->
+  <Skin_Rakkle5.labelShortAdj>蛇妖5</Skin_Rakkle5.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle6.label>蛇妖肤色</Skin_Rakkle6.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle6.description>原色皮肤</Skin_Rakkle6.description>
+  <!-- EN: Rakkle6 -->
+  <Skin_Rakkle6.labelShortAdj>蛇妖6</Skin_Rakkle6.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle7.label>蛇妖肤色</Skin_Rakkle7.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle7.description>原色皮肤</Skin_Rakkle7.description>
+  <!-- EN: Rakkle7 -->
+  <Skin_Rakkle7.labelShortAdj>蛇妖7</Skin_Rakkle7.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle8.label>蛇妖肤色</Skin_Rakkle8.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle8.description>原色皮肤</Skin_Rakkle8.description>
+  <!-- EN: Rakkle8 -->
+  <Skin_Rakkle8.labelShortAdj>蛇妖8</Skin_Rakkle8.labelShortAdj>
+  
+  <!-- EN: Rakkle Origin Color -->
+  <Skin_Rakkle9.label>蛇妖肤色</Skin_Rakkle9.label>
+  <!-- EN: Original color skin. -->
+  <Skin_Rakkle9.description>原色皮肤</Skin_Rakkle9.description>
+  <!-- EN: Rakkle9 -->
+  <Skin_Rakkle9.labelShortAdj>蛇妖9</Skin_Rakkle9.labelShortAdj>
+  
+</LanguageData>

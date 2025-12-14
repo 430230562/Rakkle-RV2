@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Cradle Rakkle camp -->
+  <Cradle.label>响尾蛇集中营</Cradle.label>
+  <!-- EN: This is a Cradle Rakkle camp that captures and breeds Rakkles to be sold as slaves. It may appear like a settlement, but in reality is slave market for Rakkle trafficking. They are always eager to capture free Rakkles for their purposes. -->
+  <Cradle.description>这是一个响尾蛇集中营，该营地负责抓捕并繁育拉克，然后将他们作为奴隶出售。它可能看上去像是一个聚居地，但实际上却是一个进行拉克贩卖的奴隶市场。他们总是急切地想要抓捕那些获得自由的拉克，以达成他们的目的。</Cradle.description>
+  <!-- EN: Cradle Leader -->
+  <Cradle.leaderTitle>响尾蛇首领</Cradle.leaderTitle>
+  <!-- EN: Rakkle -->
+  <Cradle.pawnSingular>响尾蛇</Cradle.pawnSingular>
+  <!-- EN: Rakkles -->
+  <Cradle.pawnsPlural>响尾蛇</Cradle.pawnsPlural>
+  
+  <!-- EN: New Rakkle Beginning -->
+  <RS_PlayerFaction.label>新定居点</RS_PlayerFaction.label>
+  <!-- EN: This is your Rakkle settlement. -->
+  <RS_PlayerFaction.description>这是您的拉克定居点。</RS_PlayerFaction.description>
+  <!-- EN: leader -->
+  <RS_PlayerFaction.leaderTitle>领袖</RS_PlayerFaction.leaderTitle>
+  <!-- EN: Rakkle -->
+  <RS_PlayerFaction.pawnSingular>拉克</RS_PlayerFaction.pawnSingular>
+  <!-- EN: Rakkles -->
+  <RS_PlayerFaction.pawnsPlural>拉克们</RS_PlayerFaction.pawnsPlural>
+  
+</LanguageData>

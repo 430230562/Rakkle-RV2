@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: making Rakkle Special Meat -->
+  <Making_Rakkle_Meat.label>制作香料肉丸</Making_Rakkle_Meat.label>
+  <!-- EN: Mince the meat and lump it together to make it easier to swallow. -->
+  <Making_Rakkle_Meat.description>把肉切碎，然后把它捏成团，这样便于吞咽。</Making_Rakkle_Meat.description>
+  <!-- EN: Tying the meat together... -->
+  <Making_Rakkle_Meat.jobString>正在把肉糅合在一起……</Making_Rakkle_Meat.jobString>
+  
+  <!-- EN: making Rakkle Special Meat x4 -->
+  <Making_Rakkle_Meat_x4.label>制作香料肉丸x4</Making_Rakkle_Meat_x4.label>
+  <!-- EN: Mince the meat and lump it together to make it easier to swallow. Make 4 at a time. -->
+  <Making_Rakkle_Meat_x4.description>把肉切碎，然后把它捏成团，这样便于吞咽。一次性制作4个</Making_Rakkle_Meat_x4.description>
+  <!-- EN: Tying the meat together... -->
+  <Making_Rakkle_Meat_x4.jobString>正在把肉糅合在一起……</Making_Rakkle_Meat_x4.jobString>
+  
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name->The [ColorBadass] rakkle incubating plant</li>
+    <li>r_name->[NamePerson]'s rakkle incubating plant</li>
+  -->
+  <NamerFactionCradle.rulePack.rulesStrings>
+    <li>r_name->[ColorBadass]蛇妖孵化场</li>
+    <li>r_name->[NamePerson]的蛇妖孵化场</li>
+  </NamerFactionCradle.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name->[townname_wordgen]</li>
+    <li>townname_wordgen->[SylE][CRDStownend]</li>
+    <li>CRDStownend->topia</li>
+    <li>CRDStownend->lantis</li>
+    <li>CRDStownend->grila</li>
+    <li>CRDStownend->radise</li>
+    <li>CRDStownend->'s Eden</li>
+    <li>CRDStownend->dorado</li>
+  -->
+  <NamerSettlementCradle.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
+    <li>townname_wordgen->[SylE][CRDStownend]</li>
+    <li>CRDStownend->托邦</li>
+    <li>CRDStownend->兰蒂斯</li>
+    <li>CRDStownend->格里拉</li>
+    <li>CRDStownend->堂</li>
+    <li>CRDStownend->的伊甸园</li>
+    <li>CRDStownend->黄金国</li>
+  </NamerSettlementCradle.rulePack.rulesStrings>
+  
+</LanguageData>

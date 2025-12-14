@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <AteSimpleMeal.stages.0.description>간단한 식사였어.</AteSimpleMeal.stages.0.description>
+
+    <RS_AteSimpleMeal.stages.0.description>이거.. 야채 들어간거 아니지..?</RS_AteSimpleMeal.stages.0.description>
+
+    <RS_AteFineMeal.stages.0.description>좋은 식사..? 으엑..! 야채잖아!</RS_AteFineMeal.stages.0.description>
+
+    <RS_AteLavishMeal.stages.0.description>호화..로운.. 우욱.. 토 할것같아..</RS_AteLavishMeal.stages.0.description>
+
+    <RS_AteSimpleRawFood.stage.0.description>고기!</RS_AteSimpleRawFood.stage.0.description>
+
+    <RS_AteLavishRawFood.stage.0.description>고기고기!고기고기!</RS_AteLavishRawFood.stage.0.description>
+
+    <AteSimpleMeal.stages.0.label>간단한 식사 섭취</AteSimpleMeal.stages.0.label>
+    <RS_AteSimpleMeal.stages.0.label>간단한 식사 섭취</RS_AteSimpleMeal.stages.0.label>
+    <RS_AteFineMeal.stages.0.label>좋은 식사 섭취</RS_AteFineMeal.stages.0.label>
+    <RS_AteLavishMeal.stages.0.label>호화로운 식사 섭취</RS_AteLavishMeal.stages.0.label>
+
+    <RS_AteSimpleRawFood.stages.0.label>간단한 날고기 섭취</RS_AteSimpleRawFood.stages.0.label>
+    <RS_AteLavishRawFood.stages.0.label>고급 날고기 섭취</RS_AteLavishRawFood.stages.0.label>
+</LanguageData>

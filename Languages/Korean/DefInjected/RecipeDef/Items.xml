@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<Making_BigSimpleRawMeatBall.label>간단한 생고기 경단 만들기</Making_BigSimpleRawMeatBall.label>
+    <Making_BigSimpleRawMeatBall.description>고기를 다지고 삼키기 좋게 뭉칩니다.</Making_BigSimpleRawMeatBall.description>
+    <Making_BigSimpleRawMeatBall.jobString>고기를 뭉치는 중...</Making_BigSimpleRawMeatBall.jobString>
+
+    <Making_BigSimpleRawMeatBall_Bulk.label>간단한 생고기 경단 4개 만들기</Making_BigSimpleRawMeatBall_Bulk.label>
+    <Making_BigSimpleRawMeatBall_Bulk.description>고기를 다지고 삼키기 좋게 뭉칩니다. 한번에 4개 만듭니다.</Making_BigSimpleRawMeatBall_Bulk.description>
+    <Making_BigSimpleRawMeatBall_Bulk.jobString>고기를 뭉치는 중...</Making_BigSimpleRawMeatBall_Bulk.jobString>
+
+    <Making_BigLavishRawMeatBall.label>고급 생고기 경단 만들기</Making_BigLavishRawMeatBall.label>
+    <Making_BigLavishRawMeatBall.description>고기를 다지고 삼키기 좋게 뭉칩니다. 질이 나쁜 부분과 맛이 없는부분을 제거합니다.</Making_BigLavishRawMeatBall.description>
+    <Making_BigLavishRawMeatBall.jobString>고기를 뭉치는 중...</Making_BigLavishRawMeatBall.jobString>
+
+    <Making_BigLavishRawMeatBall_Bulk.label>고급 생고기 경단 4개 만들기</Making_BigLavishRawMeatBall_Bulk.label>
+    <Making_BigLavishRawMeatBall_Bulk.description>고기를 다지고 삼키기 좋게 뭉칩니다. 질이 나쁜 부분과 맛이 없는부분을 제거합니다. 한번에 4개 만듭니다.</Making_BigLavishRawMeatBall_Bulk.description>
+    <Making_BigLavishRawMeatBall_Bulk.jobString>고기를 뭉치는 중...</Making_BigLavishRawMeatBall_Bulk.jobString>
+
+</LanguageData>

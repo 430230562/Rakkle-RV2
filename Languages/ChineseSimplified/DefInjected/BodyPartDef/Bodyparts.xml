@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: tail -->
+  <Lower_BellyScale.label>下腹部</Lower_BellyScale.label>
+  
+  <!-- EN: tail -->
+  <Lower_Tailbone.label>下尾骨</Lower_Tailbone.label>
+  
+  <!-- EN: fangs -->
+  <RS_Fangs.label>尖牙</RS_Fangs.label>
+  
+  <!-- EN: tail -->
+  <RS_LowerTail.label>下尾部</RS_LowerTail.label>
+  
+  <!-- EN: tail -->
+  <RS_Rattle.label>尾响环</RS_Rattle.label>
+  
+  <!-- EN: tail -->
+  <RS_UpperTail.label>上尾部</RS_UpperTail.label>
+  
+  <!-- EN: venom glands -->
+  <RS_VenomGlands.label>毒腺</RS_VenomGlands.label>
+  
+  <!-- EN: tail -->
+  <Upper_BellyScale.label>上腹部</Upper_BellyScale.label>
+  
+  <!-- EN: tail -->
+  <Upper_Tailbone.label>上尾骨</Upper_Tailbone.label>
+  
+</LanguageData>

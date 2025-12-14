@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThoughtDef>
+        <defName>AteSimpleMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate simple meal</label>
+                <description>It was a simple meal.</description>
+                <baseMoodEffect>0</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteSimpleMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate simple meal</label>
+                <description>After finishing this simple meal, I can't shake the suspicion that it might have had vegetables in it...</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteFineMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate fine meal</label>
+                <description>Despite being labeled as a "fine meal" I found it disappointing to discover vegetables in it. This was anything but "fine" to me!</description>
+                <baseMoodEffect>-13</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteLavishMeal</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate lavish meal</label>
+                <description>Although this meal seems lavish, the presence of vegetables is repulsive to me. I can't believe people eat this!</description>
+                <baseMoodEffect>-18</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RS_AteSimpleRawFood</defName>
+        <durationDays>4</durationDays>
+        <stages>
+            <li>
+                <label>ate simple raw meatball</label>
+                <description>This simple raw meatball is surprisingly delicious, the taste of the meat alone is enough to satisfy my cravings.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+
+    <ThoughtDef>
+        <defName>RS_AteLavishRawFood</defName>
+        <durationDays>4</durationDays>
+        <stages>
+            <li>
+                <label>ate lavish raw meatball</label>
+                <description>Indulging in the lavish raw meatball is a culinary pleasure with its refined umami taste that brings a smile to my face.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>
