@@ -27,6 +27,9 @@
 	<loadAfter>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>goudaquiche.MoharFramework</li>
+        <li>Nabber.RimVore2</li>
+        <li>MamaHorseteeth.RimVore2ExtraVores</li>
+        <li>CETeam.CombatExtended</li>
 	</loadAfter>
 	<packageId>jkviolet.rakkleracemode</packageId>
 	<description>
