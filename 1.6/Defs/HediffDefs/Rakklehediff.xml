@@ -342,20 +342,6 @@
     </addedPartProps>
   </HediffDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
-    <defName>RS_BionicBellyscale</defName>
-    <label>bionic Rakkle belly scale</label>
-    <labelNoun>a bionic Rakkle belly scale</labelNoun>
-    <description>An installed bionic Rakkle belly scale.</description>
-	<descriptionHyperlinks><ThingDef>RS_BionicBellyscale</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>RS_BionicBellyscale</spawnThingOnRemoved>
-    <addedPartProps>
-      <solid>true</solid>
-      <partEfficiency>1.25</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-  </HediffDef>
-
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>RS_WoodenTail</defName>
@@ -408,7 +394,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-          <MoveSpeed>0.2</MoveSpeed>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</stages>

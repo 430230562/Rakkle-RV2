@@ -680,9 +680,9 @@
 			<!-- General Labor Speed -->
 			<GeneralLaborSpeed>1.3</GeneralLaborSpeed>
 			<!-- Butchering Efficiency -->
-			<ButcheryFleshEfficiency>3</ButcheryFleshEfficiency>
+			<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
 			<!-- Butchering Speed -->
-			<ButcheryFleshSpeed>2</ButcheryFleshSpeed>
+			<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed>
 			<!-- Food Poisoning Chance -->
 			<FoodPoisonChance>0</FoodPoisonChance>
 			<!-- Cooking Speed -->
@@ -699,7 +699,7 @@
 			<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
 			<!-- Mining -->
 			<MiningSpeed>1.2</MiningSpeed>
-			<MiningYield>0.9</MiningYield>
+			<MiningYield>1</MiningYield>
 			<!-- Eating -->
 			<EatingSpeed>1.2</EatingSpeed>
 			<RV2_DigestionStrength>1.2</RV2_DigestionStrength>

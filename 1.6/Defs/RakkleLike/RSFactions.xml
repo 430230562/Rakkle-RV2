@@ -71,7 +71,7 @@
 		<useFactionXenotypes>true</useFactionXenotypes>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<Xenotype_Rakkle>1</Xenotype_Rakkle>
+				<Xenotype_RakkleBase>1</Xenotype_RakkleBase>
 			</xenotypeChances>
 		</xenotypeSet>
 
@@ -282,7 +282,7 @@
 		<raidLootMaker>RakkleRaidLootMaker</raidLootMaker>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<Xenotype_Rakkle>1</Xenotype_Rakkle>
+				<Xenotype_RakkleBase>1</Xenotype_RakkleBase>
 			</xenotypeChances>
 		</xenotypeSet>
 
