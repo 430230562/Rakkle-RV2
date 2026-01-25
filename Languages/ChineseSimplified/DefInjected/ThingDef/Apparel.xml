@@ -1,34 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Rakkle Chestwrap -->
-  <RS_ChestWrap.label>蛇妖裹胸</RS_ChestWrap.label>
-  <!-- EN: Common Rakkle underwear. While it's an unisex product, male Rakkles are quite shy about being seen in those. -->
+  <RS_ChestWrap.label>拉克裹胸</RS_ChestWrap.label>
+  <!-- EN: Common Rakkle underwear. While it's an unisex product, male Rakkles are quite shy about
+  being seen in those. -->
   <RS_ChestWrap.description>拉克们常用的内衣。虽然是男女通用的款式，男士们对穿着这件内衣有点害羞。</RS_ChestWrap.description>
-  
+
   <!-- EN: Rakkle Idol Costume -->
-  <RS_IdolCostume.label>蛇妖偶像服</RS_IdolCostume.label>
+  <RS_IdolCostume.label>拉克偶像服</RS_IdolCostume.label>
   <!-- EN: Rakkle idol costume. Rakkle wear them to welcome visitors. -->
   <RS_IdolCostume.description>蛇女偶像的服装，拉克们通常穿着它们来迎接访客。</RS_IdolCostume.description>
-  
+
   <!-- EN: Rakkle Knit Sweater -->
-  <RS_KnitSweater.label>蛇妖毛线衫</RS_KnitSweater.label>
-  <!-- EN: A knitted Rakkle sweater. It's a clothing that you wear to stay active in the cold. The size is big, so you can wear different clothes inside.\n\nVery warm, but with little protection. -->
+  <RS_KnitSweater.label>拉克毛线衫</RS_KnitSweater.label>
+  <!-- EN: A knitted Rakkle sweater. It's a clothing that you wear to stay active in the cold. The
+  size is big, so you can wear different clothes inside.\n\nVery warm, but with little protection. -->
   <RS_KnitSweater.description>一件拉克针织毛衣。它是一种在寒冷天气里，能让你保持活力的衣物。尺码偏大，所以你可以在里面搭配不同的衣服。\n\n非常暖和，但防护性较差。</RS_KnitSweater.description>
-  
+
   <!-- EN: Rakkle Knit Sweater for Child -->
-  <RS_KnitSweater_Child.label>蛇妖毛线衫（儿童）</RS_KnitSweater_Child.label>
-  <!-- EN: A knitted Rakkle sweater. It's a clothing that you wear to stay active in the cold. The size is big, so you can wear different clothes inside.\n\nVery warm, but with little protection. -->
-  <RS_KnitSweater_Child.description>一件拉克针织毛衣。它是一种在寒冷天气里，能让你保持活力的衣物。尺码偏大，所以你可以在里面搭配不同的衣服。\n\n非常暖和，但防护性较差。</RS_KnitSweater_Child.description>
-  
+  <RS_KnitSweater_Child.label>拉克毛线衫（儿童）</RS_KnitSweater_Child.label>
+  <!-- EN: A knitted Rakkle sweater. It's a clothing that you wear to stay active in the cold. The
+  size is big, so you can wear different clothes inside.\n\nVery warm, but with little protection. -->
+  <RS_KnitSweater_Child.description>
+    一件拉克针织毛衣。它是一种在寒冷天气里，能让你保持活力的衣物。尺码偏大，所以你可以在里面搭配不同的衣服。\n\n非常暖和，但防护性较差。</RS_KnitSweater_Child.description>
+
   <!-- EN: Rakkle Maid costume -->
-  <RS_MaidCostume.label>蛇妖女仆服装</RS_MaidCostume.label>
-  <!-- EN: Rakkle maid dress. Originally, it was a designed by the Cradle. However, since visitors liked it free Rakkle began making their own. -->
+  <RS_MaidCostume.label>拉克女仆服装</RS_MaidCostume.label>
+  <!-- EN: Rakkle maid dress. Originally, it was a designed by the Cradle. However, since visitors
+  liked it free Rakkle began making their own. -->
   <RS_MaidCostume.description>拉克的女仆装。起初，它是由“响尾蛇”公司设计的。不过，由于访客们很喜欢它，获得自由的拉克们开始为自己制作这种服装了。</RS_MaidCostume.description>
-  
+
   <!-- EN: Rakkle Star Idol Dress -->
-  <RS_StarIdol.label>蛇妖明星偶像服</RS_StarIdol.label>
-  <!-- EN: Rakkle star idol costume. These clothes are worn by the best idols in the Rim.\n\nCannot be worn with other clothes except underwear. -->
+  <RS_StarIdol.label>拉克明星偶像服</RS_StarIdol.label>
+  <!-- EN: Rakkle star idol costume. These clothes are worn by the best idols in the Rim.\n\nCannot
+  be worn with other clothes except underwear. -->
   <RS_StarIdol.description>蛇女明星偶像的装扮。这些衣服由全“边缘”里最优秀的偶像们穿着。\n\n除了内衣之外，不能与其他衣物搭配穿着。</RS_StarIdol.description>
-  
+
 </LanguageData>

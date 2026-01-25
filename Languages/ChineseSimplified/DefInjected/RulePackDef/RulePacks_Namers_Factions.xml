@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN:
     <li>r_name->The [ColorBadass] rakkle incubating plant</li>
     <li>r_name->[NamePerson]'s rakkle incubating plant</li>
   -->
   <NamerFactionCradle.rulePack.rulesStrings>
-    <li>r_name->[ColorBadass]蛇妖孵化场</li>
-    <li>r_name->[NamePerson]的蛇妖孵化场</li>
+    <li>r_name->[ColorBadass]拉克孵化场</li>
+    <li>r_name->[NamePerson]的拉克孵化场</li>
   </NamerFactionCradle.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>townname_wordgen->[SylE][CRDStownend]</li>
@@ -30,5 +30,5 @@
     <li>CRDStownend->的伊甸园</li>
     <li>CRDStownend->黄金国</li>
   </NamerSettlementCradle.rulePack.rulesStrings>
-  
+
 </LanguageData>

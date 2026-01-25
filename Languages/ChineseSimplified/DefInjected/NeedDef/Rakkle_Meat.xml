@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-  
-  <!-- EN: Rakkle Special Meat -->
-  <Chemical_RakkleMeat.label>香料肉丸</Chemical_RakkleMeat.label>
-  <!-- EN: Without regular doses of Rakkle Special Meat, the person will die. This addiction never goes away. -->
-  <Chemical_RakkleMeat.description>如果不定期食用香料肉丸，这个拉克将会死亡。而且这种成瘾性永远都不会消失。</Chemical_RakkleMeat.description>
-  
-</LanguageData>

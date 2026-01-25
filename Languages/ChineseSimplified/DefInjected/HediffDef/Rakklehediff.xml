@@ -1,27 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: Rakkle obedience implant -->
-  <RS_ObedienceTerminal.label>蛇妖服从装置</RS_ObedienceTerminal.label>
-  <!-- EN: An installed Rakkle obedience implant. -->
-  <RS_ObedienceTerminal.description>一个安装好的蛇妖服从装置</RS_ObedienceTerminal.description>
-  <!-- EN: a Rakkle obedience implant -->
-  <RS_ObedienceTerminal.labelNoun>一个蛇妖服从装置</RS_ObedienceTerminal.labelNoun>
-  
+
+  <RS_NeurotoxinBuildup.label>神经毒素积累</RS_NeurotoxinBuildup.label>
+  <RS_NeurotoxinBuildup.description>神经毒素在体内不断积累，导致意识混乱、行动迟缓和控制能力下降。在高浓度下会导致频繁呕吐。身体会逐渐产生免疫力来清除这种毒素。</RS_NeurotoxinBuildup.description>
+
+  <!-- EN: Rakkle vore assistant -->
+  <RS_VoreAssistant.label>蛇妖吞噬辅助装置</RS_VoreAssistant.label>
+  <!-- EN: An installed Rakkle vore assistant. -->
+  <RS_VoreAssistant.description>一个安装好的蛇妖吞噬辅助装置</RS_VoreAssistant.description>
+  <!-- EN: a Rakkle vore assistant -->
+  <RS_VoreAssistant.labelNoun>一个蛇妖吞噬辅助装置</RS_VoreAssistant.labelNoun>
+
   <!-- EN: Rakkle Tongue -->
   <RS_RakkleTongue.label>蛇妖舌头</RS_RakkleTongue.label>
   <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere. -->
   <RS_RakkleTongue.description>一条相当长的舌头，它会在口腔内卷起来以免造成妨碍。</RS_RakkleTongue.description>
   <!-- EN: Rakkle Tongue -->
   <RS_RakkleTongue.labelNoun>蛇妖舌头</RS_RakkleTongue.labelNoun>
-  
+
   <!-- EN: Rakkle hyporegulator -->
   <RS_Thermostat.label>蛇妖恒温装置</RS_Thermostat.label>
   <!-- EN: An installed Rakkle hyporegulator. -->
   <RS_Thermostat.description>一个安装好的蛇妖恒温装置</RS_Thermostat.description>
   <!-- EN: a Rakkle hyporegulator -->
   <RS_Thermostat.labelNoun>一个蛇妖恒温装置</RS_Thermostat.labelNoun>
-  
+
   <!-- EN: venom glands -->
   <RS_VenomGlands.label>毒腺</RS_VenomGlands.label>
   <!-- EN: A Rakkle's venom glands. -->
@@ -30,5 +33,38 @@
   <RS_VenomGlands.comps.HediffComp_VerbGiver.tools.venom_fangs.label>毒牙</RS_VenomGlands.comps.HediffComp_VerbGiver.tools.venom_fangs.label>
   <!-- EN: venom glands -->
   <RS_VenomGlands.labelNoun>毒腺</RS_VenomGlands.labelNoun>
-  
+
+  <!-- EN: food poisoning immunity -->
+  <Hediff_FoodpoisoningImmunity.label>食物中毒免疫</Hediff_FoodpoisoningImmunity.label>
+  <!-- EN: food poisoning immunity -->
+  <Hediff_FoodpoisoningImmunity.labelNoun>食物中毒免疫</Hediff_FoodpoisoningImmunity.labelNoun>
+  <!-- EN: Immune to food poisoning. -->
+  <Hediff_FoodpoisoningImmunity.description>免疫食物中毒。</Hediff_FoodpoisoningImmunity.description>
+
+  <!-- EN: Shedding -->
+  <RS_Shed.label>蜕皮</RS_Shed.label>
+  <!-- EN: Rakkles periodically shed their skin as they grow. -->
+  <RS_Shed.description>拉克在成长过程中会定期蜕掉皮肤。</RS_Shed.description>
+
+  <!-- EN: Parasites treatment -->
+  <RS_helminthicHigh.label>寄生虫治疗</RS_helminthicHigh.label>
+  <!-- EN: Parasites treatment -->
+  <RS_helminthicHigh.labelNoun>寄生虫治疗</RS_helminthicHigh.labelNoun>
+  <!-- EN: Medicine against muscle parasites and gut worms. -->
+  <RS_helminthicHigh.description>治疗肌肉寄生虫和肠道蠕虫的药物。</RS_helminthicHigh.description>
+
+  <!-- EN: bionic Rakkle tail -->
+  <RS_BionicTail.label>仿生蛇妖尾巴</RS_BionicTail.label>
+  <!-- EN: a bionic Rakkle tail -->
+  <RS_BionicTail.labelNoun>仿生蛇妖尾巴</RS_BionicTail.labelNoun>
+  <!-- EN: An installed bionic Rakkle tail. -->
+  <RS_BionicTail.description>已安装的仿生蛇妖尾巴。</RS_BionicTail.description>
+
+  <!-- EN: prosthetic wooden tail -->
+  <RS_WoodenTail.label>义肢木制尾巴</RS_WoodenTail.label>
+  <!-- EN: a prosthetic wooden tail -->
+  <RS_WoodenTail.labelNoun>义肢木制尾巴</RS_WoodenTail.labelNoun>
+  <!-- EN: An installed prosthetic wooden tail. -->
+  <RS_WoodenTail.description>已安装的义肢木制尾巴。</RS_WoodenTail.description>
+
 </LanguageData>

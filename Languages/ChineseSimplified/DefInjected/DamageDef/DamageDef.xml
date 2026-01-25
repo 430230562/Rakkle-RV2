@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: neurotoxin bite -->
+    <NeurotoxinBite.label>神经毒素咬伤</NeurotoxinBite.label>
+    <!-- EN: neurotoxin bite -->
+    <NeurotoxinBite.deathMessage>{0}被神经毒素咬伤，最终毒性过高死亡。</NeurotoxinBite.deathMessage>
+
+</LanguageData>

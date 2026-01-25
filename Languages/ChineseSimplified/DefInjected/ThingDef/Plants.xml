@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: beetroot -->
+    <RS_Plant_Beetroot.label>甜菜</RS_Plant_Beetroot.label>
+    <!-- EN: A highly nutritious red beet. Beetroot grow well even in somewhat poor soil, and can be
+    prepared as a meat substitute. -->
+    <RS_Plant_Beetroot.description>一种高度营养的红甜菜。甜菜即使在条件较差的土壤中也能生长良好，可以作为肉类替代品制备。</RS_Plant_Beetroot.description>
+
+    <!-- EN: beetroots -->
+    <RS_RawBeetroot.label>生甜菜</RS_RawBeetroot.label>
+    <!-- EN: Raw beetroots. -->
+    <RS_RawBeetroot.description>生的甜菜。</RS_RawBeetroot.description>
+
+</LanguageData>

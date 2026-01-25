@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: ate simple meal -->
+    <AteSimpleMeal.stages.0.label>吃了简单的饭菜</AteSimpleMeal.stages.0.label>
+    <AteSimpleMeal.stages.0.description>这是一顿简单的饭菜。</AteSimpleMeal.stages.0.description>
+
+    <!-- EN: ate simple meal -->
+    <RS_AteSimpleMeal.stages.0.label>吃了简单的饭菜</RS_AteSimpleMeal.stages.0.label>
+    <RS_AteSimpleMeal.stages.0.description>吃完这顿简单的饭菜后，我无法摆脱一种怀疑，它可能含有蔬菜...</RS_AteSimpleMeal.stages.0.description>
+
+    <!-- EN: ate fine meal -->
+    <RS_AteFineMeal.stages.0.label>吃了精致饭菜</RS_AteFineMeal.stages.0.label>
+    <RS_AteFineMeal.stages.0.description>尽管被标记为"精致饭菜"，我发现其中有蔬菜令人失望。这对我来说根本不"精致"！</RS_AteFineMeal.stages.0.description>
+
+    <!-- EN: ate lavish meal -->
+    <RS_AteLavishMeal.stages.0.label>吃了奢华饭菜</RS_AteLavishMeal.stages.0.label>
+    <RS_AteLavishMeal.stages.0.description>虽然这顿饭看起来很奢华，但蔬菜的存在对我来说很令人厌恶。我无法相信人们吃这种东西！</RS_AteLavishMeal.stages.0.description>
+
+</LanguageData>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{518118FA-1727-4ABD-A421-1989E365076D}|Rakkle.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rakkle-rv2\\1.6\\assemblies\\source\\scalablebelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518118FA-1727-4ABD-A421-1989E365076D}|Rakkle.csproj|solutionrelative:scalablebelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518118FA-1727-4ABD-A421-1989E365076D}|Rakkle.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rakkle-rv2\\1.6\\assemblies\\source\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518118FA-1727-4ABD-A421-1989E365076D}|Rakkle.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518118FA-1727-4ABD-A421-1989E365076D}|Rakkle.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rakkle-rv2\\1.6\\assemblies\\source\\hediffgiver_alramx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518118FA-1727-4ABD-A421-1989E365076D}|Rakkle.csproj|solutionrelative:hediffgiver_alramx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T15:47:44.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScalableBelt.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\ScalableBelt.cs",
+              "RelativeDocumentMoniker": "ScalableBelt.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\ScalableBelt.cs",
+              "RelativeToolTip": "ScalableBelt.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAzwA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T15:47:30.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HediffGiver_AlramX.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\HediffGiver_AlramX.cs",
+              "RelativeDocumentMoniker": "HediffGiver_AlramX.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Rakkle-RV2\\1.6\\Assemblies\\Source\\HediffGiver_AlramX.cs",
+              "RelativeToolTip": "HediffGiver_AlramX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T15:46:43.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

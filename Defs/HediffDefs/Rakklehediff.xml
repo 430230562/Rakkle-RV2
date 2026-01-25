@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef>
+    <defName>RS_NeurotoxinBuildup</defName>
+    <label>neurotoxin buildup</label>
+    <description>Neurotoxins accumulate in the body, causing impaired consciousness, reduced
+      mobility, and decreased manipulation ability. At high concentrations, it will cause frequent
+      vomiting. The body will gradually develop immunity to clear this toxin. </description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <canApplyDodChanceForCapacityChanges>true</canApplyDodChanceForCapacityChanges>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <taleOnVisible>ToxicityRevealed</taleOnVisible>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <compClass>HediffComp_ImmunizableToxic</compClass>
+        <severityPerDayNotImmune>-0.25</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.04</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>0.40</minSeverity>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.65</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>0.60</minSeverity>
+        <vomitMtbDays>1.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.50</setMax>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.5</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.5</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>0.80</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.50</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.15</setMax>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Food Poisoning Immunity -->
+
+  <HediffDef>
+    <defName>Hediff_FoodpoisoningImmunity</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Immune to food poisoning.</description>
+    <label>food poisoning immunity</label>
+    <labelNoun>food poisoning immunity</labelNoun>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+        <hediffToNullify>
+          <li>FoodPoisoning</li>
+          <li>RS_NeurotoxinBuildup</li>
+        </hediffToNullify>
+      </li>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>PredatorDisposition_Obsessed</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Hediff_VenomGlands</defName>
+    <label>venom glands</label>
+    <labelNoun>venom glands</labelNoun>
+    <description>A Rakkle's venom glands.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RS_VenomGlands</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>venom fangs</label>
+            <capacities>
+              <li>NeurotoxinBite</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffGiverSetDef>
+    <defName>Rakkle_BasicHediffSet</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>RS_Shed</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+      <li Class="HediffGiver_Birthday">
+        <hediff>Hediff_FoodpoisoningImmunity</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+      <li Class="HediffGiver_Birthday">
+        <hediff>Hediff_VenomGlands</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+        <partsToAffect>
+          <li>RS_VenomGlands</li>
+        </partsToAffect>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <!-- Shedding New -->
+
+  <HediffDef>
+    <defName>RS_Shed</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+
+    <description>Rakkles periodically shed their skin as they grow.</description>
+    <label>Shedding</label>
+    <labelNoun>If you see this text, it's a bug.</labelNoun>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <isBad>false</isBad>
+
+
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_Spawner">
+        <thingToSpawn>RS_SnakeSkin</thingToSpawn>
+        <!-- must be lower than 200; dll limited -->
+        <spawnCount>1</spawnCount>
+
+        <!-- must be higher than maxDaysB4Next ; must be higher than .001; default = 1; dll
+        limited-->
+        <minDaysB4Next>2.22</minDaysB4Next>
+        <!-- default = 2 -->
+        <maxDaysB4Next>3.33</maxDaysB4Next>
+        <!-- default = .5 -->
+        <graceDays>0</graceDays>
+
+        <spawnMaxAdjacent>40</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+        <spawnVerb>shedding</spawnVerb>
+
+      </li>
+    </comps>
+  </HediffDef>
+
+
+  <!-- Shedding old
+
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>Hediff_RakkleShedPromoterT</defName>
+    <label>RakkleShedPromoterlabelT</label>
+    <description>PromoterT - If you see this text, it's a bug.</description>
+  </HediffDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>Hediff_RakkleShedPromoterA</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>RakkleShedPromoterlabelA</label>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <description>PromoterA - If you see this text, it's a bug.</description>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Hediff_RakkleShedPromoterM</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>RakkleShedPromoterlabelM</label>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <description>PromoterM - If you see this text, it's a bug.</description>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>end</label>
+        <becomeVisible>false</becomeVisible>
+        <hediffGivers>
+          <li Class="Rakkle.HediffGiver_AlramX">
+            <hediff>RS_Shed</hediff>
+            <mtbDays>0.5</mtbDays>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>start</label>
+        <becomeVisible>false</becomeVisible>
+        <minSeverity>0.9</minSeverity>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>RS_Shed</defName>
+    <label>Shed</label>
+    <description>Rakkles periodically shed their skin as they grow.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <initialSeverity>47</initialSeverity>
+    <maxSeverity>47</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_Discoverable">
+        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+        <discoverLetterLabel>{0} is preparing to shed off {0}'s skin.</discoverLetterLabel>
+        <discoverLetterText>{0}'s skin shedding is not far off!</discoverLetterText>
+        <letterType>PositiveEvent</letterType>
+        <messageType>PositiveEvent</messageType>
+      </li>
+      <li Class="MoharHediffs.HediffCompProperties_Spawner">
+        <thingToSpawn>RS_SnakeSkin</thingToSpawn>
+        <spawnCount>4</spawnCount>
+        <minDaysB4Next>45</minDaysB4Next>
+        <maxDaysB4Next>45.01</maxDaysB4Next>
+        <randomGrace>0</randomGrace>
+        <spawnMaxAdjacent>40</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+        <spawnVerb>production</spawnVerb>
+      </li>
+      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+        <triggeredHediff>
+          <li>RS_Shed</li>
+        </triggeredHediff>
+      </li>
+      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+        <hediffToNullify>
+          <li>Hediff_RakkleShedPromoterM</li>
+        </hediffToNullify>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>drying</label>
+        <painOffset>0.1</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.4</postFactor>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>shedding</label>
+        <minSeverity>2</minSeverity>
+        <painOffset>0.2</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.3</postFactor>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.7</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>last</label>
+        <minSeverity>3</minSeverity>
+        <painOffset>-0.2</painOffset>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>1.1</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>1.1</postFactor>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>middle</label>
+        <becomeVisible>false</becomeVisible>
+        <minSeverity>13</minSeverity>
+        <capMods>
+        </capMods>
+      </li>
+      <li>
+        <label>early</label>
+        <becomeVisible>false</becomeVisible>
+        <minSeverity>25</minSeverity>
+        <capMods>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+-->
+
+  <HediffDef>
+    <defName>RS_helminthicHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Medicine against muscle parasites and gut worms.</description>
+    <label>Parasites treatment</label>
+    <labelNoun>Parasites treatment</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1000</severityPerDay>
+      </li>
+      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+        <limitedUsageNumber>1</limitedUsageNumber>
+        <hediffToNullify>
+          <li>MuscleParasites</li>
+          <li>GutWorms</li>
+        </hediffToNullify>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>RS_BionicTail</defName>
+    <label>bionic Rakkle tail</label>
+    <labelNoun>a bionic Rakkle tail</labelNoun>
+    <description>An installed bionic Rakkle tail.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RS_BionicTail</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>RS_BionicTail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>RS_WoodenTail</defName>
+    <label>prosthetic wooden tail</label>
+    <labelNoun>a prosthetic wooden tail</labelNoun>
+    <description>An installed prosthetic wooden tail.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RS_WoodenTail</ThingDef>
+    </descriptionHyperlinks>
+    <priceImpact>false</priceImpact>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.75</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>RS_Thermostat</defName>
+    <label>Rakkle hyporegulator</label>
+    <labelNoun>a Rakkle hyporegulator</labelNoun>
+    <description>An installed Rakkle hyporegulator.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RS_Thermostat</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>RS_Thermostat</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMax>10</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>RS_VoreAssistant</defName>
+    <label>Rakkle vore assistant</label>
+    <labelNoun>a Rakkle vore assistant</labelNoun>
+    <description>An installed Rakkle vore assistant.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <descriptionHyperlinks>
+      <ThingDef>RS_VoreAssistant</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>ComponentIndustrial</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>SwallowSpeed_VeryGood</li>
+        </quirks>
+      </li>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StruggleStrength_Predator_Good</li>
+        </quirks>
+      </li>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Mobility_VeryGood</li>
+        </quirks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>RV2_DigestionStrength</capacity>
+            <postFactor>1.25</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MoveSpeed>0.5</MoveSpeed>
+          <CrawlSpeed>0.5</CrawlSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

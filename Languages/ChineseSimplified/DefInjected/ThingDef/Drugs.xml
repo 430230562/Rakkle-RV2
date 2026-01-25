@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: Rakkle SnakeSkin -->
+    <RS_SnakeSkin.label>拉克蛇皮</RS_SnakeSkin.label>
+    <!-- EN: A Rakkle's skin. Used as a material for S.S helmintic. -->
+    <RS_SnakeSkin.description>一个拉克的皮肤。用作S.S驱虫药的材料。</RS_SnakeSkin.description>
+
+    <!-- EN: S.S helminthic -->
+    <RS_helminthic.label>S.S驱虫药</RS_helminthic.label>
+    <!-- EN: Helmintic is made by refining Rakkle skin. It can be used to treat a muscle parasite or
+    gut worm infection. However, there is no preventive effect. -->
+    <RS_helminthic.description>驱虫药是通过精炼拉克皮肤制成的。它可以用于治疗肌肉寄生虫或肠道蠕虫感染。但是，它没有预防效果。</RS_helminthic.description>
+
+</LanguageData>

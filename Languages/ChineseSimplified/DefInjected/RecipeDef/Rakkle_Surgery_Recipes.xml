@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: install Rakkle obedience implant -->
-  <RS_InstallObedienceTerminal.label>安装蛇妖服从装置</RS_InstallObedienceTerminal.label>
-  <!-- EN: Install a Rakkle obedience implant. -->
-  <RS_InstallObedienceTerminal.description>安装一个蛇妖服从装置</RS_InstallObedienceTerminal.description>
-  <!-- EN: Installing Rakkle obedience implant. -->
-  <RS_InstallObedienceTerminal.jobString>正在安装蛇妖服从装置</RS_InstallObedienceTerminal.jobString>
-  
+
+  <!-- EN: install Rakkle vore assistant -->
+  <RS_InstallVoreAssistant.label>安装吞噬辅助装置</RS_InstallVoreAssistant.label>
+  <!-- EN: Install a Rakkle vore assistant. -->
+  <RS_InstallVoreAssistant.description>安装一个蛇妖吞噬辅助装置</RS_InstallVoreAssistant.description>
+  <!-- EN: Installing Rakkle vore assistant. -->
+  <RS_InstallVoreAssistant.jobString>正在安装蛇妖吞噬辅助装置</RS_InstallVoreAssistant.jobString>
+
   <!-- EN: install Rakkle hyporegulator -->
   <RS_InstallRakkleThermostat.label>安装蛇妖恒温装置</RS_InstallRakkleThermostat.label>
   <!-- EN: Install a Rakkle hyporegulator. -->
   <RS_InstallRakkleThermostat.description>安装一个蛇妖恒温装置</RS_InstallRakkleThermostat.description>
   <!-- EN: Installing Rakkle hyporegulator. -->
   <RS_InstallRakkleThermostat.jobString>正在安装蛇妖恒温装置</RS_InstallRakkleThermostat.jobString>
-  
-  <!-- EN: remove Rakkle obedience implant -->
-  <RS_RemoveObedienceTerminal.label>移除蛇妖服从装置</RS_RemoveObedienceTerminal.label>
-  <!-- EN: Remove a Rakkle obedience implant. -->
-  <RS_RemoveObedienceTerminal.description>移除一个蛇妖服从装置</RS_RemoveObedienceTerminal.description>
-  <!-- EN: Removing a Rakkle obedience implant. -->
-  <RS_RemoveObedienceTerminal.jobString>正在移除蛇妖服从装置</RS_RemoveObedienceTerminal.jobString>
-  
+
+  <!-- EN: remove Rakkle vore assistant -->
+  <RS_RemoveVoreAssistant.label>移除蛇妖吞噬辅助装置</RS_RemoveVoreAssistant.label>
+  <!-- EN: Remove a Rakkle vore assistant. -->
+  <RS_RemoveVoreAssistant.description>移除一个蛇妖吞噬辅助装置</RS_RemoveVoreAssistant.description>
+  <!-- EN: Removing a Rakkle vore assistant. -->
+  <RS_RemoveVoreAssistant.jobString>正在移除蛇妖吞噬辅助装置</RS_RemoveVoreAssistant.jobString>
+
   <!-- EN: remove Rakkle hyporegulator -->
   <RS_RemoveRakkleThermostat.label>移除蛇妖恒温装置</RS_RemoveRakkleThermostat.label>
   <!-- EN: Remove a Rakkle hyporegulator. -->
   <RS_RemoveRakkleThermostat.description>移除一个蛇妖恒温装置</RS_RemoveRakkleThermostat.description>
   <!-- EN: Removing Rakkle hyporegulator. -->
   <RS_RemoveRakkleThermostat.jobString>正在移除蛇妖恒温装置</RS_RemoveRakkleThermostat.jobString>
-  
+
 </LanguageData>

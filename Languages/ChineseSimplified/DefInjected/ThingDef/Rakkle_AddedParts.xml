@@ -1,24 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: Rakkle obedience implant -->
-  <RS_ObedienceTerminal.label>蛇妖服从装置</RS_ObedienceTerminal.label>
-  <!-- EN: An obedience implant for Rakkle. Designed by the Cradle to subjugate enslaved Rakkle and secure their control. The implant releases a strong electric charge to burn a slave's central nervous system if they ever dare to defy the will of their master. Due to a constant basic voltage, the implant it will increase a subject's metabolism but cause a steady decline in health. -->
-  <RS_ObedienceTerminal.description>一种针对拉克的服从性植入物。由“响尾蛇”公司设计，旨在征服被奴役的拉克尔并确保对他们的掌控。如果奴隶胆敢违抗主人的意志，该植入物就会释放出强大的电流来灼烧其中枢神经系统。由于存在持续的基础电压，这种植入物会提高植入对象的新陈代谢，但也会导致其健康状况持续下降。</RS_ObedienceTerminal.description>
-  
+
+  <!-- EN: Rakkle vore assistant -->
+  <RS_VoreAssistant.label>蛇妖吞噬辅助装置</RS_VoreAssistant.label>
+  <!-- EN: An vore assistant for Rakkle. Designed by the Cradle to subjugate enslaved Rakkle and
+  secure their control. The implant releases a strong electric charge to burn a slave's central
+  nervous system if they ever dare to defy the will of their master. Due to a constant basic
+  voltage, the implant it will increase a subject's metabolism but cause a steady decline in health. -->
+  <RS_VoreAssistant.description>一种先进的身体植入物。用于帮助拉克吞下猎物,并保持平衡</RS_VoreAssistant.description>
+
   <!-- EN: Rakkle Tongue -->
-  <RS_RakkleTongue.label>蛇妖舌头</RS_RakkleTongue.label>
-  <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere (the crooked solution of the lack of language does not affect anything). -->
+  <RS_RakkleTongue.label>拉克舌头</RS_RakkleTongue.label>
+  <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere (the
+  crooked solution of the lack of language does not affect anything). -->
   <RS_RakkleTongue.description>一条相当长的舌头，它会在口腔内卷曲起来以免造成妨碍（因缺乏语言能力而采取的这种迂回解决办法倒也没什么影响）。</RS_RakkleTongue.description>
-  
+
   <!-- EN: Rakkle hyporegulator -->
-  <RS_Thermostat.label>蛇妖恒温装置</RS_Thermostat.label>
-  <!-- EN: An advanced body implant. It attempts to enhance the mental and physical temperature resilience of a Rakkle. The implant increases the effectiveness of the HPA axis and the body's thermoregulation. -->
-  <RS_Thermostat.description>一种先进的身体植入物。它试图增强拉克的精神和身体对温度的适应能力。该植入物提高了下丘脑 - 垂体 - 肾上腺（HPA）轴的效能以及身体的体温调节能力。</RS_Thermostat.description>
-  
+  <RS_Thermostat.label>拉克恒温装置</RS_Thermostat.label>
+  <!-- EN: An advanced body implant. It attempts to enhance the mental and physical temperature
+  resilience of a Rakkle. The implant increases the effectiveness of the HPA axis and the body's
+  thermoregulation. -->
+  <RS_Thermostat.description>一种先进的身体植入物。它试图增强拉克的精神和身体对温度的适应能力。该植入物提高了下丘脑 - 垂体 -
+    肾上腺（HPA）轴的效能以及身体的体温调节能力。</RS_Thermostat.description>
+
   <!-- EN: Rakkle venom glands -->
-  <RS_VenomGlands.label>蛇妖毒腺</RS_VenomGlands.label>
-  <!-- EN: A Rakkle's venom glands. They have been adapted from the salivary gland and secrete a complex mixture of peptides and proteins channelled to the fangs through connecting ducts. The venom delivered by a single bite is not strong enough to kill prey immediately but will build up quickly when bitten repeatedly. -->
-  <RS_VenomGlands.description>拉克的毒腺。它们是由唾液腺演化而来的，能分泌一种由肽类和蛋白质组成的复杂混合物，这些物质会通过连接的导管被输送至毒牙处。单次咬击所释放的毒液强度尚不足以立刻杀死猎物，但若是多次咬击，毒液就会迅速累积起来。</RS_VenomGlands.description>
-  
+  <RS_VenomGlands.label>拉克毒腺</RS_VenomGlands.label>
+  <!-- EN: A Rakkle's venom glands. They have been adapted from the salivary gland and secrete a
+  complex mixture of peptides and proteins channelled to the fangs through connecting ducts. The
+  venom delivered by a single bite is not strong enough to kill prey immediately but will build up
+  quickly when bitten repeatedly. -->
+  <RS_VenomGlands.description>
+    拉克的毒腺。它们是由唾液腺演化而来的，能分泌一种由肽类和蛋白质组成的复杂混合物，这些物质会通过连接的导管被输送至毒牙处。单次咬击所释放的毒液强度尚不足以立刻杀死猎物，但若是多次咬击，毒液就会迅速累积起来。</RS_VenomGlands.description>
+
 </LanguageData>

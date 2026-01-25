@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-	<ThingDef Name="RS_PawnBase" ParentName="BasePawn" Abstract="True">
-		<statBases>
-			<Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
-		</statBases>
-	</ThingDef>
-</Defs>

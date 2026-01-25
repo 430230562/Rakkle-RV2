@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../rimvore-2-master"
+		},
+		{
+			"path": "../../Data"
+		}
+	],
+	"settings": {}
+}
