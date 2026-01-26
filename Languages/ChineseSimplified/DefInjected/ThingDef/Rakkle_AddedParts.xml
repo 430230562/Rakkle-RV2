@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: prosthetic wooden tail -->
+  <RS_WoodenTail.label>木制拉克尾</RS_WoodenTail.label>
+  <!-- EN: An installed prosthetic wooden tail. -->
+  <RS_WoodenTail.description>义肢木制拉克尾巴。</RS_WoodenTail.description>
+
+  <!-- EN: bionic Rakkle tail -->
+  <RS_BionicTail.label>仿生拉克尾</RS_BionicTail.label>
+  <!-- EN: An installed bionic Rakkle tail. -->
+  <RS_BionicTail.description>仿生拉克尾巴。</RS_BionicTail.description>
+
   <!-- EN: Rakkle vore assistant -->
-  <RS_VoreAssistant.label>蛇妖吞噬辅助装置</RS_VoreAssistant.label>
+  <RS_VoreAssistant.label>吞噬辅助装置</RS_VoreAssistant.label>
   <!-- EN: An vore assistant for Rakkle. Designed by the Cradle to subjugate enslaved Rakkle and
   secure their control. The implant releases a strong electric charge to burn a slave's central
   nervous system if they ever dare to defy the will of their master. Due to a constant basic
@@ -20,8 +30,7 @@
   <!-- EN: An advanced body implant. It attempts to enhance the mental and physical temperature
   resilience of a Rakkle. The implant increases the effectiveness of the HPA axis and the body's
   thermoregulation. -->
-  <RS_Thermostat.description>一种先进的身体植入物。它试图增强拉克的精神和身体对温度的适应能力。该植入物提高了下丘脑 - 垂体 -
-    肾上腺（HPA）轴的效能以及身体的体温调节能力。</RS_Thermostat.description>
+  <RS_Thermostat.description>一种先进的身体植入物。它试图增强拉克的精神和身体对温度的适应能力。该植入物提高了下丘脑 - 垂体 - 肾上腺（HPA）轴的效能以及身体的体温调节能力。</RS_Thermostat.description>
 
   <!-- EN: Rakkle venom glands -->
   <RS_VenomGlands.label>拉克毒腺</RS_VenomGlands.label>
@@ -29,7 +38,6 @@
   complex mixture of peptides and proteins channelled to the fangs through connecting ducts. The
   venom delivered by a single bite is not strong enough to kill prey immediately but will build up
   quickly when bitten repeatedly. -->
-  <RS_VenomGlands.description>
-    拉克的毒腺。它们是由唾液腺演化而来的，能分泌一种由肽类和蛋白质组成的复杂混合物，这些物质会通过连接的导管被输送至毒牙处。单次咬击所释放的毒液强度尚不足以立刻杀死猎物，但若是多次咬击，毒液就会迅速累积起来。</RS_VenomGlands.description>
+  <RS_VenomGlands.description>拉克的毒腺。它们是由唾液腺演化而来的，能分泌一种由肽类和蛋白质组成的复杂混合物，这些物质会通过连接的导管被输送至毒牙处。单次咬击所释放的毒液强度尚不足以立刻杀死猎物，但若是多次咬击，毒液就会迅速累积起来。</RS_VenomGlands.description>
 
 </LanguageData>

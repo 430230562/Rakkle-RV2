@@ -1480,7 +1480,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1515,7 +1515,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1546,7 +1546,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1576,7 +1576,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1606,7 +1606,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1641,7 +1641,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1672,7 +1672,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1703,7 +1703,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDGoods_Adult</li>
@@ -1735,7 +1735,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDAttacker</li>
@@ -1773,7 +1773,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDElite</li>
@@ -1802,7 +1802,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CRDCaptured</li>
@@ -1834,7 +1834,7 @@
       <max>80</max>
     </bioAgeRange>
     <forcedHediffs>
-      <li>RS_VoreAssistant</li>
+      <li>Hediff_VoreAssistant</li>
     </forcedHediffs>
     <spawnCategories>
       <li>CradleLeader</li>

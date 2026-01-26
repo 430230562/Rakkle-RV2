@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef>
-    <defName>RS_NeurotoxinBuildup</defName>
+    <defName>Hediff_NeurotoxinBuildup</defName>
     <label>neurotoxin buildup</label>
     <description>Neurotoxins accumulate in the body, causing impaired consciousness, reduced
       mobility, and decreased manipulation ability. At high concentrations, it will cause frequent
@@ -133,7 +133,7 @@
       <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
         <hediffToNullify>
           <li>FoodPoisoning</li>
-          <li>RS_NeurotoxinBuildup</li>
+          <li>Hediff_NeurotoxinBuildup</li>
         </hediffToNullify>
       </li>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -177,7 +177,7 @@
     <defName>Rakkle_BasicHediffSet</defName>
     <hediffGivers>
       <li Class="HediffGiver_Birthday">
-        <hediff>RS_Shed</hediff>
+        <hediff>Hediff_Shed</hediff>
         <ageFractionChanceCurve>
           <points>
             <li>(0, 1)</li>
@@ -209,7 +209,7 @@
   <!-- Shedding New -->
 
   <HediffDef>
-    <defName>RS_Shed</defName>
+    <defName>Hediff_Shed</defName>
     <hediffClass>HediffWithComps</hediffClass>
 
     <description>Rakkles periodically shed their skin as they grow.</description>
@@ -433,7 +433,7 @@
 -->
 
   <HediffDef>
-    <defName>RS_helminthicHigh</defName>
+    <defName>Hediff_helminthicHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <description>Medicine against muscle parasites and gut worms.</description>
     <label>Parasites treatment</label>
@@ -453,7 +453,7 @@
   </HediffDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>RS_BionicTail</defName>
+    <defName>Hediff_BionicTail</defName>
     <label>bionic Rakkle tail</label>
     <labelNoun>a bionic Rakkle tail</labelNoun>
     <description>An installed bionic Rakkle tail.</description>
@@ -470,7 +470,7 @@
 
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>RS_WoodenTail</defName>
+    <defName>Hediff_WoodenTail</defName>
     <label>prosthetic wooden tail</label>
     <labelNoun>a prosthetic wooden tail</labelNoun>
     <description>An installed prosthetic wooden tail.</description>
@@ -486,7 +486,7 @@
   </HediffDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>RS_Thermostat</defName>
+    <defName>Hediff_Thermostat</defName>
     <label>Rakkle hyporegulator</label>
     <labelNoun>a Rakkle hyporegulator</labelNoun>
     <description>An installed Rakkle hyporegulator.</description>
@@ -510,7 +510,7 @@
   </HediffDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>RS_VoreAssistant</defName>
+    <defName>Hediff_VoreAssistant</defName>
     <label>Rakkle vore assistant</label>
     <labelNoun>a Rakkle vore assistant</labelNoun>
     <description>An installed Rakkle vore assistant.</description>
@@ -518,11 +518,11 @@
     <descriptionHyperlinks>
       <ThingDef>RS_VoreAssistant</ThingDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>ComponentIndustrial</spawnThingOnRemoved>
+    <spawnThingOnRemoved>RS_VoreAssistant</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1</partEfficiency>
-      <betterThanNatural>false</betterThanNatural>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">

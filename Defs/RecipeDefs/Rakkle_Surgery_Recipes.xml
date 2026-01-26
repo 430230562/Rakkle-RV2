@@ -39,12 +39,12 @@
 		</fixedIngredientFilter>
 		<descriptionHyperlinks>
 			<ThingDef>WoodLog</ThingDef>
-			<HediffDef>RS_WoodenTail</HediffDef>
+			<HediffDef>Hediff_WoodenTail</HediffDef>
 		</descriptionHyperlinks>
 		<appliedOnFixedBodyParts>
 			<li>RS_LowerTail</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>RS_WoodenTail</addsHediff>
+		<addsHediff>Hediff_WoodenTail</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
@@ -72,7 +72,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<jobString>Removing prosthetic wooden tail.</jobString>
-		<removesHediff>RS_WoodenTail</removesHediff>
+		<removesHediff>Hediff_WoodenTail</removesHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
@@ -81,7 +81,7 @@
 		<description>Install a bionic tail.</description>
 		<descriptionHyperlinks>
 			<ThingDef>RS_BionicTail</ThingDef>
-			<HediffDef>RS_BionicTail</HediffDef>
+			<HediffDef>Hediff_BionicTail</HediffDef>
 		</descriptionHyperlinks>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic tail.</jobString>
@@ -118,7 +118,7 @@
 		<appliedOnFixedBodyParts>
 			<li>RS_LowerTail</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>RS_BionicTail</addsHediff>
+		<addsHediff>Hediff_BionicTail</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
@@ -149,7 +149,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<jobString>Removing bionic tail.</jobString>
-		<removesHediff>RS_BionicTail</removesHediff>
+		<removesHediff>Hediff_BionicTail</removesHediff>
 	</RecipeDef>
 
 
@@ -181,7 +181,7 @@
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>RS_Thermostat</addsHediff>
+		<addsHediff>Hediff_Thermostat</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
@@ -209,7 +209,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<jobString>Removing Rakkle hyporegulator.</jobString>
-		<removesHediff>RS_Thermostat</removesHediff>
+		<removesHediff>Hediff_Thermostat</removesHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
@@ -240,7 +240,7 @@
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>RS_VoreAssistant</addsHediff>
+		<addsHediff>Hediff_VoreAssistant</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
@@ -268,7 +268,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<jobString>Removing a Rakkle vore assistant.</jobString>
-		<removesHediff>RS_VoreAssistant</removesHediff>
+		<removesHediff>Hediff_VoreAssistant</removesHediff>
 	</RecipeDef>
 
 

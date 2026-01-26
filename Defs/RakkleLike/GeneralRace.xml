@@ -282,7 +282,7 @@
 							<shaderType>Cutout</shaderType>
 							<hediffGraphics>
 								<RS_Thermostat>Rakkles/Apparel/Thermostat/RS_Thermostat</RS_Thermostat>
-								<RS_VoreAssistant>Rakkles/Apparel/Obedience/RS_Obedience</RS_VoreAssistant>
+								<Hediff_VoreAssistant>Rakkles/Apparel/Obedience/RS_Obedience</Hediff_VoreAssistant>
 							</hediffGraphics>
 						</li>
 

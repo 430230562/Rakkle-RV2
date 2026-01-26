@@ -7,14 +7,14 @@
     protein-packed spheres that are lumped together for easy swallowing. -->
     <RS_BigSimpleRawMeatBall.description>享受拉克们最爱的食物 - 一个由生绞肉制成的大球，被塑造成充满蛋白质的球体，堆积在一起便于吞咽。</RS_BigSimpleRawMeatBall.description>
 
-    <!-- EN: Fancy raw meatball -->
-    <RS_FancyRawMeatBall.label>精致生肉球</RS_FancyRawMeatBall.label>
-    <!-- EN: A sophisticated raw meatball with vegetables and herbs. -->
-    <RS_FancyRawMeatBall.description>一个由蔬菜和草本添加剂混合的精致生肉球。</RS_FancyRawMeatBall.description>
-
     <!-- EN: Lavish raw meatball -->
-    <RS_LavishRawMeatBall.label>奢华生肉球</RS_LavishRawMeatBall.label>
+    <RS_BigLavishRawMeatBall.label>奢华生肉球</RS_BigLavishRawMeatBall.label>
     <!-- EN: A lavish raw meatball with exotic ingredients. -->
-    <RS_LavishRawMeatBall.description>一个由异国情调的食材制成的奢华生肉球。</RS_LavishRawMeatBall.description>
+    <RS_BigLavishRawMeatBall.description>一个由异国情调的食材制成的奢华生肉球。</RS_BigLavishRawMeatBall.description>
+
+    <!-- EN: Beyond Meat -->
+    <RS_BeyondMeat.label>拟肉</RS_BeyondMeat.label>
+    <!-- EN: A revolutionary plant-based meat substitute that mimics the taste and texture of traditional meat, providing a sustainable and ethical alternative for conscious consumers. -->
+    <RS_BeyondMeat.description>植物性肉类替代品，模仿传统肉类的味道和质地</RS_BeyondMeat.description>
 
 </LanguageData>
