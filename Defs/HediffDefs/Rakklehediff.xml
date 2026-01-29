@@ -514,7 +514,6 @@
     <label>Rakkle vore assistant</label>
     <labelNoun>a Rakkle vore assistant</labelNoun>
     <description>An installed Rakkle vore assistant.</description>
-    <hediffClass>HediffWithComps</hediffClass>
     <descriptionHyperlinks>
       <ThingDef>RS_VoreAssistant</ThingDef>
     </descriptionHyperlinks>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <AlienRace.AlienBackstoryDef Name="RakkleBackStory" Abstract="True">
@@ -14,8 +14,7 @@
     <defName>Rakkle_ColonyKid</defName>
     <title>Rakkle Colony kid</title>
     <titleShort>colony kid</titleShort>
-    <description>[PAWN_nameDef] grew up in a Free Rakkle settlement, dreaming of adventure and
-      unaware of the burden [PAWN_pronoun] was born into.</description>
+    <description>[PAWN_nameDef] grew up in a Free Rakkle settlement, dreaming of adventure and unaware of the burden [PAWN_pronoun] was born into.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -39,9 +38,7 @@
     <defName>Rakkle_Student</defName>
     <title>Rakkle Student</title>
     <titleShort>Student</titleShort>
-    <description>[PAWN_nameDef] learned how to survive in the periphery at the academy.
-      [PAW_pronoun] learned to make lasting friendships and stand together against the harsh
-      realities of life in the galaxy.</description>
+    <description>[PAWN_nameDef] learned how to survive in the periphery at the academy. [PAW_pronoun] learned to make lasting friendships and stand together against the harsh realities of life in the galaxy.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -69,10 +66,7 @@
     <defName>Rakkle_EmergencyFood</defName>
     <title>Rakkle Emergency food</title>
     <titleShort>Emergency food</titleShort>
-    <description>[PAWN_nameDef] is a young Rakkle kidnapped by a cannibal tribe. [PAWN_pronoun]
-      spent months watching friends and family disappear one after the other without much hope for
-      survival. After digging a tunnel in secret, [PAWN_nameDef] managed to escape, keeping
-      [PAWN_possessive] life but bearing the scars of missing family and broken innocence.</description>
+    <description>[PAWN_nameDef] is a young Rakkle kidnapped by a cannibal tribe. [PAWN_pronoun] spent months watching friends and family disappear one after the other without much hope for survival. After digging a tunnel in secret, [PAWN_nameDef] managed to escape, keeping [PAWN_possessive] life but bearing the scars of missing family and broken innocence.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -95,9 +89,7 @@
     <defName>Rakkle_GiftedChild</defName>
     <title>Rakkle Gifted child</title>
     <titleShort>Gifted child</titleShort>
-    <description>[PAWN_nameDef] is a gifted child among Rakkle youths, and received a high level of
-      education. [PAWN_pronoun] did very well but could not stand the pressure and expectations,
-      fleeing [PAWN_possessive] home colony.</description>
+    <description>[PAWN_nameDef] is a gifted child among Rakkle youths, and received a high level of education. [PAWN_pronoun] did very well but could not stand the pressure and expectations, fleeing [PAWN_possessive] home colony.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -130,9 +122,7 @@
     <defName>Rakkle_Bully</defName>
     <title>Rakkle Bully</title>
     <titleShort>Bully</titleShort>
-    <description>[PAWN_nameDef] was raised in a smaller Rakkle settlement, that lacked the resources
-      to care for everyone properly. Without parents to look after [PAWN_possessive], [PAWN_pronoun]
-      took what [PAWN_pronoun] wanted through force and coercion.</description>
+    <description>[PAWN_nameDef] was raised in a smaller Rakkle settlement, that lacked the resources to care for everyone properly. Without parents to look after [PAWN_possessive], [PAWN_pronoun] took what [PAWN_pronoun] wanted through force and coercion.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -161,10 +151,7 @@
     <defName>Rakkle_Subject</defName>
     <title>Rakkle Subject</title>
     <titleShort>Subject</titleShort>
-    <description>[PAWN_nameDef] never had the advantage of living in a Free Rakkle settlement.
-      [PAWN_possessive] youth was spent in the depths of Cradle laboratories; the subject of test
-      after test of endurance and psychology. After a particularly grueling battery of tests,
-      [PAWN_pronoun] fully lost [PAWN_possessive] grip on reality.</description>
+    <description>[PAWN_nameDef] never had the advantage of living in a Free Rakkle settlement. [PAWN_possessive] youth was spent in the depths of Cradle laboratories; the subject of test after test of endurance and psychology. After a particularly grueling battery of tests, [PAWN_pronoun] fully lost [PAWN_possessive] grip on reality.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -192,9 +179,7 @@
     <defName>Rakkle_HunterAssistant</defName>
     <title>Rakkle Hunter assistant</title>
     <titleShort>Hunter assistant</titleShort>
-    <description>[PAWN_nameDef] apprenticed under a famous hunter while living in the outskirts of a
-      smaller Free Rakkle settlement. [PAWN_possessive] mentor was slow to praise, but
-      [PAWN_nameDef]'s skill cannot be doubted.</description>
+    <description>[PAWN_nameDef] apprenticed under a famous hunter while living in the outskirts of a smaller Free Rakkle settlement. [PAWN_possessive] mentor was slow to praise, but [PAWN_nameDef]'s skill cannot be doubted.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -220,9 +205,7 @@
     <defName>Rakkle_BookWorm</defName>
     <title>Rakkle Booksnake</title>
     <titleShort>Booksnake</titleShort>
-    <description>The world of fighting for survival and freedom never appealed to [PAWN_nameDef],
-      who much preferred books and study. Teased as a booksnake, [PAWN_pronoun] hopes that
-      [PAWN_pronoun] can cross words over blades, and draw discussion before firearms.</description>
+    <description>The world of fighting for survival and freedom never appealed to [PAWN_nameDef], who much preferred books and study. Teased as a booksnake, [PAWN_pronoun] hopes that [PAWN_pronoun] can cross words over blades, and draw discussion before firearms.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -246,9 +229,7 @@
     <defName>Rakkle_ClothingStoreKid</defName>
     <title>Rakkle Clothing store kid</title>
     <titleShort>Clothing store kid</titleShort>
-    <description>[PAWN_nameDef] is the adopted child of a notable seamster. While [PAWN_pronoun]
-      managed to escape many of the harsh realities of living in the Rim, perhaps the things
-      [PAWN_pronoun] learned will be of some use now out on [PAWN_possessive] own.</description>
+    <description>[PAWN_nameDef] is the adopted child of a notable seamster. While [PAWN_pronoun] managed to escape many of the harsh realities of living in the Rim, perhaps the things [PAWN_pronoun] learned will be of some use now out on [PAWN_possessive] own.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -271,9 +252,7 @@
     <defName>Rakkle_ConstructionWorker</defName>
     <title>Rakkle Construction worker</title>
     <titleShort>Construction worker</titleShort>
-    <description>Born with more brawn than average in a large colony, [PAWN_nameDef] found more
-      success hauling materials and helping on construction sites. Though [PAWN_pronoun] struggles
-      to learn more complex subjects, none can doubt [PAWN_possessive] work ethic.</description>
+    <description>Born with more brawn than average in a large colony, [PAWN_nameDef] found more success hauling materials and helping on construction sites. Though [PAWN_pronoun] struggles to learn more complex subjects, none can doubt [PAWN_possessive] work ethic.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -300,10 +279,7 @@
     <defName>Rakkle_Orphan</defName>
     <title>Rakkle Orphan</title>
     <titleShort>Orphan</titleShort>
-    <description>After [PAWN_possessive] parents died as a result of civil unrest, [PAWN_nameDef]
-      was forced to live on the fringes of [PAWN_possessive] home colony as an outcast. Harsh
-      realities are [PAWN_possessive] everyday existence, and [PAWN_pronoun] will do whatever is
-      necessary to survive in the Rim.</description>
+    <description>After [PAWN_possessive] parents died as a result of civil unrest, [PAWN_nameDef] was forced to live on the fringes of [PAWN_possessive] home colony as an outcast. Harsh realities are [PAWN_possessive] everyday existence, and [PAWN_pronoun] will do whatever is necessary to survive in the Rim.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -350,9 +326,7 @@
     <defName>Rakkle_PrecociousChild</defName>
     <title>Trading Precocious child</title>
     <titleShort>Precocious child</titleShort>
-    <description>[PAWN_nameDef] matured faster than their peers in [PAWN_possessive] home colony,
-      becoming something of an older sibling for many. [PAWN_pronoun] often needed to learn new
-      things rapidly, for the benefit of [PAWN_possessive] family.</description>
+    <description>[PAWN_nameDef] matured faster than their peers in [PAWN_possessive] home colony, becoming something of an older sibling for many. [PAWN_pronoun] often needed to learn new things rapidly, for the benefit of [PAWN_possessive] family.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -375,9 +349,7 @@
     <defName>Rakkle_CuriousChild</defName>
     <title>Rakkle Curious child</title>
     <titleShort>Curious child</titleShort>
-    <description>Curiosity killed the cat, but it failed to kill [PAWN_nameDef]. [PAWN_pronoun]
-      never stopped asking questions, and though it causes [PAWN_possessive] problems [PAWN_pronoun]
-      is always eager to dig deeper to understand the world around [PAWN_possessive].</description>
+    <description>Curiosity killed the cat, but it failed to kill [PAWN_nameDef]. [PAWN_pronoun] never stopped asking questions, and though it causes [PAWN_possessive] problems [PAWN_pronoun] is always eager to dig deeper to understand the world around [PAWN_possessive].</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -401,9 +373,7 @@
     <defName>Rakkle_WildSnake</defName>
     <title>Rakkle Wild snake</title>
     <titleShort>Wild snake</titleShort>
-    <description>[PAWN_nameDef] avoided capture for years, until [PAWN_possessive] pursuers gave up
-      and left [PAWN_possessive] for dead. However, life in the rim is even harder for Rakkles not
-      integrated into communities, so [PAWN_nameDef] decided to face the challenge of joining one.</description>
+    <description>[PAWN_nameDef] avoided capture for years, until [PAWN_possessive] pursuers gave up and left [PAWN_possessive] for dead. However, life in the rim is even harder for Rakkles not integrated into communities, so [PAWN_nameDef] decided to face the challenge of joining one.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -431,9 +401,7 @@
     <defName>Rakkle_Slumsnake</defName>
     <title>Rakkle Slumsnake</title>
     <titleShort>Slumsnake</titleShort>
-    <description>[PAWN_nameDef] began [PAWN_possessive] life as a slave to a colony slumlord, often
-      being used as a bribe [PAWN_objective]self to placate officials. After murdering
-      [PAWN_possessive] owner, [PAWN_pronoun] left the colony to find refuge elsewhere.</description>
+    <description>[PAWN_nameDef] began [PAWN_possessive] life as a slave to a colony slumlord, often being used as a bribe [PAWN_objective]self to placate officials. After murdering [PAWN_possessive] owner, [PAWN_pronoun] left the colony to find refuge elsewhere.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -460,10 +428,7 @@
     <defName>Rakkle_Shutin</defName>
     <title>Rakkle shut in</title>
     <titleShort>shut in</titleShort>
-    <description>[PAWN_nameDef] could never stand being seen, and [PAWN_pronoun] took care to stay
-      out of sight whenever possible. Attention always brought trouble for [PAWN_possessive] and
-      [PAWN_pronoun] only enters a colony out of necessity. Perhaps this time, it will end
-      differently...</description>
+    <description>[PAWN_nameDef] could never stand being seen, and [PAWN_pronoun] took care to stay out of sight whenever possible. Attention always brought trouble for [PAWN_possessive] and [PAWN_pronoun] only enters a colony out of necessity. Perhaps this time, it will end differently...</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -490,10 +455,7 @@
     <defName>Rakkle_AbandonedYoungSlave</defName>
     <title>Rakkle Abandoned young slave</title>
     <titleShort>Abandoned young slave</titleShort>
-    <description>[PAWN_nameDef] was a slave in a small human settlement. Once the settlemnt was
-      itself overrun by raiders, anyone left alive had nowhere else to go. [PAWN_nameDef] survived
-      in the wild for a time, but ultimately could not survive on [PAWN_possessive] own, and sought
-      help.</description>
+    <description>[PAWN_nameDef] was a slave in a small human settlement. Once the settlemnt was itself overrun by raiders, anyone left alive had nowhere else to go. [PAWN_nameDef] survived in the wild for a time, but ultimately could not survive on [PAWN_possessive] own, and sought help.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -517,9 +479,7 @@
     <defName>Rakkle_IdolTrainee</defName>
     <title>Rakkle Idol trainee</title>
     <titleShort>Idol trainee</titleShort>
-    <description>[PAWN_nameDef] was inspired by [PAWN_possessive] favorite idol, but had little
-      opportunity in [PAWN_possessive] small Free Rakkle settlement. [PAWN_pronoun] set out to find
-      larger horizons and more fans [PAWN_pronoun] could call [PAWN_possessive] own.</description>
+    <description>[PAWN_nameDef] was inspired by [PAWN_possessive] favorite idol, but had little opportunity in [PAWN_possessive] small Free Rakkle settlement. [PAWN_pronoun] set out to find larger horizons and more fans [PAWN_pronoun] could call [PAWN_possessive] own.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -545,10 +505,7 @@
     <defName>Rakkle_LittleGlutton</defName>
     <title>Rakkle Little glutton</title>
     <titleShort>Little glutton</titleShort>
-    <description>[PAWN_nameDef] found [PAWN_possessive] first taste of gourmet food in the kitchens
-      of [PAWN_possessive] wealthy owner's estate. [PAWN_pronoun] could not get enonugh, but when
-      the owner passed away, even as an independent Rakkle [PAWN_pronoun] could not find work as a
-      chef. [PAWN_pronoun] set off to find someone who could appreciate [PAWN_possessive] talents.</description>
+    <description>[PAWN_nameDef] found [PAWN_possessive] first taste of gourmet food in the kitchens of [PAWN_possessive] wealthy owner's estate. [PAWN_pronoun] could not get enonugh, but when the owner passed away, even as an independent Rakkle [PAWN_pronoun] could not find work as a chef. [PAWN_pronoun] set off to find someone who could appreciate [PAWN_possessive] talents.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -575,11 +532,7 @@
     <defName>Rakkle_PlantLover</defName>
     <title>Rakkle Plant lover</title>
     <titleShort>Plant lover</titleShort>
-    <description>[PAWN_nameDef] was born and raised in the wild to a small Rakkle family.
-      [PAWN_pronoun] spent [PAWN_possessive] days out in the woods around [PAWN_possessive] house,
-      learning the names and properties of local flora. Eventually the area grew smaller as
-      [PAWN_pronoun] grew older, and [PAWN_pronoun] left to find a wider world with ever stranger
-      plant life.</description>
+    <description>[PAWN_nameDef] was born and raised in the wild to a small Rakkle family. [PAWN_pronoun] spent [PAWN_possessive] days out in the woods around [PAWN_possessive] house, learning the names and properties of local flora. Eventually the area grew smaller as [PAWN_pronoun] grew older, and [PAWN_pronoun] left to find a wider world with ever stranger plant life.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -603,8 +556,7 @@
     <defName>CRD_YoungGoods</defName>
     <title>Cradle Young Goods</title>
     <titleShort>Young Goods</titleShort>
-    <description>[PAWN_nameDef] is fresh from the arms of The Cradle; a blank slate ready and
-      willing to serve the needs of its newest masters.</description>
+    <description>[PAWN_nameDef] is fresh from the arms of The Cradle; a blank slate ready and willing to serve the needs of its newest masters.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -629,9 +581,7 @@
     <defName>CRD_CradleLeaderChild</defName>
     <title>Cradle Cradle Leader Child</title>
     <titleShort>Cradle leader child</titleShort>
-    <description>[PAWN_nameDef] was promising even by The Cradle's high standards, and was marketed
-      as useful for even leadership or municipal duties in society. It looks forward to helping its
-      community grow.</description>
+    <description>[PAWN_nameDef] was promising even by The Cradle's high standards, and was marketed as useful for even leadership or municipal duties in society. It looks forward to helping its community grow.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -660,8 +610,7 @@
     <defName>Rakkle_Blacksmith</defName>
     <title>Rakkle Blacksmith</title>
     <titleShort>Blacksmith</titleShort>
-    <description>[PAWN_nameDef] is a savant with ore and forge. [PAWN_pronoun] would rather work in
-      tools and materials than anything, but makes a living in the harsh Rim by making weapons.</description>
+    <description>[PAWN_nameDef] is a savant with ore and forge. [PAWN_pronoun] would rather work in tools and materials than anything, but makes a living in the harsh Rim by making weapons.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -685,9 +634,7 @@
     <defName>Rakkle_Butcher</defName>
     <title>Rakkle Butcher</title>
     <titleShort>Butcher</titleShort>
-    <description>[PAWN_nameDef] is an assistant of [PAWN_possessive] settlement's butcher. Though
-      most of their work is for food and consumption, the work did teach [PAWN_nameDef] the
-      important skill of quickly relieving most organic creatures of their limbs.</description>
+    <description>[PAWN_nameDef] is an assistant of [PAWN_possessive] settlement's butcher. Though most of their work is for food and consumption, the work did teach [PAWN_nameDef] the important skill of quickly relieving most organic creatures of their limbs.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -713,9 +660,7 @@
     <defName>Rakkle_Seamstress</defName>
     <title>Rakkle Seamstress</title>
     <titleShort>Seamstress</titleShort>
-    <description>[PAWN_nameDef] sewed clothes for [PAWN_possessive] entire Free Rakkle settlement,
-      before it was attacked and burned to the ground. With no place to go, [PAWN_pronoun] needs a
-      new place to weave [PAWN_possessive] masterpieces.</description>
+    <description>[PAWN_nameDef] sewed clothes for [PAWN_possessive] entire Free Rakkle settlement, before it was attacked and burned to the ground. With no place to go, [PAWN_pronoun] needs a new place to weave [PAWN_possessive] masterpieces.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -739,9 +684,7 @@
     <defName>Rakkle_Rancher</defName>
     <title>Rakkle Rancher</title>
     <titleShort>Rancher</titleShort>
-    <description>[PAWN_nameDef] managed a family ranch for years, learning the needs of the local
-      fauna. [PAWN_pronoun] can't help [PAWN_possessive] carnivorous nature, but [PAWN_pronoun]
-      appreciates the relationship people need with their livestock.</description>
+    <description>[PAWN_nameDef] managed a family ranch for years, learning the needs of the local fauna. [PAWN_pronoun] can't help [PAWN_possessive] carnivorous nature, but [PAWN_pronoun] appreciates the relationship people need with their livestock.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -767,9 +710,7 @@
     <defName>Rakkle_Guard</defName>
     <title>Rakkle Guard</title>
     <titleShort>Guard</titleShort>
-    <description>[PAWN_nameDef] lived through three successive raids on [PAWN_possessive] home
-      colony, once from raiders and twice from The Cradle itself. [PAWN_pronoun] will fight with
-      [PAWN_possessive] life to protect people from that oppression.</description>
+    <description>[PAWN_nameDef] lived through three successive raids on [PAWN_possessive] home colony, once from raiders and twice from The Cradle itself. [PAWN_pronoun] will fight with [PAWN_possessive] life to protect people from that oppression.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -802,9 +743,7 @@
     <defName>Rakkle_Hunter</defName>
     <title>Rakkle Hunter</title>
     <titleShort>Hunter</titleShort>
-    <description>[PAWN_nameDef] understands that hunting is necessary for many to survive, but
-      [PAWN_pronoun] is in it for the thrill. [PAWN_pronoun] does not care for safety and will chase
-      a single quarry for weeks just for the satisfaction of taking it down.</description>
+    <description>[PAWN_nameDef] understands that hunting is necessary for many to survive, but [PAWN_pronoun] is in it for the thrill. [PAWN_pronoun] does not care for safety and will chase a single quarry for weeks just for the satisfaction of taking it down.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -836,13 +775,7 @@
     <defName>Rakkle_Architect</defName>
     <title>Rakkle Architect</title>
     <titleShort>Architect</titleShort>
-    <description>[PAWN_nameDef] built [PAWN_possessive] career from ruins. A colony, ravaged by
-      conflict, was burned to the ground. [PAWN_nameDef] was bought as a laborer, but
-      [PAWN_possessive] skill with engineering and planning cemented [PAWN_possessive] position in
-      rebuilding the colony for the remaining residents. In spite of [PAWN_possessive] kindness,
-      however, the remaining residents soured, with the looming threat of Cradle agents returning to
-      reduce their home to ash once again. [PAWN_nameDef] was driven out into the wilderness to find
-      a new home.</description>
+    <description>[PAWN_nameDef] built [PAWN_possessive] career from ruins. A colony, ravaged by conflict, was burned to the ground. [PAWN_nameDef] was bought as a laborer, but [PAWN_possessive] skill with engineering and planning cemented [PAWN_possessive] position in rebuilding the colony for the remaining residents. In spite of [PAWN_possessive] kindness, however, the remaining residents soured, with the looming threat of Cradle agents returning to reduce their home to ash once again. [PAWN_nameDef] was driven out into the wilderness to find a new home.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -868,10 +801,7 @@
     <defName>Rakkle_Avenger</defName>
     <title>Rakkle Avenger</title>
     <titleShort>Avenger</titleShort>
-    <description>After losing colony and family to Cradle aggressors, [PAWN_nameDef] swore an oath
-      of revenge. [PAWN_pronoun] watched, acting as a corpse, as the rest of [PAWN_possessive]
-      family was brutally murdered by slavers. [PAWN_pronoun] will not rest until The Cradle as an
-      entity no longer exists.</description>
+    <description>After losing colony and family to Cradle aggressors, [PAWN_nameDef] swore an oath of revenge. [PAWN_pronoun] watched, acting as a corpse, as the rest of [PAWN_possessive] family was brutally murdered by slavers. [PAWN_pronoun] will not rest until The Cradle as an entity no longer exists.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -902,12 +832,7 @@
     <defName>Rakkle_CannibalSnake</defName>
     <title>Rakkle Cannibal snake</title>
     <titleShort>Cannibal snake</titleShort>
-    <description>While Rakkle are ordinarily non-aggressive, desperation drove [PAWN_nameDef] to
-      extremes. The property of a small but vicious gang of enforcers, [PAWN_pronoun] was frequently
-      forced to fight and work without food or sleep for days. In a desperate fit of fury,
-      [PAWN_pronoun] turned on [PAWN_possessive] captors, eating some of them to pacify the raw
-      hunger in [PAWN_possessive] stomach. Free, but aimless, [PAWN_pronoun] wanders the land for
-      [PAWN_possessive] next meal, or just a place to rest.</description>
+    <description>While Rakkle are ordinarily non-aggressive, desperation drove [PAWN_nameDef] to extremes. The property of a small but vicious gang of enforcers, [PAWN_pronoun] was frequently forced to fight and work without food or sleep for days. In a desperate fit of fury, [PAWN_pronoun] turned on [PAWN_possessive] captors, eating some of them to pacify the raw hunger in [PAWN_possessive] stomach. Free, but aimless, [PAWN_pronoun] wanders the land for [PAWN_possessive] next meal, or just a place to rest.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -941,10 +866,7 @@
     <defName>Rakkle_Farmer</defName>
     <title>Rakkle Farmer</title>
     <titleShort>Farmer</titleShort>
-    <description>Rakkle farmers are a bit of an oddity, but [PAWN_nameDef] takes pride in
-      [PAWN_possessive] work. Many of the things [PAWN_pronoun] grows are unpalatable to
-      [PAWN_possessive], but [PAWN_pronoun] enjoys the challenge of making edible things grow in the
-      harsh environments of the Rim.</description>
+    <description>Rakkle farmers are a bit of an oddity, but [PAWN_nameDef] takes pride in [PAWN_possessive] work. Many of the things [PAWN_pronoun] grows are unpalatable to [PAWN_possessive], but [PAWN_pronoun] enjoys the challenge of making edible things grow in the harsh environments of the Rim.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -969,12 +891,7 @@
     <defName>Rakkle_Diplomat</defName>
     <title>Rakkle Diplomat</title>
     <titleShort>Diplomat</titleShort>
-    <description>[PAWN_nameDef] was sold at birth to a family of high-ranking politicians and public
-      servants. Though [PAWN_pronoun] was never intended to do any municipal work, living and
-      sleeping with a range of officials gave [PAWN_possessive] a particular insight into how
-      government functions. As [PAWN_pronoun] grew up [PAWN_pronoun] developed a talent for guiding
-      people and mediating arguments. Rather than doing things [PAWN_objective]self, [PAWN_pronoun]
-      understands the potential in having others do things for [PAWN_possessive].</description>
+    <description>[PAWN_nameDef] was sold at birth to a family of high-ranking politicians and public servants. Though [PAWN_pronoun] was never intended to do any municipal work, living and sleeping with a range of officials gave [PAWN_possessive] a particular insight into how government functions. As [PAWN_pronoun] grew up [PAWN_pronoun] developed a talent for guiding people and mediating arguments. Rather than doing things [PAWN_objective]self, [PAWN_pronoun] understands the potential in having others do things for [PAWN_possessive].</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1001,11 +918,7 @@
     <defName>Rakkle_Lazy</defName>
     <title>Rakkle Lazy</title>
     <titleShort>Lazy</titleShort>
-    <description>[PAWN_nameDef] was bought and owned by a very wealthy family as a pet. As a result,
-      [PAWN_pronoun] never had to do much work for anything, and hated any time [PAWN_pronoun] had
-      to. Though [PAWN_possessive] needs were always met at home, [PAWN_possessive] owners being
-      imprisoned for extortion and larceny put [PAWN_pronoun] out on the street, where no one else
-      was as driven to care of [PAWN_possessive].</description>
+    <description>[PAWN_nameDef] was bought and owned by a very wealthy family as a pet. As a result, [PAWN_pronoun] never had to do much work for anything, and hated any time [PAWN_pronoun] had to. Though [PAWN_possessive] needs were always met at home, [PAWN_possessive] owners being imprisoned for extortion and larceny put [PAWN_pronoun] out on the street, where no one else was as driven to care of [PAWN_possessive].</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1035,11 +948,7 @@
     <defName>Rakkle_Idol</defName>
     <title>Rakkle Idol</title>
     <titleShort>Idol</titleShort>
-    <description>[PAWN_nameDef]'s rise to stardom was sudden and meteoric. Though many people in the
-      Rim have more important concerns than a pretty face, [PAWN_possessive] songs about hope for
-      the future and union of peoples captures hearts of adults and children the planet around.
-      [PAWN_pronoun] travels the surface to spread [PAWN_possessive] message and spread
-      [PAWN_possessive] reach to even bigger stages.</description>
+    <description>[PAWN_nameDef]'s rise to stardom was sudden and meteoric. Though many people in the Rim have more important concerns than a pretty face, [PAWN_possessive] songs about hope for the future and union of peoples captures hearts of adults and children the planet around. [PAWN_pronoun] travels the surface to spread [PAWN_possessive] message and spread [PAWN_possessive] reach to even bigger stages.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1070,10 +979,7 @@
     <defName>Rakkle_Model</defName>
     <title>Rakkle Model</title>
     <titleShort>Model</titleShort>
-    <description>[PAWN_nameDef] was always prized for [PAWN_possessive] particular beauty.
-      Statuesque features combined with a hypnotic voice and magnetic charm meant that even after
-      [PAWN_possessive] adopted family could not hold on to [PAWN_possessive], [PAWN_pronoun] could
-      get whatever [PAWN_pronoun] wanted by asking the right way.</description>
+    <description>[PAWN_nameDef] was always prized for [PAWN_possessive] particular beauty. Statuesque features combined with a hypnotic voice and magnetic charm meant that even after [PAWN_possessive] adopted family could not hold on to [PAWN_possessive], [PAWN_pronoun] could get whatever [PAWN_pronoun] wanted by asking the right way.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1105,9 +1011,7 @@
     <defName>Rakkle_Teacher</defName>
     <title>Rakkle Teacher</title>
     <titleShort>Teacher</titleShort>
-    <description>[PAWN_nameDef] trained in a large colony to be a teacher as a missionary for
-      smaller settlements. [PAWN_possessive] gentle and supportive demeanor make [PAWN_objective]
-      ideal for the job.</description>
+    <description>[PAWN_nameDef] trained in a large colony to be a teacher as a missionary for smaller settlements. [PAWN_possessive] gentle and supportive demeanor make [PAWN_objective] ideal for the job.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1140,9 +1044,7 @@
     <defName>Rakkle_Professor</defName>
     <title>Rakkle Professor</title>
     <titleShort>Professor</titleShort>
-    <description>[PAWN_nameDef] was a gifted child, and readily took to [PAWN_possessive] studies.
-      [PAWN_pronoun] sometimes may act as a teacher or lecturer when necessary, but [PAWN_pronoun]
-      is much more comfortable in [PAWN_possessive] laboratory.</description>
+    <description>[PAWN_nameDef] was a gifted child, and readily took to [PAWN_possessive] studies. [PAWN_pronoun] sometimes may act as a teacher or lecturer when necessary, but [PAWN_pronoun] is much more comfortable in [PAWN_possessive] laboratory.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1174,9 +1076,7 @@
     <defName>Rakkle_Miner</defName>
     <title>Rakkle Miner</title>
     <titleShort>Miner</titleShort>
-    <description>Mining is not a savory job to many, but [PAWN_nameDef] is happy to do it. Some wild
-      Rakkles used to live underground, and [PAWN_pronoun] is more comfortable around rocks and ore
-      than dealing with society.</description>
+    <description>Mining is not a savory job to many, but [PAWN_nameDef] is happy to do it. Some wild Rakkles used to live underground, and [PAWN_pronoun] is more comfortable around rocks and ore than dealing with society.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1209,9 +1109,7 @@
     <defName>Rakkle_Merchant</defName>
     <title>Rakkle Merchant</title>
     <titleShort>Merchant</titleShort>
-    <description>[PAWN_nameDef] was purchased by an interplanetary merchant to assist with
-      bookkeeping, but showed promise in the trading profession itself. Eventually [PAWN_pronoun]
-      was allowed to run routes and make deals on behalf of [PAWN_possessive] manager.</description>
+    <description>[PAWN_nameDef] was purchased by an interplanetary merchant to assist with bookkeeping, but showed promise in the trading profession itself. Eventually [PAWN_pronoun] was allowed to run routes and make deals on behalf of [PAWN_possessive] manager.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1238,9 +1136,7 @@
     <defName>Rakkle_Gunner</defName>
     <title>Rakkle Gunner</title>
     <titleShort>Gunner</titleShort>
-    <description>[PAWN_nameDef] has only one passion: ballistics. Anything with a projectile,
-      [PAWN_pronoun] can operate. While [PAWN_pronoun] is not particularly hostile towards others,
-      [PAWN_pronoun] claims to take pride in never missing a target.</description>
+    <description>[PAWN_nameDef] has only one passion: ballistics. Anything with a projectile, [PAWN_pronoun] can operate. While [PAWN_pronoun] is not particularly hostile towards others, [PAWN_pronoun] claims to take pride in never missing a target.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1271,9 +1167,7 @@
     <defName>Rakkle_Storyteller</defName>
     <title>Rakkle Storyteller</title>
     <titleShort>Storyteller</titleShort>
-    <description>[PAWN_nameDef] wanted to be a teacher of some kind, but could never manage the
-      grades in school to make it. Instead, [PAWN_pronoun] does the next thing [PAWN_pronoun] can
-      think of and shares wisdom and knowledge through weaving stories for children.</description>
+    <description>[PAWN_nameDef] wanted to be a teacher of some kind, but could never manage the grades in school to make it. Instead, [PAWN_pronoun] does the next thing [PAWN_pronoun] can think of and shares wisdom and knowledge through weaving stories for children.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1299,9 +1193,7 @@
     <defName>Rakkle_Fool</defName>
     <title>Rakkle Fool</title>
     <titleShort>Fool</titleShort>
-    <description>One can tell by a single look into [PAWN_nameDef]'s eyes that there are no thoughts
-      rolling behind them. [PAWN_pronoun] gets through life on charm, the kindness of others, or
-      just plain dumb luck.</description>
+    <description>One can tell by a single look into [PAWN_nameDef]'s eyes that there are no thoughts rolling behind them. [PAWN_pronoun] gets through life on charm, the kindness of others, or just plain dumb luck.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1326,10 +1218,7 @@
     <defName>Rakkle_Doctor</defName>
     <title>Rakkle Doctor</title>
     <titleShort>Doctor</titleShort>
-    <description>[PAWN_nameDef] was never trained for medical work, but seeing battlefield after
-      battlefield and helping the fallen in triage educated [PAWN_pronoun] better than any academy
-      could have. [PAWN_pronoun] greatest desire is to cure more common colds than blade and bullet
-      wounds.</description>
+    <description>[PAWN_nameDef] was never trained for medical work, but seeing battlefield after battlefield and helping the fallen in triage educated [PAWN_pronoun] better than any academy could have. [PAWN_pronoun] greatest desire is to cure more common colds than blade and bullet wounds.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1355,10 +1244,7 @@
     <defName>Rakkle_OrphanageDirector</defName>
     <title>Rakkle Orphanage director</title>
     <titleShort>Orphanage director</titleShort>
-    <description>[PAWN_nameDef] runs the colony orphanage. [PAWN_pronoun] [PAWN_objective]self was
-      fortunate enough to have a kind adoptive family, but [PAWN_pronoun] knew many of
-      [PAWN_possessive] friends, as well as other children, had no such luck. [PAWN_pronoun] knows
-      [PAWN_pronoun] can't save every lost child out there, but intends to try.</description>
+    <description>[PAWN_nameDef] runs the colony orphanage. [PAWN_pronoun] [PAWN_objective]self was fortunate enough to have a kind adoptive family, but [PAWN_pronoun] knew many of [PAWN_possessive] friends, as well as other children, had no such luck. [PAWN_pronoun] knows [PAWN_pronoun] can't save every lost child out there, but intends to try.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1391,9 +1277,7 @@
     <defName>Rakkle_Artist</defName>
     <title>Rakkle Artist</title>
     <titleShort>Artist</titleShort>
-    <description>Beyond any other pursuit, [PAWN_nameDef] feels the most gratification when making
-      art. [PAWN_pronoun] will do anything that allows [PAWN_objective] to keep following
-      [PAWN_possessive] artistic visions.</description>
+    <description>Beyond any other pursuit, [PAWN_nameDef] feels the most gratification when making art. [PAWN_pronoun] will do anything that allows [PAWN_objective] to keep following [PAWN_possessive] artistic visions.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1420,10 +1304,7 @@
     <defName>Rakkle_EscapedGoods</defName>
     <title>Rakkle Escaped goods</title>
     <titleShort>Escaped goods</titleShort>
-    <description>[PAWN_nameDef] was intended to be high-quality stock for a colony's leader, but
-      [PAWN_possessive] independent nature wouldn't allow it. When the transport vessel crash landed
-      several miles from its destination, [PAWN_pronoun] took the opportunity to flee
-      [PAWN_possessive] captors and never turn back.</description>
+    <description>[PAWN_nameDef] was intended to be high-quality stock for a colony's leader, but [PAWN_possessive] independent nature wouldn't allow it. When the transport vessel crash landed several miles from its destination, [PAWN_pronoun] took the opportunity to flee [PAWN_possessive] captors and never turn back.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1460,9 +1341,7 @@
     <defName>CDR_Toy</defName>
     <title>Cradle Toy</title>
     <titleShort>Cradle Toy</titleShort>
-    <description>[PAWN_nameDef] was bred specifically to be a toy for its buyers. Lacking any sense
-      of free will or self-preservation, it will often follow orders without a second thought - only
-      enough to be sure its masters are having fun.</description>
+    <description>[PAWN_nameDef] was bred specifically to be a toy for its buyers. Lacking any sense of free will or self-preservation, it will often follow orders without a second thought - only enough to be sure its masters are having fun.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1491,9 +1370,7 @@
     <defName>CDR_Maid</defName>
     <title>Cradle Maid</title>
     <titleShort>Cradle Maid</titleShort>
-    <description>[PAWN_nameDef] is trained to be, in every sense, the perfect hostess and
-      housekeeper. It has etiquette and servitude drilled into its genes, and will do whatever is
-      necessary to please its masters.</description>
+    <description>[PAWN_nameDef] is trained to be, in every sense, the perfect hostess and housekeeper. It has etiquette and servitude drilled into its genes, and will do whatever is necessary to please its masters.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1526,9 +1403,7 @@
     <defName>CDR_Livestock</defName>
     <title>Cradle Livestock</title>
     <titleShort>Cradle Livestock</titleShort>
-    <description>[PAWN_nameDef] was bred and sold to be cattle. Be it as breeding or
-      experimentation, its stock is often comprised of those who are completely broken by the Cradle
-      conditioning or in some other way defective as products.</description>
+    <description>[PAWN_nameDef] was bred and sold to be cattle. Be it as breeding or experimentation, its stock is often comprised of those who are completely broken by the Cradle conditioning or in some other way defective as products.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1557,9 +1432,7 @@
     <defName>CDR_Workman</defName>
     <title>Cradle Workman</title>
     <titleShort>Cradle Workman</titleShort>
-    <description>Only just passing the company standards of behavior, [PAWN_nameDef] was sold to be
-      a simple laborer. It can follow orders and retain simple instructions, but does little of its
-      own thinking and cannot perform more complex tasks.</description>
+    <description>Only just passing the company standards of behavior, [PAWN_nameDef] was sold to be a simple laborer. It can follow orders and retain simple instructions, but does little of its own thinking and cannot perform more complex tasks.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1587,8 +1460,7 @@
     <defName>CDR_Slave</defName>
     <title>Cradle Slave</title>
     <titleShort>Cradle Slave</titleShort>
-    <description>[PAWN_nameDef] is a Cradle slave stock. It was broken by the conditioning, but
-      maintains enough intelligence to obey simple commands.</description>
+    <description>[PAWN_nameDef] is a Cradle slave stock. It was broken by the conditioning, but maintains enough intelligence to obey simple commands.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1617,9 +1489,7 @@
     <defName>CDR_FightingSnake</defName>
     <title>Cradle Fighting Snake</title>
     <titleShort>Cradle Fighting Snake</titleShort>
-    <description>[PAWN_nameDef] became an oddity in Rakkle breeding when the aggression reduction
-      failed to take hold. It has a volatile temper and will fight anyone with little or no
-      provocation, but can be controlled with the right compensation.</description>
+    <description>[PAWN_nameDef] became an oddity in Rakkle breeding when the aggression reduction failed to take hold. It has a volatile temper and will fight anyone with little or no provocation, but can be controlled with the right compensation.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1652,9 +1522,7 @@
     <defName>CDR_Breeder</defName>
     <title>Cradle Breeder</title>
     <titleShort>Cradle Breeder</titleShort>
-    <description>[PAWN_nameDef] was sold only as breeding stock. Its price was based on its
-      appearance, not its capability or intelligence - though it may surpass those expectations. It
-      may display some signs of personality, but can be easily overridden by a command.</description>
+    <description>[PAWN_nameDef] was sold only as breeding stock. Its price was based on its appearance, not its capability or intelligence - though it may surpass those expectations. It may display some signs of personality, but can be easily overridden by a command.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1685,8 +1553,7 @@
     <defName>CDR_serf</defName>
     <title>Cradle serf</title>
     <titleShort>Cradle serf</titleShort>
-    <description>[PAWN_nameDef] is well suited to farm labor. Gardening and animal husbandry come
-      easily to it. It can fix simple things, but it is no artisan.</description>
+    <description>[PAWN_nameDef] is well suited to farm labor. Gardening and animal husbandry come easily to it. It can fix simple things, but it is no artisan.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1714,9 +1581,7 @@
     <defName>CDR_Attacker</defName>
     <title>Cradle attacker</title>
     <titleShort>Cradle attacker</titleShort>
-    <description>Little more than an attack animal, [PAWN_nameDef] is bred to follow orders, engage
-      in combat, and claim victory for its officers. Frequently used as enforcers for the Cradle, it
-      has little empathy for living things not in its chain of command.</description>
+    <description>Little more than an attack animal, [PAWN_nameDef] is bred to follow orders, engage in combat, and claim victory for its officers. Frequently used as enforcers for the Cradle, it has little empathy for living things not in its chain of command.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1746,9 +1611,7 @@
     <defName>CDR_Elite</defName>
     <title>Cradle elite attacker</title>
     <titleShort>Cradle elite attacker</titleShort>
-    <description>Brutish and efficient, [PAWN_nameDef] was bred to be an enforcer within The
-      Cradle's officers. It is cunning, and uses all of its wits and talent to make its commander's
-      wishes reality.</description>
+    <description>Brutish and efficient, [PAWN_nameDef] was bred to be an enforcer within The Cradle's officers. It is cunning, and uses all of its wits and talent to make its commander's wishes reality.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1784,9 +1647,7 @@
     <defName>CDR_Captured</defName>
     <title>Cradle captured</title>
     <titleShort>Cradle captured</titleShort>
-    <description>[PAWN_nameDef] began [PAWN_possessive] life as a Free Rakkle, but was then
-      recovered by Cradle officers and pressed back into servitude. [PAWN_possessive] did not take
-      well to the reconditioning, and is now withdrawn, as if merely waiting for death.</description>
+    <description>[PAWN_nameDef] began [PAWN_possessive] life as a Free Rakkle, but was then recovered by Cradle officers and pressed back into servitude. [PAWN_possessive] did not take well to the reconditioning, and is now withdrawn, as if merely waiting for death.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1813,10 +1674,7 @@
     <defName>CDR_Leader</defName>
     <title>Cradle leader</title>
     <titleShort>Cradle leader</titleShort>
-    <description>[PAWN_nameDef] is the figurehead leader of the Cradle settlement. It knows its
-      existence is one of appearances, but the lavish circumstances of its position banishes any
-      thoughts it may have about the morality of its existence. It need only follow the orders of
-      the Cradle, and its survival and comfort are assured.</description>
+    <description>[PAWN_nameDef] is the figurehead leader of the Cradle settlement. It knows its existence is one of appearances, but the lavish circumstances of its position banishes any thoughts it may have about the morality of its existence. It need only follow the orders of the Cradle, and its survival and comfort are assured.</description>
     <slot>Adulthood</slot>
 
     <skillGains>

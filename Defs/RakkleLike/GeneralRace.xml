@@ -880,7 +880,6 @@
 		</race>
 		<!--=============================================================================================================================-->
 		<recipes>
-			<li>RS_InstallBionicBellyscale</li>
 			<li>RS_InstallBionicTail</li>
 			<li>RS_InstallWoodenTail</li>
 			<li>RS_RemoveBionicBellyscale</li>
@@ -888,8 +887,8 @@
 			<li>RS_RemoveWoodenTail</li>
 			<li>RS_InstallRakkleThermostat</li>
 			<li>RS_RemoveRakkleThermostat</li>
-			<li>RS_RemoveVoreAssistant</li>
 			<li>RS_InstallVoreAssistant</li>
+			<li>RS_RemoveVoreAssistant</li>
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
 	<LifeStageDef>

@@ -97,7 +97,7 @@
 	<ThingDef ParentName="BodyPartBase">
 		<defName>RS_VoreAssistant</defName>
 		<techLevel>Spacer</techLevel>
-		<description>一种先进的身体植入物。用于帮助拉克吞下猎物,并保持平衡</description>
+		<description>An advanced body implant. Used to help Rakkle swallow prey and maintain balance.</description>
 		<thingCategories>
 			<li>BodyPartsBionic</li>
 		</thingCategories>
