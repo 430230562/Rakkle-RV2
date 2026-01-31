@@ -94,32 +94,25 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBase">
+	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>RS_VoreAssistant</defName>
-		<techLevel>Spacer</techLevel>
-		<description>An advanced body implant. Used to help Rakkle swallow prey and maintain balance.</description>
-		<thingCategories>
-			<li>BodyPartsBionic</li>
-		</thingCategories>
 		<label>Rakkle vore assistant</label>
-		<recipeMaker>
-		</recipeMaker>
+		<description>An advanced body implant. Used to help Rakkle swallow prey and maintain balance.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>RS_InstallVoreAssistant</RecipeDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Rakkles/Apparel/Obedience/RS_Obedience</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
 		</graphicData>
-		<tradeTags>
-			<li>Bionic</li>
-		</tradeTags>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
 	</ThingDef>
 
 </Defs>

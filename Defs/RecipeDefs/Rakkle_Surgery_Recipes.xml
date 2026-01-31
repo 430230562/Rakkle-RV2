@@ -48,34 +48,6 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>RS_RemoveWoodenTail</defName>
-		<label>remove prosthetic wooden tail</label>
-		<description>Remove the prosthetic wooden tail.</description>
-		<workerClass>Recipe_RemoveImplant</workerClass>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-		</fixedIngredientFilter>
-		<jobString>Removing prosthetic wooden tail.</jobString>
-		<removesHediff>Hediff_WoodenTail</removesHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>RS_InstallBionicTail</defName>
 		<label>install bionic tail</label>
 		<description>Install a bionic tail.</description>
@@ -122,38 +94,6 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>RS_RemoveBionicTail</defName>
-		<label>remove bionic tail</label>
-		<description>Remove the bionic tail.</description>
-		<descriptionHyperlinks>
-			<ThingDef>RS_BionicTail</ThingDef>
-		</descriptionHyperlinks>
-		<workerClass>Recipe_RemoveImplant</workerClass>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-		</fixedIngredientFilter>
-		<jobString>Removing bionic tail.</jobString>
-		<removesHediff>Hediff_BionicTail</removesHediff>
-	</RecipeDef>
-
-
-	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>RS_InstallRakkleThermostat</defName>
 		<label>install Rakkle hyporegulator</label>
 		<description>Install a Rakkle hyporegulator.</description>
@@ -182,34 +122,6 @@
 			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>Hediff_Thermostat</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>RS_RemoveRakkleThermostat</defName>
-		<label>remove Rakkle hyporegulator</label>
-		<description>Remove a Rakkle hyporegulator.</description>
-		<workerClass>Recipe_RemoveImplant</workerClass>
-		<workAmount>2500</workAmount>
-		<skillRequirements>
-			<Medicine>5</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-		</fixedIngredientFilter>
-		<jobString>Removing Rakkle hyporegulator.</jobString>
-		<removesHediff>Hediff_Thermostat</removesHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
