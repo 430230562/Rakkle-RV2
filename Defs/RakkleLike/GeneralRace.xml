@@ -703,7 +703,7 @@
 			<!-- Eating -->
 			<EatingSpeed>1.2</EatingSpeed>
 			<RV2_DigestionStrength>0.8</RV2_DigestionStrength>
-			<RV2_SwallowSpeed>1.6</RV2_SwallowSpeed>
+			<RV2_SwallowSpeed>1.2</RV2_SwallowSpeed>
 			<MaxNutrition>5</MaxNutrition>
 		</statBases>
 		<!--==

@@ -162,13 +162,14 @@
             </capacities>
             <power>12</power>
             <cooldownTime>2</cooldownTime>
+            <chanceFactor>2.5</chanceFactor>
           </li>
         </tools>
       </li>
     </comps>
     <addedPartProps>
       <solid>false</solid>
-      <partEfficiency>1</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
