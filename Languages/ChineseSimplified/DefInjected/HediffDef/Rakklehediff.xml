@@ -7,25 +7,25 @@
   </Hediff_NeurotoxinBuildup.description>
 
   <!-- EN: Rakkle vore assistant -->
-  <Hediff_VoreAssistant.label>蛇妖吞噬辅助装置</Hediff_VoreAssistant.label>
+  <Hediff_VoreAssistant.label>拉克吞噬辅助装置</Hediff_VoreAssistant.label>
   <!-- EN: An installed Rakkle vore assistant. -->
-  <Hediff_VoreAssistant.description>一个安装好的蛇妖吞噬辅助装置</Hediff_VoreAssistant.description>
+  <Hediff_VoreAssistant.description>一个安装好的拉克吞噬辅助装置</Hediff_VoreAssistant.description>
   <!-- EN: a Rakkle vore assistant -->
-  <Hediff_VoreAssistant.labelNoun>一个蛇妖吞噬辅助装置</Hediff_VoreAssistant.labelNoun>
+  <Hediff_VoreAssistant.labelNoun>一个拉克吞噬辅助装置</Hediff_VoreAssistant.labelNoun>
 
   <!-- EN: Rakkle Tongue -->
-  <Hediff_RakkleTongue.label>蛇妖舌头</Hediff_RakkleTongue.label>
+  <Hediff_RakkleTongue.label>拉克舌头</Hediff_RakkleTongue.label>
   <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere. -->
   <Hediff_RakkleTongue.description>一条相当长的舌头，它会在口腔内卷起来以免造成妨碍。</Hediff_RakkleTongue.description>
   <!-- EN: Rakkle Tongue -->
-  <Hediff_RakkleTongue.labelNoun>蛇妖舌头</Hediff_RakkleTongue.labelNoun>
+  <Hediff_RakkleTongue.labelNoun>拉克舌头</Hediff_RakkleTongue.labelNoun>
 
   <!-- EN: Rakkle hyporegulator -->
-  <Hediff_Thermostat.label>蛇妖恒温装置</Hediff_Thermostat.label>
+  <Hediff_Thermostat.label>拉克恒温装置</Hediff_Thermostat.label>
   <!-- EN: An installed Rakkle hyporegulator. -->
-  <Hediff_Thermostat.description>一个安装好的蛇妖恒温装置</Hediff_Thermostat.description>
+  <Hediff_Thermostat.description>一个安装好的拉克恒温装置</Hediff_Thermostat.description>
   <!-- EN: a Rakkle hyporegulator -->
-  <Hediff_Thermostat.labelNoun>一个蛇妖恒温装置</Hediff_Thermostat.labelNoun>
+  <Hediff_Thermostat.labelNoun>一个拉克恒温装置</Hediff_Thermostat.labelNoun>
 
   <!-- EN: venom glands -->
   <Hediff_VenomGlands.label>毒腺</Hediff_VenomGlands.label>
@@ -56,11 +56,11 @@
   <Hediff_helminthicHigh.description>治疗肌肉寄生虫和肠道蠕虫的药物。</Hediff_helminthicHigh.description>
 
   <!-- EN: bionic Rakkle tail -->
-  <Hediff_BionicTail.label>仿生蛇妖尾巴</Hediff_BionicTail.label>
+  <Hediff_BionicTail.label>仿生拉克尾巴</Hediff_BionicTail.label>
   <!-- EN: a bionic Rakkle tail -->
-  <Hediff_BionicTail.labelNoun>仿生蛇妖尾巴</Hediff_BionicTail.labelNoun>
+  <Hediff_BionicTail.labelNoun>仿生拉克尾巴</Hediff_BionicTail.labelNoun>
   <!-- EN: An installed bionic Rakkle tail. -->
-  <Hediff_BionicTail.description>已安装的仿生蛇妖尾巴。</Hediff_BionicTail.description>
+  <Hediff_BionicTail.description>已安装的仿生拉克尾巴。</Hediff_BionicTail.description>
 
   <!-- EN: prosthetic wooden tail -->
   <Hediff_WoodenTail.label>义肢木制尾巴</Hediff_WoodenTail.label>

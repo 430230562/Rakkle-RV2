@@ -4,29 +4,29 @@
   <!-- EN: install Rakkle vore assistant -->
   <RS_InstallVoreAssistant.label>安装吞噬辅助装置</RS_InstallVoreAssistant.label>
   <!-- EN: Install a Rakkle vore assistant. -->
-  <RS_InstallVoreAssistant.description>安装一个蛇妖吞噬辅助装置</RS_InstallVoreAssistant.description>
+  <RS_InstallVoreAssistant.description>安装一个拉克吞噬辅助装置</RS_InstallVoreAssistant.description>
   <!-- EN: Installing Rakkle vore assistant. -->
-  <RS_InstallVoreAssistant.jobString>正在安装蛇妖吞噬辅助装置</RS_InstallVoreAssistant.jobString>
+  <RS_InstallVoreAssistant.jobString>正在安装拉克吞噬辅助装置</RS_InstallVoreAssistant.jobString>
 
   <!-- EN: install Rakkle hyporegulator -->
-  <RS_InstallRakkleThermostat.label>安装蛇妖恒温装置</RS_InstallRakkleThermostat.label>
+  <RS_InstallRakkleThermostat.label>安装拉克恒温装置</RS_InstallRakkleThermostat.label>
   <!-- EN: Install a Rakkle hyporegulator. -->
-  <RS_InstallRakkleThermostat.description>安装一个蛇妖恒温装置</RS_InstallRakkleThermostat.description>
+  <RS_InstallRakkleThermostat.description>安装一个拉克恒温装置</RS_InstallRakkleThermostat.description>
   <!-- EN: Installing Rakkle hyporegulator. -->
-  <RS_InstallRakkleThermostat.jobString>正在安装蛇妖恒温装置</RS_InstallRakkleThermostat.jobString>
+  <RS_InstallRakkleThermostat.jobString>正在安装拉克恒温装置</RS_InstallRakkleThermostat.jobString>
 
   <!-- EN: remove Rakkle vore assistant -->
-  <RS_RemoveVoreAssistant.label>移除蛇妖吞噬辅助装置</RS_RemoveVoreAssistant.label>
+  <RS_RemoveVoreAssistant.label>移除拉克吞噬辅助装置</RS_RemoveVoreAssistant.label>
   <!-- EN: Remove a Rakkle vore assistant. -->
-  <RS_RemoveVoreAssistant.description>移除一个蛇妖吞噬辅助装置</RS_RemoveVoreAssistant.description>
+  <RS_RemoveVoreAssistant.description>移除一个拉克吞噬辅助装置</RS_RemoveVoreAssistant.description>
   <!-- EN: Removing a Rakkle vore assistant. -->
-  <RS_RemoveVoreAssistant.jobString>正在移除蛇妖吞噬辅助装置</RS_RemoveVoreAssistant.jobString>
+  <RS_RemoveVoreAssistant.jobString>正在移除拉克吞噬辅助装置</RS_RemoveVoreAssistant.jobString>
 
   <!-- EN: remove Rakkle hyporegulator -->
-  <RS_RemoveRakkleThermostat.label>移除蛇妖恒温装置</RS_RemoveRakkleThermostat.label>
+  <RS_RemoveRakkleThermostat.label>移除拉克恒温装置</RS_RemoveRakkleThermostat.label>
   <!-- EN: Remove a Rakkle hyporegulator. -->
-  <RS_RemoveRakkleThermostat.description>移除一个蛇妖恒温装置</RS_RemoveRakkleThermostat.description>
+  <RS_RemoveRakkleThermostat.description>移除一个拉克恒温装置</RS_RemoveRakkleThermostat.description>
   <!-- EN: Removing Rakkle hyporegulator. -->
-  <RS_RemoveRakkleThermostat.jobString>正在移除蛇妖恒温装置</RS_RemoveRakkleThermostat.jobString>
+  <RS_RemoveRakkleThermostat.jobString>正在移除拉克恒温装置</RS_RemoveRakkleThermostat.jobString>
 
 </LanguageData>

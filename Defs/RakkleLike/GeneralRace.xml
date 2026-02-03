@@ -718,6 +718,7 @@
 				<power>4</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -735,6 +736,7 @@
 				<power>4</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -764,11 +766,12 @@
 			<li>
 				<label>snake tail</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Crush</li>
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>tail</linkedBodyPartsGroup>
+				<chanceFactor>1.2</chanceFactor>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -886,6 +889,7 @@
 			<li>RS_InstallVoreAssistant</li>
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
+
 	<LifeStageDef>
 		<defName>RakkleTeenager</defName>
 		<label>teenager</label>
@@ -903,6 +907,7 @@
 			<drawSize>1</drawSize>
 		</silhouetteGraphicData>
 	</LifeStageDef>
+	
 	<LifeStageDef>
 		<defName>RakkleAdult</defName>
 		<label>adult</label>

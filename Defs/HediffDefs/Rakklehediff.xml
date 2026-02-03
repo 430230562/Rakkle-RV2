@@ -160,9 +160,19 @@
             <capacities>
               <li>NeurotoxinBite</li>
             </capacities>
+            <surpriseAttack>
+					    <extraMeleeDamages>
+						    <li>
+							    <def>Stun</def>
+							    <amount>14</amount>
+						    </li>
+					    </extraMeleeDamages>
+				    </surpriseAttack>
+            <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
             <power>12</power>
             <cooldownTime>2</cooldownTime>
             <chanceFactor>2.5</chanceFactor>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
           </li>
         </tools>
       </li>
