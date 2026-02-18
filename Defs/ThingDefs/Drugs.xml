@@ -56,7 +56,7 @@
             <drugCategory>Medical</drugCategory>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>RS_helminthicHigh</hediffDef>
+                    <hediffDef>Heddiff_helminthicHigh</hediffDef>
                     <severity>1.0</severity>
                 </li>
             </outcomeDoers>

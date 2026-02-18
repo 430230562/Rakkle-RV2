@@ -796,7 +796,7 @@
 			<body>Rakkle</body>
 			<bloodDef>Filth_Blood</bloodDef>
 			<baseBodySize>2</baseBodySize>
-			<baseHealthScale>1.5</baseHealthScale>
+			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
 			<gestationPeriodDays>28</gestationPeriodDays>
 			<baseHungerRate>0.5</baseHungerRate>
@@ -907,7 +907,7 @@
 			<drawSize>1</drawSize>
 		</silhouetteGraphicData>
 	</LifeStageDef>
-	
+
 	<LifeStageDef>
 		<defName>RakkleAdult</defName>
 		<label>adult</label>

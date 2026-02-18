@@ -5,7 +5,7 @@
         <label>neurotoxin bite</label>
         <additionalHediffs>
             <li>
-                <hediff>NeurotoxinBuildup</hediff>
+                <hediff>Hediff_NeurotoxinBuildup</hediff>
                 <severityPerDamageDealt>0.015</severityPerDamageDealt>
                 <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
                 <inverseStatScaling>true</inverseStatScaling>

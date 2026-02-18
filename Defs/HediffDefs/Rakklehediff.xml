@@ -4,9 +4,7 @@
   <HediffDef>
     <defName>Hediff_NeurotoxinBuildup</defName>
     <label>neurotoxin buildup</label>
-    <description>Neurotoxins accumulate in the body, causing impaired consciousness, reduced
-      mobility, and decreased manipulation ability. At high concentrations, it will cause frequent
-      vomiting. The body will gradually develop immunity to clear this toxin. </description>
+    <description>Neurotoxins accumulate in the body, causing impaired consciousness, reduced mobility, and decreased manipulation ability. At high concentrations, it will cause frequent vomiting. The body will gradually develop immunity to clear this toxin. </description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <canApplyDodChanceForCapacityChanges>true</canApplyDodChanceForCapacityChanges>
