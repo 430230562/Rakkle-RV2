@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <DamageDef ParentName="Bite">
-        <defName>RS_NeurotoxinBite</defName>
-        <label>neurotoxin bite</label>
+        <defName>RS_AnestheticBite</defName>
+        <label>Anesthetic bite</label>
+        <workerClass>DamageWorker_Bite</workerClass>
         <additionalHediffs>
             <li>
-                <hediff>Hediff_NeurotoxinBuildup</hediff>
-                <severityPerDamageDealt>0.015</severityPerDamageDealt>
+                <hediff>Anesthetic</hediff>
+                <severityPerDamageDealt>0.05</severityPerDamageDealt>
                 <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
                 <inverseStatScaling>true</inverseStatScaling>
                 <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
             </li>
         </additionalHediffs>
-        <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+        <applyAdditionalHediffsIfHuntingForFood>true</applyAdditionalHediffsIfHuntingForFood>
         <impactSoundType>Toxic</impactSoundType>
         <damageEffecter>Impact_Toxic</damageEffecter>
     </DamageDef>

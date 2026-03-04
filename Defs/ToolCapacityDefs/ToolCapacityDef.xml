@@ -2,9 +2,9 @@
 
 <Defs>
 
-<ToolCapacityDef>
-    <defName>RS_NeurotoxinBite</defName>
-    <label>neurotoxin bite</label>
-  </ToolCapacityDef>
+    <ToolCapacityDef>
+        <defName>RS_AnestheticBiteTool</defName>
+        <label>Anesthetic bite</label>
+    </ToolCapacityDef>
 
 </Defs>

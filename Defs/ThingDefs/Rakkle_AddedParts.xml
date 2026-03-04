@@ -102,7 +102,7 @@
 			<RecipeDef>RS_InstallVoreAssistant</RecipeDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Rakkles/Apparel/Obedience/RS_Obedience</texPath>
+			<texPath>Rakkles/Apparel/VoreAssistant/RS_VoreAssistant</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(255,255,255)</color>
 		</graphicData>

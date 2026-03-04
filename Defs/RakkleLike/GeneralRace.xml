@@ -212,7 +212,7 @@
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<extendedGraphics>
-								<Hediff For="RS_WoodenTail">Rakkles/Tails/FS/RSFakeTail</Hediff>
+								<Hediff For="Hediff_WoodenTail">Rakkles/Tails/FS/RSFakeTail</Hediff>
 							</extendedGraphics>
 						</li>
 						<li>
@@ -235,7 +235,7 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<extendedGraphics>
-								<Hediff For="RS_WoodenTail">Rakkles/Tails/F_FS/RSFakeTail</Hediff>
+								<Hediff For="Hediff_WoodenTail">Rakkles/Tails/F_FS/RSFakeTail</Hediff>
 							</extendedGraphics>
 						</li>
 						<li>
@@ -258,7 +258,7 @@
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<extendedGraphics>
-								<Hediff For="RS_WoodenTail">Rakkles/Tails/FN/RSFakeTail</Hediff>
+								<Hediff For="Hediff_WoodenTail">Rakkles/Tails/FN/RSFakeTail</Hediff>
 							</extendedGraphics>
 						</li>
 						<!-- Body Temperature -->
@@ -281,8 +281,8 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<shaderType>Cutout</shaderType>
 							<hediffGraphics>
-								<RS_Thermostat>Rakkles/Apparel/Thermostat/RS_Thermostat</RS_Thermostat>
-								<Hediff_VoreAssistant>Rakkles/Apparel/Obedience/RS_Obedience</Hediff_VoreAssistant>
+								<Hediff_Thermostat>Rakkles/Apparel/Thermostat/RS_Thermostat</Hediff_Thermostat>
+								<Hediff_VoreAssistant>Rakkles/Apparel/VoreAssistant/RS_VoreAssistant</Hediff_VoreAssistant>
 							</hediffGraphics>
 						</li>
 
@@ -742,23 +742,6 @@
 						<li>
 							<def>Stun</def>
 							<amount>8</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
-			</li>
-			<li>
-				<label>fangs</label>
-				<capacities>
-					<li>Bite</li>
-				</capacities>
-				<power>10</power>
-				<cooldownTime>2.2</cooldownTime>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>16</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>

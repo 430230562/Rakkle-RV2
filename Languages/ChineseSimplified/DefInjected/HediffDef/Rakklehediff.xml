@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <Hediff_NeurotoxinBuildup.label>神经毒素积累</Hediff_NeurotoxinBuildup.label>
-  <Hediff_NeurotoxinBuildup.description>
-    神经毒素在体内不断积累，导致意识混乱、行动迟缓和控制能力下降。在高浓度下会导致频繁呕吐。身体会逐渐产生免疫力来清除这种毒素。
-  </Hediff_NeurotoxinBuildup.description>
-
   <!-- EN: Rakkle vore assistant -->
   <Hediff_VoreAssistant.label>拉克吞噬辅助装置</Hediff_VoreAssistant.label>
   <!-- EN: An installed Rakkle vore assistant. -->

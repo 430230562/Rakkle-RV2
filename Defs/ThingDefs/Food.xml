@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="MealBase" Name="RawMeatBallBase" Abstract="true">
 		<graphicData>
@@ -22,7 +22,7 @@
 				<daysToRotStart>4</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-			<li Class="CompProperties_FoodPoisonable"/>
+			<li Class="CompProperties_FoodPoisonable" />
 			<!--          <li Class="CompProperties_Drug">
                 <chemical>RakkleShedPromoter</chemical>
                 <addictiveness>0</addictiveness>
@@ -80,9 +80,11 @@
 			<Nutrition>0.05</Nutrition>
 			<Mass>0.07</Mass>
 		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
 		<ingestible>
 			<preferability>MealAwful</preferability>
-			<!--			<ingestEffect>EatVegetarian</ingestEffect> -->
 			<ingestSound>Meal_Eat</ingestSound>
 			<foodType>Meat</foodType>
 		</ingestible>

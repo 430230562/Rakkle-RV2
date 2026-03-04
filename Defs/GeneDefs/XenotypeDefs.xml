@@ -15,7 +15,7 @@
             <li>Skin_LightGray</li>
             <li>Skin_SheerWhite</li>
 
-            <li>RV2_TypeEnabler_Tailmaw</li>
+            <li MayRequire='MamaHorseteeth.RimVore2ExtraVores'>RV2_TypeEnabler_Tailmaw</li>
             <li>RV2_TypeEnabler_Oral</li>
             <li>RV2_TypeEnabler_Vaginal</li>
 
