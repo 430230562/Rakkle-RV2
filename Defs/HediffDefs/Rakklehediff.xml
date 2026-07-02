@@ -44,9 +44,9 @@
             <capacities>
               <li>RS_AnestheticBiteTool</li>
             </capacities>
-            <power>4</power>
-            <cooldownTime>1.5</cooldownTime>
-            <chanceFactor>2.5</chanceFactor>
+            <power>2</power>
+            <cooldownTime>2</cooldownTime>
+            <chanceFactor>1.5</chanceFactor>
             <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
           </li>
         </tools>
