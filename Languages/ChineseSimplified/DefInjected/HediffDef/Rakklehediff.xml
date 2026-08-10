@@ -1,13 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Rakkle vore assistant -->
-  <Hediff_VoreAssistant.label>拉克吞噬辅助装置</Hediff_VoreAssistant.label>
-  <!-- EN: An installed Rakkle vore assistant. -->
-  <Hediff_VoreAssistant.description>一个安装好的拉克吞噬辅助装置</Hediff_VoreAssistant.description>
-  <!-- EN: a Rakkle vore assistant -->
-  <Hediff_VoreAssistant.labelNoun>一个拉克吞噬辅助装置</Hediff_VoreAssistant.labelNoun>
-
   <!-- EN: Rakkle Tongue -->
   <Hediff_RakkleTongue.label>拉克舌头</Hediff_RakkleTongue.label>
   <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere. -->

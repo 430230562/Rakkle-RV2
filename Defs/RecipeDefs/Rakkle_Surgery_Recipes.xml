@@ -138,7 +138,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>RS_VoreAssistant</li>
+						<li>RV2_VoreAssistant</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -146,7 +146,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>RS_VoreAssistant</li>
+				<li>RV2_VoreAssistant</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>

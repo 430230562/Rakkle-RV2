@@ -395,45 +395,4 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
-    <defName>Hediff_VoreAssistant</defName>
-    <label>Rakkle vore assistant</label>
-    <labelNoun>a Rakkle vore assistant</labelNoun>
-    <description>An installed Rakkle vore assistant.</description>
-    <descriptionHyperlinks>
-      <ThingDef>RS_VoreAssistant</ThingDef>
-    </descriptionHyperlinks>
-    <spawnThingOnRemoved>RS_VoreAssistant</spawnThingOnRemoved>
-    <addedPartProps>
-      <solid>true</solid>
-      <partEfficiency>1</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-    <comps>
-      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
-        <quirks>
-          <li>SwallowSpeed_VeryGood</li>
-        </quirks>
-      </li>
-      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
-        <quirks>
-          <li>StruggleStrength_Predator_Good</li>
-        </quirks>
-      </li>
-      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
-        <quirks>
-          <li>Mobility_VeryGood</li>
-        </quirks>
-      </li>
-    </comps>
-    <stages>
-      <li>
-        <statOffsets>
-          <MoveSpeed>0.5</MoveSpeed>
-          <CrawlSpeed>0.5</CrawlSpeed>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
 </Defs>

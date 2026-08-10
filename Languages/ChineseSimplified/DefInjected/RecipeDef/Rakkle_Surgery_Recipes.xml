@@ -1,26 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: install Rakkle vore assistant -->
-  <RS_InstallVoreAssistant.label>安装吞噬辅助装置</RS_InstallVoreAssistant.label>
-  <!-- EN: Install a Rakkle vore assistant. -->
-  <RS_InstallVoreAssistant.description>安装一个拉克吞噬辅助装置</RS_InstallVoreAssistant.description>
-  <!-- EN: Installing Rakkle vore assistant. -->
-  <RS_InstallVoreAssistant.jobString>正在安装拉克吞噬辅助装置</RS_InstallVoreAssistant.jobString>
-
   <!-- EN: install Rakkle hyporegulator -->
   <RS_InstallRakkleThermostat.label>安装拉克恒温装置</RS_InstallRakkleThermostat.label>
   <!-- EN: Install a Rakkle hyporegulator. -->
   <RS_InstallRakkleThermostat.description>安装一个拉克恒温装置</RS_InstallRakkleThermostat.description>
   <!-- EN: Installing Rakkle hyporegulator. -->
   <RS_InstallRakkleThermostat.jobString>正在安装拉克恒温装置</RS_InstallRakkleThermostat.jobString>
-
-  <!-- EN: remove Rakkle vore assistant -->
-  <RS_RemoveVoreAssistant.label>移除拉克吞噬辅助装置</RS_RemoveVoreAssistant.label>
-  <!-- EN: Remove a Rakkle vore assistant. -->
-  <RS_RemoveVoreAssistant.description>移除一个拉克吞噬辅助装置</RS_RemoveVoreAssistant.description>
-  <!-- EN: Removing a Rakkle vore assistant. -->
-  <RS_RemoveVoreAssistant.jobString>正在移除拉克吞噬辅助装置</RS_RemoveVoreAssistant.jobString>
 
   <!-- EN: remove Rakkle hyporegulator -->
   <RS_RemoveRakkleThermostat.label>移除拉克恒温装置</RS_RemoveRakkleThermostat.label>

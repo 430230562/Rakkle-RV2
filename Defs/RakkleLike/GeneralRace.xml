@@ -282,7 +282,8 @@
 							<shaderType>Cutout</shaderType>
 							<hediffGraphics>
 								<Hediff_Thermostat>Rakkles/Apparel/Thermostat/RS_Thermostat</Hediff_Thermostat>
-								<Hediff_VoreAssistant>Rakkles/Apparel/VoreAssistant/RS_VoreAssistant</Hediff_VoreAssistant>
+								<RV2_VoreAssistant>Rakkles/Apparel/VoreAssistant/RS_VoreAssistant
+								</RV2_VoreAssistant>
 							</hediffGraphics>
 						</li>
 
@@ -869,7 +870,7 @@
 			<li>RS_InstallBionicTail</li>
 			<li>RS_InstallWoodenTail</li>
 			<li>RS_InstallRakkleThermostat</li>
-			<li>RS_InstallVoreAssistant</li>
+
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
 

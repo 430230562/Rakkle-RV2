@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rakkle (unofficial update)</name>
+	<name>Rakkle (RimVore2)</name>
 	<author>sunny</author>
 	<supportedVersions>
     <li>1.6</li>
@@ -21,12 +21,17 @@
 			<displayName>MoHARframework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
 		</li>
+        <li>
+            <packageId>Pardon.PRV2E</packageId>
+			<displayName>RimVore2-pardon's-Extend</displayName>
+        </li>
 	</modDependencies>
 	<loadAfter>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>goudaquiche.MoharFramework</li>
         <li>Nabber.RimVore2</li>
         <li>MamaHorseteeth.RimVore2ExtraVores</li>
+        <li>Pardon.PRV2E</li>
         <li>CETeam.CombatExtended</li>
 	</loadAfter>
 	<packageId>jkviolet.rakkleracemode</packageId>

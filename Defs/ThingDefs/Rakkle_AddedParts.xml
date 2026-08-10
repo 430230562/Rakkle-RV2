@@ -94,25 +94,6 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
-		<defName>RS_VoreAssistant</defName>
-		<label>Rakkle vore assistant</label>
-		<description>An advanced body implant. Used to help Rakkle swallow prey and maintain balance.</description>
-		<descriptionHyperlinks>
-			<RecipeDef>RS_InstallVoreAssistant</RecipeDef>
-		</descriptionHyperlinks>
-		<graphicData>
-			<texPath>Rakkles/Apparel/VoreAssistant/RS_VoreAssistant</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(255,255,255)</color>
-		</graphicData>
-		<costList>
-			<Plasteel>10</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<Mass>1</Mass>
-		</statBases>
-	</ThingDef>
+	
 
 </Defs>
