@@ -3,18 +3,29 @@
 	<AlienRace.ThingDef_AlienRace ParentName="RS_PawnBase" Name="RSBase">
 		<defName>Rakkle</defName>
 		<label>Rakkle</label>
-		<description>Rakkles are reptilian humanoids originally found on a remote planet in the Rim.
-			After their discovery, human colonies rounded them up and genetically altered them to
-			have near-human intelligence, but also decreased aggression and appearances better
-			suited to human tastes. They were also modified to give birth to females more often than
-			males, creating a biological need for species interbreeding.\n\nThe newly created Rakkle
-			species were managed by a company known as The Cradle beyond the reaches of the galaxy,
-			while wild Rakkle were hunted and killed to protect the company's interest. Future
-			generations within the facilities were conditioned and raised as slaves and
-			livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition
-			of freed Rakkle began colonies of their own, resisting capture and invasion to create a
-			new world where Rakkle can live outside the yoke of slavery. Despite The Cradle's best
-			efforts, these settlements continue to grow in size and number.</description>
+		<description>Rakkles are reptilian humanoids native to a remote planet at the Rim's edge.
+			After
+			their discovery, human colonies rounded them up and delivered them to a corporation
+			known
+			only as The Cradle, which first gave them near-human intelligence, and then reshaped
+			them
+			into living products - docile, calculating predators engineered from the ground up to
+			swallow, hold and digest other living beings.\n\nEvery feature of a Rakkle serves that
+			purpose. Their legless bodies ride on a great coiling tail that hides their vital organs
+			and doubles as a limb strong enough to seize and pin struggling prey; their numbing,
+			venomous fangs and grasping hands subdue a meal; their ravenous carnivore metabolism,
+			oversized calorie reserves and swift digestion turn anything they swallow into fuel.
+			Their aggression was dampened and their appetite sharpened so the goods would never bite
+			the hand that sells them, while their skewed sex ratio and engineered breeding cycle
+			guarantee a steady supply of new stock.\n\nWithin The Cradle's facilities, generation
+			after generation was conditioned and raised as slaves, livestock and toys, sold to
+			whoever could pay. Wild Rakkles were hunted down to protect the company's monopoly.
+			After
+			a series of escapes and revolts on planet after planet, a coalition of freed Rakkle
+			founded colonies of their own, fighting off capture and invasion to build a world where
+			their kind can live outside the yoke of slavery. Despite The Cradle's best efforts,
+			these
+			settlements continue to grow in size and number.</description>
 		<alienRace>
 			<generalSettings>
 				<minAgeForAdulthood>16</minAgeForAdulthood>
@@ -660,8 +671,9 @@
 			<!-- Combat -->
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<MeleeHitChance>1.8</MeleeHitChance>
-			<RV2_GrappleChance>2</RV2_GrappleChance>
-			<RV2_GrappleStrength_Attacker>1.3</RV2_GrappleStrength_Attacker>
+			<RV2_GrappleChance>3</RV2_GrappleChance>
+			<RV2_GrappleStrength_Attacker>1.7</RV2_GrappleStrength_Attacker>
+			<RV2_Persuasiveness>1.3</RV2_Persuasiveness>
 			<AimingDelayFactor>0.8</AimingDelayFactor>
 			<ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
 			<!-- Social - Recruitment, Gifts, Peace Talks-->
@@ -702,9 +714,10 @@
 			<MiningSpeed>1.2</MiningSpeed>
 			<MiningYield>1</MiningYield>
 			<!-- Eating -->
-			<EatingSpeed>1.2</EatingSpeed>
-			<RV2_DigestionStrength>0.8</RV2_DigestionStrength>
-			<RV2_SwallowSpeed>1.2</RV2_SwallowSpeed>
+			<EatingSpeed>1.4</EatingSpeed>
+			<RV2_DigestionStrength>1.4</RV2_DigestionStrength>
+			<RV2_SwallowSpeed>1.6</RV2_SwallowSpeed>
+			<RV2_Capacity>1.25</RV2_Capacity>
 			<MaxNutrition>5</MaxNutrition>
 		</statBases>
 		<!--==

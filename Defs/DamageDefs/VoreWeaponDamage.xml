@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Anesthetic dart damage: minimal injury, but delivers the Rakkle's numbing venom -->
+    <DamageDef ParentName="Bullet">
+        <defName>RS_AnestheticDartDamage</defName>
+        <label>anesthetic dart</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <additionalHediffs>
+            <li>
+                <hediff>Anesthetic</hediff>
+                <severityPerDamageDealt>0.15</severityPerDamageDealt>
+                <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+                <inverseStatScaling>true</inverseStatScaling>
+                <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+            </li>
+        </additionalHediffs>
+        <applyAdditionalHediffsIfHuntingForFood>true</applyAdditionalHediffsIfHuntingForFood>
+    </DamageDef>
+
+</Defs>

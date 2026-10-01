@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: Rakkle predation -->
+    <RS_RakklePredation.label>拉克捕食</RS_RakklePredation.label>
+
+    <!-- EN: engulfing tongue -->
+    <RS_VoreTongue1.label>吞噬长舌</RS_VoreTongue1.label>
+    <!-- EN: A muscular, adhesive tongue the Rakkle can lash out with, latching onto a distant
+    victim and yanking them back within reach. -->
+    <RS_VoreTongue1.description>一条肌肉发达、富有黏性的长舌。拉克可以将其甩出，缠住远处的猎物，并把对方拽回自己触手可及的范围内。</RS_VoreTongue1.description>
+
+    <!-- EN: engulfing tongue (grown) -->
+    <RS_VoreTongue2.label>吞噬长舌（成熟）</RS_VoreTongue2.label>
+    <!-- EN: A mature Rakkle tongue. It reaches further and recovers faster than a freshly grown
+    one, allowing the predator to pluck prey from well beyond arm's reach. -->
+    <RS_VoreTongue2.description>一条成熟的拉克长舌。它比刚长出的舌头伸得更远、恢复得更快，让捕食者能从远超手臂长度的距离把猎物卷回来。</RS_VoreTongue2.description>
+
+</LanguageData>

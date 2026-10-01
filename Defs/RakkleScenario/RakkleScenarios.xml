@@ -3,10 +3,13 @@
 	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RS_Scenario</defName>
 		<label>New Rakkle Colony</label>
-		<description>Rakkle are a reptilian-human hybrid, genetically altered to take more human-like traits than their wild ancestors.\n\nA small band of Rakkle start a new settlement, preparing to face the harsh and unforgiving reality of life in the Rim.
-</description>
+		<description>Rakkle are a reptilian-human hybrid, genetically engineered by The Cradle into
+			living predators - docile, intelligent beings born to swallow, hold and digest
+			others.\n\nA small band of freed Rakkle start a new settlement, preparing to face the
+			harsh and unforgiving reality of life in the Rim.
+		</description>
 		<scenario>
-			<summary>A small band of Rakkle start a new settlement.</summary>
+			<summary>A small band of freed Rakkle start a new settlement.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RS_PlayerFaction</factionDef>

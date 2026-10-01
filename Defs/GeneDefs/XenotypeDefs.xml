@@ -3,9 +3,30 @@
     <XenotypeDef>
         <defName>Xenotype_RakkleBase</defName>
         <label>rakkle</label>
-		<description>Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After their discovery, human colonies rounded them up and genetically altered them to have near-human intelligence, but also decreased aggression and appearances better suited to human tastes. They were also modified to give birth to females more often than males, creating a biological need for species interbreeding.\n\nThe newly created Rakkle species were managed by a company known as The Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the company's interest. Future generations within the facilities were conditioned and raised as slaves and livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition of freed Rakkle began colonies of their own, resisting capture and invasion to create a new world where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these settlements continue to grow in size and number.</description>
-		<descriptionShort>Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After their discovery, human colonies rounded them up and genetically altered them to have near-human intelligence, but also decreased aggression and appearances better suited to human tastes. They were also modified to give birth to females more often than males, creating a biological need for species interbreeding.\n\nThe newly created Rakkle species were managed by a company known as The Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the company's interest. Future generations within the facilities were conditioned and raised as slaves and livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition of freed Rakkle began colonies of their own, resisting capture and invasion to create a new world where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these settlements continue to grow in size and number.</descriptionShort>
-		<iconPath>Icon/RakkleXenotype</iconPath>
+        <description>Rakkles are reptilian humanoids native to a remote planet at the Rim's edge.
+            After their discovery, human colonies rounded them up and delivered them to a
+            corporation known only as The Cradle, which first gave them near-human intelligence, and
+            then reshaped them into living products - docile, calculating predators engineered from
+            the ground up to swallow, hold and digest other living beings.\n\nEvery feature of a
+            Rakkle serves that purpose. Their legless bodies ride on a great coiling tail that hides
+            their vital organs and doubles as a limb strong enough to seize and pin struggling prey;
+            their numbing, venomous fangs and grasping hands subdue a meal; their ravenous carnivore
+            metabolism, oversized calorie reserves and swift digestion turn anything they swallow
+            into fuel. Their aggression was dampened and their appetite sharpened so the goods would
+            never bite the hand that sells them, while their skewed sex ratio and engineered
+            breeding cycle guarantee a steady supply of new stock.\n\nWithin The Cradle's
+            facilities, generation after generation was conditioned and raised as slaves, livestock
+            and toys, sold to whoever could pay. Wild Rakkles were hunted down to protect the
+            company's monopoly. After a series of escapes and revolts on planet after planet, a
+            coalition of freed Rakkle founded colonies of their own, fighting off capture and
+            invasion to build a world where their kind can live outside the yoke of slavery. Despite
+            The Cradle's best efforts, these settlements continue to grow in size and number.</description>
+        <descriptionShort>Rakkles are reptilian humanoids genetically engineered by The Cradle into
+            living vore products: docile, near-human-intelligent predators built to swallow, hold
+            and digest other beings. Engineered aggression, boundless appetite and rapid digestion
+            keep the goods compliant - until a series of escapes and revolts gave rise to the free
+            Rakkle colonies.</descriptionShort>
+        <iconPath>Icon/RakkleXenotype</iconPath>
         <inheritable>true</inheritable>
         <genes>
             <li>Hair_DarkBlack</li>

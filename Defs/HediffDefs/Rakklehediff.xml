@@ -15,7 +15,7 @@
       </li>
     </stages>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+      <li Class="Rakkle.HediffCompProperties_Nullifier">
         <hediffToNullify>
           <li>FoodPoisoning</li>
         </hediffToNullify>
@@ -24,6 +24,19 @@
         <quirks>
           <li>PredatorDisposition_Obsessed</li>
         </quirks>
+      </li>
+      <!-- Grows the engulfing tongue ability after the Rakkle has digested enough prey
+           (counted via RV2's digest record; see RakkleTongueUpgrade.cs) -->
+      <li Class="Rakkle.HediffCompProperties_VoreTongueUpgrade">
+        <digestionRecord>RV2_Goal_Digest_Predator</digestionRecord>
+        <upgradeThresholds>
+          <li>3</li>
+          <li>8</li>
+        </upgradeThresholds>
+        <abilitiesToGrant>
+          <li>RS_VoreTongue1</li>
+          <li>RS_VoreTongue2</li>
+        </abilitiesToGrant>
       </li>
     </comps>
   </HediffDef>
@@ -106,7 +119,7 @@
 
 
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_Spawner">
+      <li Class="Rakkle.HediffCompProperties_Spawner">
         <thingToSpawn>RS_SnakeSkin</thingToSpawn>
         <!-- must be lower than 200; dll limited -->
         <spawnCount>1</spawnCount>
@@ -123,6 +136,27 @@
         <spawnForbidden>false</spawnForbidden>
         <spawnVerb>shedding</spawnVerb>
 
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Constriction charge: builds up with each Rakkle melee hit; when full the Rakkle automatically
+       tries to seize the victim in a RimVore2 grapple (see RakkleConstriction.cs) -->
+  <HediffDef>
+    <defName>RS_ConstrictCharge</defName>
+    <label>constriction charge</label>
+    <labelNoun>constriction charge</labelNoun>
+    <description>A Rakkle's body coiling up for a vore grapple. It builds with every melee hit and
+      drains away when the Rakkle stops attacking.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 0.72, 0.35)</defaultLabelColor>
+    <isBad>false</isBad>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="Rakkle.HediffCompProperties_ConstrictCharge">
+        <severityPerHit>0.25</severityPerHit>
+        <decayPerDay>2</decayPerDay>
+        <triggerThreshold>1</triggerThreshold>
       </li>
     </comps>
   </HediffDef>
@@ -221,7 +255,7 @@
           <li>RS_Shed</li>
         </triggeredHediff>
       </li>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+      <li Class="Rakkle.HediffCompProperties_Nullifier">
         <hediffToNullify>
           <li>Hediff_RakkleShedPromoterM</li>
         </hediffToNullify>
@@ -328,7 +362,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1000</severityPerDay>
       </li>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+      <li Class="Rakkle.HediffCompProperties_Nullifier">
         <limitedUsageNumber>1</limitedUsageNumber>
         <hediffToNullify>
           <li>MuscleParasites</li>

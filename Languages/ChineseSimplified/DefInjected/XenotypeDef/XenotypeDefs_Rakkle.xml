@@ -1,11 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: rakkle -->
   <Xenotype_RakkleBase.label>拉克种</Xenotype_RakkleBase.label>
-  <!-- EN: Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After their discovery, human colonies rounded them up and genetically altered them to have near-human intelligence, but also decreased aggression and appearances better suited to human tastes. They were also modified to give birth to females more often than males, creating a biological need for species interbreeding.\n\nThe newly created Rakkle species were managed by a company known as The Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the company's interest. Future generations within the facilities were conditioned and raised as slaves and livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition of freed Rakkle began colonies of their own, resisting capture and invasion to create a new world where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these settlements continue to grow in size and number. -->
-  <Xenotype_RakkleBase.description>拉克种属于爬行类人型生物，最初发现于“边缘”中一颗偏远的星球上。在它们被发现后，人类殖民地将它们聚集起来，并对其进行了基因改造，使它们具备近乎人类的智力，同时降低了其攻击性，且外貌变得更符合人类的审美。它们还被改造为生育雌性的概率高于雄性，从而产生了跨物种繁衍的生物学需求。\n\n新诞生的拉克物种由一家名为“响尾蛇”的、位于银河系外的公司管控，而野生的拉克则遭到捕杀，以保护该公司的利益。在其设施内的后代们被驯化并被当作奴隶和牲畜来养育。\n\n在经历了在各个星球上的一系列逃亡和起义之后，一群获得自由的拉克联合起来，开始建立属于自己的殖民地，抵御抓捕和入侵，试图打造一个拉克能够摆脱奴隶制枷锁生活的新世界。尽管“响尾蛇”公司竭尽全力阻止，但这些定居点的规模和数量仍在持续增长。</Xenotype_RakkleBase.description>
-  <!-- EN: Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After their discovery, human colonies rounded them up and genetically altered them to have near-human intelligence, but also decreased aggression and appearances better suited to human tastes. They were also modified to give birth to females more often than males, creating a biological need for species interbreeding.\n\nThe newly created Rakkle species were managed by a company known as The Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the company's interest. Future generations within the facilities were conditioned and raised as slaves and livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition of freed Rakkle began colonies of their own, resisting capture and invasion to create a new world where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these settlements continue to grow in size and number. -->
-  <Xenotype_RakkleBase.descriptionShort>拉克种属于爬行类人型生物，最初发现于“边缘”中一颗偏远的星球上。在它们被发现后，人类殖民地将它们聚集起来，并对其进行了基因改造，使它们具备近乎人类的智力，同时降低了其攻击性，且外貌变得更符合人类的审美。它们还被改造为生育雌性的概率高于雄性，从而产生了跨物种繁衍的生物学需求。\n\n新诞生的拉克物种由一家名为“响尾蛇”的、位于银河系外的公司管控，而野生的拉克则遭到捕杀，以保护该公司的利益。在其设施内的后代们被驯化并被当作奴隶和牲畜来养育。\n\n在经历了在各个星球上的一系列逃亡和起义之后，一群获得自由的拉克联合起来，开始建立属于自己的殖民地，抵御抓捕和入侵，试图打造一个拉克能够摆脱奴隶制枷锁生活的新世界。尽管“响尾蛇”公司竭尽全力阻止，但这些定居点的规模和数量仍在持续增长。</Xenotype_RakkleBase.descriptionShort>
-  
+  <!-- EN: Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After
+  their discovery, human colonies rounded them up and genetically altered them to have near-human
+  intelligence, but also decreased aggression and appearances better suited to human tastes. They
+  were also modified to give birth to females more often than males, creating a biological need for
+  species interbreeding.\n\nThe newly created Rakkle species were managed by a company known as The
+  Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the
+  company's interest. Future generations within the facilities were conditioned and raised as slaves
+  and livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition of
+  freed Rakkle began colonies of their own, resisting capture and invasion to create a new world
+  where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these
+  settlements continue to grow in size and number. -->
+  <Xenotype_RakkleBase.description>
+    拉克种是原生栖息在“边缘”一颗偏远星球上的爬行类人型生物。在被人类殖民者发现并聚集起来后，它们被交给了那家名为“响尾蛇”的公司——后者先赋予了它们近乎人类的智力，随后更把它们彻底重塑为一种活体商品：温顺而精于算计的捕食者，从身体构造上就是为了吞下、容纳并消化其他活体生物而生的。\n\n拉克种的每一处特征都服务于这一目的。它们没有双腿，全靠一条粗壮盘绕的尾巴行动——这条尾巴不仅藏匿着重要器官，还是足以卷住并压制挣扎猎物的肢体；它们带麻醉毒性的利牙与善于抓握的双手能够轻易制服食物；它们贪婪的食肉代谢、惊人的热量储备与迅速的消化能力，会把吞下的一切化为养分。它们的攻击性被削弱、食欲被强化，以确保这些“商品”不会反咬出售它们的手；而它们失衡的性别比例与经过设计的繁育周期，则保证了新货源的稳定供应。\n\n在“响尾蛇”的设施中，一代又一代的拉克种被驯化并被当作奴隶、牲畜和玩物养育，出售给任何出得起价钱的人。野生的拉克种遭到捕杀，以保护该公司的垄断。在经历了各星球上一系列逃亡与起义之后，一群获得自由的拉克种建立了属于自己的殖民地，抵御抓捕与入侵，力图打造一个拉克种能够摆脱奴隶制枷锁生活的新世界。尽管“响尾蛇”竭尽全力，这些定居点的规模和数量仍在持续增长。</Xenotype_RakkleBase.description>
+  <!-- EN: Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After
+  their discovery, human colonies rounded them up and genetically altered them to have near-human
+  intelligence, but also decreased aggression and appearances better suited to human tastes. They
+  were also modified to give birth to females more often than males, creating a biological need for
+  species interbreeding.\n\nThe newly created Rakkle species were managed by a company known as The
+  Cradle beyond the reaches of the galaxy, while wild Rakkle were hunted and killed to protect the
+  company's interest. Future generations within the facilities were conditioned and raised as slaves
+  and livestock.\n\n After a series of escapes and revolts on planet after planet, a coalition of
+  freed Rakkle began colonies of their own, resisting capture and invasion to create a new world
+  where Rakkle can live outside the yoke of slavery. Despite The Cradle's best efforts, these
+  settlements continue to grow in size and number. -->
+  <Xenotype_RakkleBase.descriptionShort>
+    拉克种是被“响尾蛇”公司基因改造而成的活体吞噬商品：性情温顺、拥有近乎人类智力的捕食者，天生就是为了吞下、容纳并消化其他生物而生。经过设计的攻击性、无尽的食欲与迅捷的消化能力让这些“商品”保持驯服——直到一连串的逃亡与起义催生了自由拉克的殖民地。</Xenotype_RakkleBase.descriptionShort>
+
 </LanguageData>

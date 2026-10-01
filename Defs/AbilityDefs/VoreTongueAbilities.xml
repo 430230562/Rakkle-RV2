@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityCategoryDef>
+        <defName>RS_RakklePredation</defName>
+        <label>Rakkle predation</label>
+        <displayOrder>110</displayOrder>
+    </AbilityCategoryDef>
+
+    <!-- Rakkle growth ability: earned by digesting prey (see RakkleTongueUpgrade.cs) -->
+
+    <!-- Tier 1 -->
+    <AbilityDef>
+        <defName>RS_VoreTongue1</defName>
+        <label>engulfing tongue</label>
+        <description>A muscular, adhesive tongue the Rakkle can lash out with, latching onto a
+            distant victim and yanking them back within reach.</description>
+        <iconPath>Icon/RS_Icon</iconPath>
+        <category>RS_RakklePredation</category>
+        <displayOrder>10</displayOrder>
+        <aiCanUse>true</aiCanUse>
+        <ai_IsOffensive>true</ai_IsOffensive>
+        <showWhenDrafted>true</showWhenDrafted>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <cooldownTicksRange>900</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>12.9</range>
+            <warmupTime>1.0</warmupTime>
+            <soundCast>Shot_Revolver</soundCast>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetAnimals>true</canTargetAnimals>
+                <canTargetMechs>true</canTargetMechs>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityLaunchProjectile">
+                <projectileDef>RS_VoreTongueProjectile</projectileDef>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <!-- Tier 2: longer reach and faster recovery -->
+    <AbilityDef>
+        <defName>RS_VoreTongue2</defName>
+        <label>engulfing tongue (grown)</label>
+        <description>A mature Rakkle tongue. It reaches further and recovers faster than a freshly
+            grown one, allowing the predator to pluck prey from well beyond arm's reach.</description>
+        <iconPath>Icon/RS_Icon</iconPath>
+        <category>RS_RakklePredation</category>
+        <displayOrder>11</displayOrder>
+        <aiCanUse>true</aiCanUse>
+        <ai_IsOffensive>true</ai_IsOffensive>
+        <showWhenDrafted>true</showWhenDrafted>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <cooldownTicksRange>600</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>18.9</range>
+            <warmupTime>0.8</warmupTime>
+            <soundCast>Shot_Revolver</soundCast>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetAnimals>true</canTargetAnimals>
+                <canTargetMechs>true</canTargetMechs>
+                <canTargetLocations>false</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityLaunchProjectile">
+                <projectileDef>RS_VoreTongueProjectile</projectileDef>
+            </li>
+        </comps>
+    </AbilityDef>
+
+</Defs>

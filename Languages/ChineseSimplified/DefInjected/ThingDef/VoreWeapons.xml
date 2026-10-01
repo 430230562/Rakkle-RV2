@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: engulfing tongue -->
+    <RS_VoreTongueProjectile.label>吞噬长舌</RS_VoreTongueProjectile.label>
+
+    <!-- EN: anesthetic needler -->
+    <RS_AnestheticNeedler.label>麻醉针枪</RS_AnestheticNeedler.label>
+    <!-- EN: A Rakkle predation weapon that fires darts coated in the species' numbing venom,
+    quietly putting a struggling victim to sleep so it can be swallowed without a fight. -->
+    <RS_AnestheticNeedler.description>一件拉克的捕食武器，会发射涂有该物种麻痹毒液的飞针，悄然让挣扎的猎物陷入沉睡，以便毫不费力地将其吞下。</RS_AnestheticNeedler.description>
+    <!-- EN: anesthetic dart -->
+    <RS_AnestheticDart.label>麻醉飞针</RS_AnestheticDart.label>
+
+</LanguageData>

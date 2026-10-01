@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Rakkle.label>蛇妖</Rakkle.label>
-  <Rakkle.description>蛇妖是人类改良了中间行星上发现的爬虫类土著生命体而制作的人造种族。</Rakkle.description>
+  <Rakkle.description>
+    拉克种是原生栖息在“边缘”一颗偏远星球上的爬行类人型生物。在被人类发现后，人类殖民地将它们聚集起来，并交给了那家名为“响尾蛇”的公司——后者先赋予了它们近乎人类的智力，随后更把它们彻底重塑为一种活体商品：温顺而精于算计的捕食者，从身体构造上就是为了吞下、容纳并消化其他活体生物而生的。\n\n拉克的每一处特征都服务于这一目的。它们没有双腿，全靠一条粗壮盘绕的尾巴行动——这条尾巴不仅藏匿着重要器官，还是足以卷住并压制挣扎猎物的肢体；它们带麻醉毒性的利牙与善于抓握的双手能够轻易制服食物；它们贪婪的食肉代谢、惊人的热量储备与迅速的消化能力，会把吞下的一切化为养分。它们的攻击性被削弱、食欲被强化，以确保这些“商品”不会反咬出售它们的手；而它们失衡的性别比例与经过设计的繁育周期，则保证了新货源的稳定供应。\n\n在“响尾蛇”的设施中，一代又一代的拉克被驯化并被当作奴隶、牲畜和玩物养育，出售给任何出得起价钱的人。野生的拉克遭到捕杀，以保护该公司的垄断。在经历了各星球上一系列逃亡与起义之后，一群获得自由的拉克建立了属于自己的殖民地，抵御抓捕与入侵，力图打造一个拉克能够摆脱奴隶制枷锁生活的新世界。尽管“响尾蛇”竭尽全力，这些定居点的规模和数量仍在持续增长。</Rakkle.description>
   <Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
   <Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Rakkle.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
   <Rakkle.tools.0.label>拳</Rakkle.tools.0.label>

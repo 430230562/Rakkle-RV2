@@ -570,8 +570,8 @@
     <defName>CRD_YoungGoods</defName>
     <title>Cradle Young Goods</title>
     <titleShort>Young Goods</titleShort>
-    <description>[PAWN_nameDef] is fresh from the arms of The Cradle; a blank slate ready and
-      willing to serve the needs of its newest masters.</description>
+    <description>[PAWN_nameDef] is fresh from the arms of The Cradle; a blank slate already shaped
+      to swallow, hold and serve whatever its newest masters desire.</description>
     <slot>Childhood</slot>
 
     <skillGains>
@@ -1402,9 +1402,10 @@
     <defName>CDR_Toy</defName>
     <title>Cradle Toy</title>
     <titleShort>Cradle Toy</titleShort>
-    <description>[PAWN_nameDef] was bred specifically to be a toy for its buyers. Lacking any sense
-      of free will or self-preservation, it will often follow orders without a second thought - only
-      enough to be sure its masters are having fun.</description>
+    <description>[PAWN_nameDef] was bred specifically to be a toy for its buyers - a living vessel
+      shaped to swallow, hold and please at their whim. Lacking any sense of free will or
+      self-preservation, it will often follow orders without a second thought - only enough to be
+      sure its masters are having fun.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1466,9 +1467,11 @@
     <defName>CDR_Livestock</defName>
     <title>Cradle Livestock</title>
     <titleShort>Cradle Livestock</titleShort>
-    <description>[PAWN_nameDef] was bred and sold to be cattle. Be it as breeding or
-      experimentation, its stock is often comprised of those who are completely broken by the Cradle
-      conditioning or in some other way defective as products.</description>
+    <description>[PAWN_nameDef] was bred and sold as living livestock - a walking stomach whose
+      body exists to be filled and then to digest its contents without complaint. Be it as breeding
+      stock or as a vessel for experimentation, its kind is often comprised of those who are
+      completely broken by the Cradle conditioning, or who are in some other way defective as
+      products.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1589,9 +1592,10 @@
     <defName>CDR_Breeder</defName>
     <title>Cradle Breeder</title>
     <titleShort>Cradle Breeder</titleShort>
-    <description>[PAWN_nameDef] was sold only as breeding stock. Its price was based on its
-      appearance, not its capability or intelligence - though it may surpass those expectations. It
-      may display some signs of personality, but can be easily overridden by a command.</description>
+    <description>[PAWN_nameDef] was sold only as breeding stock - though, like all its kind, its
+      body was also made to be used. Its price was based on its appearance, not its capability or
+      intelligence - though it may surpass those expectations. It may display some signs of
+      personality, but can be easily overridden by a command.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1650,8 +1654,8 @@
     <title>Cradle attacker</title>
     <titleShort>Cradle attacker</titleShort>
     <description>Little more than an attack animal, [PAWN_nameDef] is bred to follow orders, engage
-      in combat, and claim victory for its officers. Frequently used as enforcers for the Cradle, it
-      has little empathy for living things not in its chain of command.</description>
+      in combat, and devour the enemies of its officers. Frequently used as enforcers for the
+      Cradle, it has little empathy for living things not in its chain of command.</description>
     <slot>Adulthood</slot>
 
     <skillGains>
@@ -1681,8 +1685,8 @@
     <title>Cradle elite attacker</title>
     <titleShort>Cradle elite attacker</titleShort>
     <description>Brutish and efficient, [PAWN_nameDef] was bred to be an enforcer within The
-      Cradle's officers. It is cunning, and uses all of its wits and talent to make its commander's
-      wishes reality.</description>
+      Cradle's officers - a predator made to swallow resistance whole. It is cunning, and uses all
+      of its wits and talent to make its commander's wishes reality.</description>
     <slot>Adulthood</slot>
 
     <skillGains>

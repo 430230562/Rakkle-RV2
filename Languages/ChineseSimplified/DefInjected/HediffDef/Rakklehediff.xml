@@ -57,4 +57,12 @@
   <!-- EN: An installed prosthetic wooden tail. -->
   <Hediff_WoodenTail.description>已安装的义肢木制尾巴。</Hediff_WoodenTail.description>
 
+  <!-- EN: constriction charge -->
+  <RS_ConstrictCharge.label>缠绕蓄势</RS_ConstrictCharge.label>
+  <!-- EN: constriction charge -->
+  <RS_ConstrictCharge.labelNoun>缠绕蓄势</RS_ConstrictCharge.labelNoun>
+  <!-- EN: A Rakkle's body coiling up for a vore grapple. It builds with every melee hit and drains
+  away when the Rakkle stops attacking. -->
+  <RS_ConstrictCharge.description>拉克的身体正在为一次吞噬擒抱蓄势。每次近战命中都会使其积累，停止攻击后则逐渐消退。</RS_ConstrictCharge.description>
+
 </LanguageData>
