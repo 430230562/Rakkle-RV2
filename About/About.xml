@@ -31,7 +31,7 @@
     <packageId>jkviolet.rakkleracemode</packageId>
     <description>
         Version: 1.6.01\n
-        unofficial continuation of 1.6 of JKV's rakkle mod
+        Unofficial 1.6 continuation of JKV's Rakkle mod, with RimVore-2 integration.
         ==Rakkle the rattle snake==
 
         Rakkles are reptilian humanoids originally found on a remote planet in the Rim. After their
@@ -81,6 +81,22 @@
         - High probability of food poisoning: When rakkle cook, there is a higher chance of causing
         food poisoning compared to humans.
         - High minimum adaptive temperature: Rakkle are very vulnerable to cold environments.
+        - Predation dependency: an engineered metabolism demands live prey. Go too long without
+        digesting someone and a Rakkle begins to weaken.
+
+
+        == Rakkle Mechanics (RimVore-2) ==
+
+        - Engineered traits as genes: several Rakkle traits - food poisoning immunity, predatory
+        compulsion, predation growth, the predation toolkit and predation dependency - are provided
+        by real Biotech genes, so they can be inherited, extracted and transferred.
+        - Engulfing tongue: a ranged ability that lashes out with an adhesive tongue and drags the
+        victim back within reach. It cannot be crafted; a Rakkle grows it after digesting enough
+        prey, then later upgrades to a longer, faster version.
+        - Constriction charge: every Rakkle melee hit builds a constriction charge on the attacker.
+        Once full, the Rakkle automatically seizes the victim in a RimVore-2 grapple.
+        - Anesthetic needler: a craftable ranged weapon that fires darts coated in Rakkle venom,
+        putting a struggling victim to sleep before it is swallowed.
 
 
         == Contents ==
@@ -90,6 +106,7 @@
         - Helmintics can be produced using snake skins (This can treat Gut worms and muscle
         parasites)
         - Race-specific backstories
+        - Race-specific predation weapons
         - Rakkle Permanent Enemy Faction
         - Rakkle Friendship Faction (do not request support; they do not like fighting.)
 
@@ -105,6 +122,61 @@
         - Gouda quiche
         https://steamcommunity.com/profiles/76561197992216829/myworkshopfiles/?appid=294100 (MoHar
         hediffs)
+        - DC inside rimworld minor gallery
+
+
+        ================================ 中文说明 ================================
+
+        版本：1.6.01
+        JKV 拉克（响尾蛇）模组的 1.6 非官方续作，整合 RimVore-2。
+
+        == 设定 ==
+        拉克种是原生栖息在“边缘”一颗偏远星球上的爬行类人型生物。在被人类殖民者发现并聚集起来后，它们被交给了那家名为“响尾蛇”的公司——后者先赋予了它们近乎人类的智力，随后更把它们彻底重塑为一种活体商品：温顺而精于算计的捕食者，从身体构造上就是为了吞下、容纳并消化其他活体生物而生的。它们的攻击性被削弱、食欲被强化，以确保这些“商品”不会反咬出售它们的手；它们还被改造为生育雌性的概率高于雄性，从而产生了跨物种繁衍的生物学需求。
+        在“响尾蛇”的设施中，一代又一代的拉克被驯化并被当作奴隶、牲畜和玩物养育，出售给任何出得起价钱的人。野生的拉克则遭到捕杀，以保护该公司的垄断。
+        在经历了各个星球上一系列逃亡与起义之后，一群获得自由的拉克建立了属于自己的殖民地，抵御抓捕与入侵，力图打造一个拉克能够摆脱奴隶制枷锁生活的新世界。尽管“响尾蛇”竭尽全力，这些定居点的规模和数量仍在持续增长。
+        == 物种特性 ==
+
+        - 蜕皮：拉克会定期蜕皮。
+
+        -- 优势 --
+        - 为吞噬而生：拉克能吞下数倍于自身体型的猎物，将其容纳在体内，并以惊人的速度消化。对拉克而言，活吞生物就像呼吸一样自然。
+        - 移动迅速：拉克比人类跑得更快，其他物种很难摆脱拉克的追击。
+        - 近战加成：凭借牙齿与尾巴，拉克的近战能力强于人类。
+        - 强力蛇尾：拉克没有双腿，取而代之的是一条粗壮有力的尾巴。
+        - 长餐周期：拉克最多可储存 5 点营养；食用拉克专属的生肉丸可维持约 5 天。
+        - 高温耐受：拉克能忍受炎热天气。
+        - 永久食物中毒免疫。
+
+        -- 弱点 --
+        - 食肉：拉克是食肉动物，不喜欢蔬菜；可食用熟食，但会带来心情惩罚。
+        - 器官异位：拉克的心脏、肾脏和肝脏位于上段尾部。
+        - 成长缓慢：拉克的发育速度明显慢于人类。
+        - 烹饪易中毒：拉克烹饪时更容易引发食物中毒。
+        - 低温畏惧：拉克非常惧怕寒冷环境。
+        - 吞噬依赖：经过改造的代谢渴求活体猎物，太久未能消化生物便会逐渐衰弱。
+
+        == 玩法机制（RimVore-2）==
+
+        - 特性基因化：若干拉克特性（食物中毒免疫、捕食冲动、捕食成长、捕食构造、吞噬依赖）由真正的 Biotech 基因提供，可被继承、提取与转移。
+        - 吞噬长舌：一种远程能力，甩出黏性长舌将受害者拽回身边；它无法被制造——拉克在消化足够猎物后会自行长出，之后还会升级为更长、更快的版本。
+        - 缠绕蓄势：拉克的每次近战命中都会为自身积累“缠绕蓄势”；蓄满后会自动对目标发起 RimVore-2 擒抱。
+        - 麻醉针枪：可制造的远程武器，发射涂有拉克毒液的飞针，让挣扎的猎物陷入沉睡后再将其吞下。
+
+        == 内容 ==
+
+        - 可用的原版服装（均经过裁剪以适配其独特体型）
+        - 若干种族专属服装
+        - 两种种族专属食物
+        - 可用蛇皮制作的驱虫药（治疗肠道蠕虫与肌肉寄生虫）
+        - 种族专属的背景故事
+        - 种族专属的捕食武器
+        - 拉克永久敌对派系
+        - 拉克友好派系（他们不喜欢战斗，请勿请求支援）
+
+        == 特别感谢 ==
+
+        - Rimworld korea discord server members
+        - Gouda quiche（MoHar hediffs）
         - DC inside rimworld minor gallery
 
     </description>

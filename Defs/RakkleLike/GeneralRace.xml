@@ -671,9 +671,6 @@
 			<!-- Combat -->
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<MeleeHitChance>1.8</MeleeHitChance>
-			<RV2_GrappleChance>3</RV2_GrappleChance>
-			<RV2_GrappleStrength_Attacker>1.7</RV2_GrappleStrength_Attacker>
-			<RV2_Persuasiveness>1.3</RV2_Persuasiveness>
 			<AimingDelayFactor>0.8</AimingDelayFactor>
 			<ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
 			<!-- Social - Recruitment, Gifts, Peace Talks-->
@@ -715,9 +712,6 @@
 			<MiningYield>1</MiningYield>
 			<!-- Eating -->
 			<EatingSpeed>1.4</EatingSpeed>
-			<RV2_DigestionStrength>1.4</RV2_DigestionStrength>
-			<RV2_SwallowSpeed>1.6</RV2_SwallowSpeed>
-			<RV2_Capacity>1.25</RV2_Capacity>
 			<MaxNutrition>5</MaxNutrition>
 		</statBases>
 		<!--==

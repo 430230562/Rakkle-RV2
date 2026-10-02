@@ -20,18 +20,52 @@
           <li>FoodPoisoning</li>
         </hediffToNullify>
       </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Hidden quirk carrier for the predatory compulsion gene -->
+  <HediffDef>
+    <defName>RS_PredatorObsession</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>predatory compulsion</label>
+    <labelNoun>predatory compulsion</labelNoun>
+    <description>Engineered instincts that drive this pawn to see other beings as prey.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
           <li>PredatorDisposition_Obsessed</li>
         </quirks>
       </li>
-      <!-- Grows the engulfing tongue ability after the Rakkle has digested enough prey
-           (counted via RV2's digest record; see RakkleTongueUpgrade.cs) -->
+    </comps>
+  </HediffDef>
+
+  <!-- Predation growth: grants and upgrades the Rakkle's engulfing tongue ability once it has
+       digested enough prey (see RakkleTongueUpgrade.cs) -->
+  <HediffDef>
+    <defName>Hediff_VoreTongueGrowth</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>predation growth</label>
+    <labelNoun>predation growth</labelNoun>
+    <description>Tracks how much prey this Rakkle has digested and grows its engulfing tongue
+      accordingly.</description>
+    <initialSeverity>0.01</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <comps>
       <li Class="Rakkle.HediffCompProperties_VoreTongueUpgrade">
         <digestionRecord>RV2_Goal_Digest_Predator</digestionRecord>
         <upgradeThresholds>
-          <li>3</li>
-          <li>8</li>
+          <li>10</li>
+          <li>23</li>
         </upgradeThresholds>
         <abilitiesToGrant>
           <li>RS_VoreTongue1</li>
@@ -39,6 +73,79 @@
         </abilitiesToGrant>
       </li>
     </comps>
+  </HediffDef>
+
+  <!-- Vore dependency: the pawn must periodically digest prey or weaken (see
+  RakkleVoreDependency.cs) -->
+  <HediffDef>
+    <defName>RS_VoreDependency</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>predation hunger</label>
+    <labelNoun>predation hunger</labelNoun>
+    <description>This pawn's engineered metabolism expects live prey. Go too long without digesting
+      someone and it begins to weaken.</description>
+    <defaultLabelColor>(0.9, 0.5, 0.4)</defaultLabelColor>
+    <isBad>true</isBad>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="Rakkle.HediffCompProperties_VoreDependency">
+        <feedingRecords>
+          <li>RV2_Goal_Digest_Predator</li>
+        </feedingRecords>
+        <starvationDays>5</starvationDays>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>sated</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>hungry</label>
+        <minSeverity>0.2</minSeverity>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>starving</label>
+        <minSeverity>0.55</minSeverity>
+        <painOffset>0.15</painOffset>
+        <statOffsets>
+          <MoveSpeed>-0.9</MoveSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>ravenous</label>
+        <minSeverity>0.85</minSeverity>
+        <painOffset>0.3</painOffset>
+        <statOffsets>
+          <MoveSpeed>-1.5</MoveSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.8</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
@@ -77,14 +184,6 @@
     <hediffGivers>
       <li Class="HediffGiver_Birthday">
         <hediff>Hediff_Shed</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-      <li Class="HediffGiver_Birthday">
-        <hediff>Hediff_FoodpoisoningImmunity</hediff>
         <ageFractionChanceCurve>
           <points>
             <li>(0, 1)</li>

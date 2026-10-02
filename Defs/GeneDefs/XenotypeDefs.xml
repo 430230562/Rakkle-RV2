@@ -43,6 +43,14 @@
             <li>RV2_GoalEnabler_Digest</li>
             <li>RV2_GoalEnabler_ConvertLube</li>
             <li>RV2_GoalEnabler_Reform</li>
+
+            <!-- Rakkle engineered traits, now supplied as genes -->
+            <li>RS_Gene_VorePredation</li>
+            <li>RS_Gene_FoodPoisoningImmunity</li>
+            <li>RS_Gene_PredatorObsession</li>
+            <li>RS_Gene_PredationGrowth</li>
+            <li>RS_Gene_VoreDependency</li>
+            
         </genes>
         <factionlessGenerationWeight>0.00001</factionlessGenerationWeight>
     </XenotypeDef>

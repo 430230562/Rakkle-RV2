@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: sterile digestion -->
+    <RS_Gene_FoodPoisoningImmunity.label>无菌消化</RS_Gene_FoodPoisoningImmunity.label>
+    <!-- EN: Engineered gut flora render this pawn immune to food poisoning. -->
+    <RS_Gene_FoodPoisoningImmunity.description>经过改造的肠道菌群使该个体免疫食物中毒。</RS_Gene_FoodPoisoningImmunity.description>
+
+    <!-- EN: growing predation -->
+    <RS_Gene_PredationGrowth.label>捕食成长</RS_Gene_PredationGrowth.label>
+    <!-- EN: This pawn's body grows a new engulfing tongue as it digests more prey. -->
+    <RS_Gene_PredationGrowth.description>该个体的身体会随着消化更多猎物而长出新的吞噬长舌。</RS_Gene_PredationGrowth.description>
+
+    <!-- EN: predatory compulsion -->
+    <RS_Gene_PredatorObsession.label>捕食冲动</RS_Gene_PredatorObsession.label>
+    <!-- EN: Engineered instincts drive this pawn to see other beings as prey. -->
+    <RS_Gene_PredatorObsession.description>经过改造的本能使该个体将其他生物视作猎物。</RS_Gene_PredatorObsession.description>
+
+    <!-- EN: predation toolkit -->
+    <RS_Gene_VorePredation.label>捕食构造</RS_Gene_VorePredation.label>
+    <!-- EN: An engineered throat, gut and coil make this pawn a far more capable predator - better
+    at grappling, swallowing and digesting prey. -->
+    <RS_Gene_VorePredation.description>经过改造的咽喉、肠胃与身躯，使该个体成为远更强大的捕食者——更擅长擒抱、吞咽与消化猎物。</RS_Gene_VorePredation.description>
+
+
+    <!-- EN: predation dependency -->
+    <RS_Gene_VoreDependency.label>吞噬依赖</RS_Gene_VoreDependency.label>
+    <!-- EN: This pawn's engineered metabolism demands live prey. Go too long without digesting
+    someone and it begins to weaken. -->
+    <RS_Gene_VoreDependency.description>该个体经过改造的代谢渴求活体猎物。若太久未能消化生物，它便会开始衰弱。</RS_Gene_VoreDependency.description>
+
+</LanguageData>

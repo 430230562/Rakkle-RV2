@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- ==========================================================================================
+       Rakkle engineered traits, provided as Biotech genes so they can be inherited and transferred.
+       Forced-hediff genes use RimVore2's Gene_ForcedHediff; quirks are forced through a hediff.
+       ========================================================================================== -->
+
+    <!-- Food poisoning immunity -->
+    <GeneDef>
+        <defName>RS_Gene_FoodPoisoningImmunity</defName>
+        <label>sterile digestion</label>
+        <description>Engineered gut flora render this pawn immune to food poisoning.</description>
+        <iconPath>UI/Icons/Genes/Heal</iconPath>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <displayCategory>RV2_Vore</displayCategory>
+        <displayOrderInCategory>410</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>Hediff_FoodpoisoningImmunity</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <!-- Grows (and upgrades) the engulfing tongue ability as more prey is digested -->
+    <GeneDef>
+        <defName>RS_Gene_PredationGrowth</defName>
+        <label>growing predation</label>
+        <description>This pawn's body grows a new engulfing tongue as it digests more prey.</description>
+        <iconPath>UI/Icons/Genes/Digest</iconPath>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <displayCategory>RV2_Vore</displayCategory>
+        <displayOrderInCategory>420</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>Hediff_VoreTongueGrowth</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <!-- Predatory obsession quirk, forced through a hidden hediff -->
+    <GeneDef>
+        <defName>RS_Gene_PredatorObsession</defName>
+        <label>predatory compulsion</label>
+        <description>Engineered instincts drive this pawn to see other beings as prey.</description>
+        <iconPath>UI/Icons/Genes/Oral</iconPath>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <displayCategory>RV2_Vore</displayCategory>
+        <displayOrderInCategory>415</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RS_PredatorObsession</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <!-- Vore capability boost (previously baked into the race's statBases) -->
+    <GeneDef>
+        <defName>RS_Gene_VorePredation</defName>
+        <label>predation toolkit</label>
+        <description>An engineered throat, gut and coil make this pawn a far more capable predator -
+            better at grappling, swallowing and digesting prey.</description>
+        <iconPath>UI/Icons/Genes/Digest</iconPath>
+        <displayCategory>RV2_Vore</displayCategory>
+        <displayOrderInCategory>400</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <statOffsets>
+            <RV2_GrappleChance>2</RV2_GrappleChance>
+            <RV2_GrappleStrength_Attacker>0.7</RV2_GrappleStrength_Attacker>
+            <RV2_Persuasiveness>0.3</RV2_Persuasiveness>
+            <RV2_DigestionStrength>0.4</RV2_DigestionStrength>
+            <RV2_SwallowSpeed>0.6</RV2_SwallowSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <!-- Drawback: the engineered metabolism demands live prey -->
+    <GeneDef>
+        <defName>RS_Gene_VoreDependency</defName>
+        <label>predation dependency</label>
+        <description>This pawn's engineered metabolism demands live prey. Go too long without
+            digesting someone and it begins to weaken.</description>
+        <iconPath>UI/Icons/Genes/TempEndo</iconPath>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <displayCategory>RV2_Vore</displayCategory>
+        <displayOrderInCategory>430</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RS_VoreDependency</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

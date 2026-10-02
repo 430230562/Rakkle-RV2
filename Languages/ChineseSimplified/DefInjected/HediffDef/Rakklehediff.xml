@@ -31,6 +31,28 @@
   <!-- EN: Immune to food poisoning. -->
   <Hediff_FoodpoisoningImmunity.description>免疫食物中毒。</Hediff_FoodpoisoningImmunity.description>
 
+  <!-- EN: predation growth -->
+  <Hediff_VoreTongueGrowth.label>捕食成长</Hediff_VoreTongueGrowth.label>
+  <!-- EN: predation growth -->
+  <Hediff_VoreTongueGrowth.labelNoun>捕食成长</Hediff_VoreTongueGrowth.labelNoun>
+  <!-- EN: Tracks how much prey this Rakkle has digested and grows its engulfing tongue accordingly. -->
+  <Hediff_VoreTongueGrowth.description>记录该拉克已消化的猎物数量，并据此长出吞噬长舌。</Hediff_VoreTongueGrowth.description>
+
+  <!-- EN: predatory compulsion -->
+  <RS_PredatorObsession.label>捕食冲动</RS_PredatorObsession.label>
+  <!-- EN: predatory compulsion -->
+  <RS_PredatorObsession.labelNoun>捕食冲动</RS_PredatorObsession.labelNoun>
+  <!-- EN: Engineered instincts that drive this pawn to see other beings as prey. -->
+  <RS_PredatorObsession.description>经过改造的本能，驱使该个体将其他生物视作猎物。</RS_PredatorObsession.description>
+
+  <!-- EN: predation hunger -->
+  <RS_VoreDependency.label>捕食饥渴</RS_VoreDependency.label>
+  <!-- EN: predation hunger -->
+  <RS_VoreDependency.labelNoun>捕食饥渴</RS_VoreDependency.labelNoun>
+  <!-- EN: This pawn's engineered metabolism expects live prey. Go too long without digesting
+  someone and it begins to weaken. -->
+  <RS_VoreDependency.description>该个体经过改造的代谢渴求活体猎物。若太久未能消化生物，它便会开始衰弱。</RS_VoreDependency.description>
+
   <!-- EN: Shedding -->
   <Hediff_Shed.label>蜕皮</Hediff_Shed.label>
   <!-- EN: Rakkles periodically shed their skin as they grow. -->
