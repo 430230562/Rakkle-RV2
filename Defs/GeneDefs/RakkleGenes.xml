@@ -99,7 +99,7 @@
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <displayCategory>RV2_Vore</displayCategory>
         <displayOrderInCategory>430</displayOrderInCategory>
-        <biostatMet>2</biostatMet>
+        <biostatMet>5</biostatMet>
         <biostatCpx>1</biostatCpx>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
