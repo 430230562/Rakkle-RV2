@@ -68,6 +68,7 @@
     <Compile Include="RakkleQuirkGuard.cs" />
     <Compile Include="RakkleTongueUpgrade.cs" />
     <Compile Include="RakkleVoreDependency.cs" />
+    <Compile Include="RakkleVoreDependencyThought.cs" />
     <Compile Include="RakkleVoreProjectile.cs" />
     <Compile Include="ScalableBelt.cs" />
   </ItemGroup>

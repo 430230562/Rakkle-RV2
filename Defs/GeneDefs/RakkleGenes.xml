@@ -57,7 +57,7 @@
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <displayCategory>RV2_Vore</displayCategory>
         <displayOrderInCategory>415</displayOrderInCategory>
-        <biostatMet>-1</biostatMet>
+        <biostatMet>0</biostatMet>
         <biostatCpx>1</biostatCpx>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
@@ -81,7 +81,7 @@
         <biostatMet>-2</biostatMet>
         <biostatCpx>1</biostatCpx>
         <statOffsets>
-            <RV2_GrappleChance>2</RV2_GrappleChance>
+            <RV2_GrappleChance>0.5</RV2_GrappleChance>
             <RV2_GrappleStrength_Attacker>0.7</RV2_GrappleStrength_Attacker>
             <RV2_Persuasiveness>0.3</RV2_Persuasiveness>
             <RV2_DigestionStrength>0.4</RV2_DigestionStrength>
@@ -99,7 +99,7 @@
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <displayCategory>RV2_Vore</displayCategory>
         <displayOrderInCategory>430</displayOrderInCategory>
-        <biostatMet>5</biostatMet>
+        <biostatMet>4</biostatMet>
         <biostatCpx>1</biostatCpx>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">

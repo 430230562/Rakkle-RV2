@@ -93,7 +93,7 @@
         <feedingRecords>
           <li>RV2_Goal_Digest_Predator</li>
         </feedingRecords>
-        <starvationDays>5</starvationDays>
+        <starvationDays>10</starvationDays>
       </li>
     </comps>
     <stages>

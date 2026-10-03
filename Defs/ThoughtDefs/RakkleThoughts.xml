@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>RS_VoreDependencyMood</defName>
+    <workerClass>Rakkle.ThoughtWorker_VoreDependency</workerClass>
+    <stages>
+      <li>
+        <label>hungry for prey</label>
+        <description>The craving for live prey is becoming distracting.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>desperate for prey</label>
+        <description>The need to digest live prey is weighing heavily on the mind.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>ravaged by hunger</label>
+        <description>The body's desperate need for prey leaves little room for anything else.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

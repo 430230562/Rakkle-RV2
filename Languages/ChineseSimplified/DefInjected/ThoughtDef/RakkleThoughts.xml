@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS_VoreDependencyMood.stages.li0.label>渴求猎物</RS_VoreDependencyMood.stages.li0.label>
+  <RS_VoreDependencyMood.stages.li0.description>对活体猎物的渴望开始令人分心。</RS_VoreDependencyMood.stages.li0.description>
+  <RS_VoreDependencyMood.stages.li1.label>迫切渴求猎物</RS_VoreDependencyMood.stages.li1.label>
+  <RS_VoreDependencyMood.stages.li1.description>必须消化活体猎物的需求沉重地压在心头。</RS_VoreDependencyMood.stages.li1.description>
+  <RS_VoreDependencyMood.stages.li2.label>饥渴折磨</RS_VoreDependencyMood.stages.li2.label>
+  <RS_VoreDependencyMood.stages.li2.description>身体对猎物的极度渴求让它无暇顾及其他。</RS_VoreDependencyMood.stages.li2.description>
+</LanguageData>
