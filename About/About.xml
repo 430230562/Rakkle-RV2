@@ -87,9 +87,9 @@
 
         == Rakkle Mechanics (RimVore-2) ==
 
-        - Engineered traits as genes: several Rakkle traits - food poisoning immunity, predatory
-        compulsion, predation growth, the predation toolkit and predation dependency - are provided
-        by real Biotech genes, so they can be inherited, extracted and transferred.
+        - Engineered traits: several Rakkle traits - food poisoning immunity, predatory
+        compulsion, predation growth, the predation toolkit and predation dependency - are built
+        into the race itself, along with their vore types and goals.
         - Engulfing tongue: a ranged ability that lashes out with an adhesive tongue and drags the
         victim back within reach. It cannot be crafted; a Rakkle grows it after digesting enough
         prey, then later upgrades to a longer, faster version.
@@ -157,7 +157,7 @@
 
         == 玩法机制（RimVore-2）==
 
-        - 特性基因化：若干拉克特性（食物中毒免疫、捕食冲动、捕食成长、捕食构造、吞噬依赖）由真正的 Biotech 基因提供，可被继承、提取与转移。
+        - 内置特性：若干拉克特性（食物中毒免疫、捕食冲动、捕食成长、捕食构造、吞噬依赖）直接内置于种族定义中，其吞噬类型与目标也一并内置。
         - 吞噬长舌：一种远程能力，甩出黏性长舌将受害者拽回身边；它无法被制造——拉克在消化足够猎物后会自行长出，之后还会升级为更长、更快的版本。
         - 缠绕蓄势：拉克的每次近战命中都会为自身积累“缠绕蓄势”；蓄满后会自动对目标发起 RimVore-2 擒抱。
         - 麻醉针枪：可制造的远程武器，发射涂有拉克毒液的飞针，让挣扎的猎物陷入沉睡后再将其吞下。

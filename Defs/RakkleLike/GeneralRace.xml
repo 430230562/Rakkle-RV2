@@ -673,6 +673,10 @@
 			<MeleeHitChance>1.8</MeleeHitChance>
 			<AimingDelayFactor>0.8</AimingDelayFactor>
 			<ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+			<!-- Vore predation toolkit -->
+			<RV2_GrappleChance>1.5</RV2_GrappleChance>
+			<RV2_GrappleStrength_Attacker>1.7</RV2_GrappleStrength_Attacker>
+			<RV2_Persuasiveness>1.3</RV2_Persuasiveness>
 			<!-- Social - Recruitment, Gifts, Peace Talks-->
 			<NegotiationAbility>1.5</NegotiationAbility>
 			<!-- How how much traders will pay you if you sell them, compared to buying -->
@@ -713,6 +717,9 @@
 			<!-- Eating -->
 			<EatingSpeed>1.4</EatingSpeed>
 			<MaxNutrition>5</MaxNutrition>
+			<!-- Vore predation toolkit -->
+			<RV2_DigestionStrength>1.2</RV2_DigestionStrength>
+			<RV2_SwallowSpeed>2</RV2_SwallowSpeed>
 		</statBases>
 		<!--==
 		Unarmed Combat
