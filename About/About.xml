@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>Rakkle (RimVore2)</name>
-    <author>sunny</author>
+    <author>pardon</author>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
@@ -107,8 +107,9 @@
         parasites)
         - Race-specific backstories
         - Race-specific predation weapons
-        - Rakkle Permanent Enemy Faction
-        - Rakkle Friendship Faction (do not request support; they do not like fighting.)
+        - Cradle Rakkle faction: slave traders who start at -80 relations. They are permanent
+        enemies of a Rakkle player colony, but relations can be improved with any other colony.
+        - Ideology: the Rakkle culture uses the RimVore-2 "Predation" meme.
 
 
         == P.S. ==
@@ -170,8 +171,8 @@
         - 可用蛇皮制作的驱虫药（治疗肠道蠕虫与肌肉寄生虫）
         - 种族专属的背景故事
         - 种族专属的捕食武器
-        - 拉克永久敌对派系
-        - 拉克友好派系（他们不喜欢战斗，请勿请求支援）
+        - 响尾蛇派系：奴隶商人，初始关系 -80。玩家若为拉克殖民地则为永久敌对，其他殖民地可改善关系。
+        - 意识形态：拉克文化默认包含 RimVore-2 的“捕食”模因。
 
         == 特别感谢 ==
 
