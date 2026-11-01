@@ -39,6 +39,12 @@
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
           <li>PredatorDisposition_Obsessed</li>
+          <li>Enablers_Overstuffed_Type_Tailmaw</li>
+          <li>Enablers_Core_Type_Oral</li>
+          <li>Enablers_Core_Type_Vaginal</li>
+        <li>Enablers_Core_Goal_Digest</li>
+        <li>Enablers_Core_Goal_ConvertLube</li>
+          <li>Enablers_Core_Goal_Reform</li>
         </quirks>
       </li>
     </comps>
@@ -229,56 +235,6 @@
       </li>
       <li Class="HediffGiver_Birthday">
         <hediff>RS_VoreDependency</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-
-      <!-- Built-in RimVore-2 vore enablers -->
-      <li Class="HediffGiver_Birthday" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
-        <hediff>RV2_TypeEnabler_Tailmaw</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-      <li Class="HediffGiver_Birthday">
-        <hediff>RV2_TypeEnabler_Oral</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-      <li Class="HediffGiver_Birthday">
-        <hediff>RV2_TypeEnabler_Vaginal</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-      <li Class="HediffGiver_Birthday">
-        <hediff>RV2_GoalEnabler_Digest</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-      <li Class="HediffGiver_Birthday">
-        <hediff>RV2_GoalEnabler_ConvertLube</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
-      <li Class="HediffGiver_Birthday">
-        <hediff>RV2_GoalEnabler_Reform</hediff>
         <ageFractionChanceCurve>
           <points>
             <li>(0, 1)</li>
