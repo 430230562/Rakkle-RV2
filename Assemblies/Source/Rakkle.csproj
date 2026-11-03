@@ -13,6 +13,10 @@
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <!-- Build intermediates must stay OUTSIDE the Assemblies folder: RimWorld loads every dll
+         found anywhere under Assemblies/ recursively, so stale copies would shadow the real one. -->
+    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\..\..\obj\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(MSBuildProjectDirectory)\..\..\obj\$(Configuration)\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>lib\0Harmony.dll</HintPath>
+      <HintPath>..\..\lib\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -66,6 +70,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RakkleConstriction.cs" />
     <Compile Include="RakkleFactionRelations.cs" />
+    <Compile Include="RakkleFangSelection.cs" />
     <Compile Include="RakkleQuirkGuard.cs" />
     <Compile Include="RakkleTongueUpgrade.cs" />
     <Compile Include="RakkleVoreDependency.cs" />

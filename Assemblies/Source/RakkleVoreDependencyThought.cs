@@ -1,3 +1,4 @@
+using UnityEngine;
 using RimWorld;
 using Verse;
 
@@ -12,13 +13,19 @@ namespace Rakkle
                 ? null
                 : pawn.health?.hediffSet?.GetFirstHediffOfDef(dependencyDef);
 
-            if (dependency == null || dependency.Severity < 0.2f)
+            if (dependency == null)
             {
                 return ThoughtState.Inactive;
             }
 
-            int stage = dependency.Severity >= 0.85f ? 2 : dependency.Severity >= 0.55f ? 1 : 0;
-            return ThoughtState.ActiveAtStage(stage);
+            // The first hediff stage is "sated"; map every later stage onto a mood stage.
+            int dependencyStage = dependency.CurStageIndex;
+            int thoughtStages = def.stages.Count;
+            if (dependencyStage <= 0 || thoughtStages <= 0)
+            {
+                return ThoughtState.Inactive;
+            }
+            return ThoughtState.ActiveAtStage(Mathf.Min(dependencyStage - 1, thoughtStages - 1));
         }
     }
 }

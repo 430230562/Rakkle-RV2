@@ -42,8 +42,8 @@
           <li>Enablers_Overstuffed_Type_Tailmaw</li>
           <li>Enablers_Core_Type_Oral</li>
           <li>Enablers_Core_Type_Vaginal</li>
-        <li>Enablers_Core_Goal_Digest</li>
-        <li>Enablers_Core_Goal_ConvertLube</li>
+          <li>Enablers_Core_Goal_Digest</li>
+          <li>Enablers_Core_Goal_ConvertLube</li>
           <li>Enablers_Core_Goal_Reform</li>
         </quirks>
       </li>
@@ -88,18 +88,39 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>predation hunger</label>
     <labelNoun>predation hunger</labelNoun>
-    <description>This pawn's engineered metabolism expects live prey. Go too long without digesting
-      someone and it begins to weaken.</description>
+    <description>This pawn's engineered metabolism expects live prey. Digesting prey eases the
+      hunger - the larger the prey, the more it helps - but go too long without a meal and it
+      weakens, eventually snapping into a predatory frenzy.</description>
     <defaultLabelColor>(0.9, 0.5, 0.4)</defaultLabelColor>
     <isBad>true</isBad>
-    <initialSeverity>0.001</initialSeverity>
-    <maxSeverity>1</maxSeverity>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>2</maxSeverity>
     <comps>
       <li Class="Rakkle.HediffCompProperties_VoreDependency">
-        <feedingRecords>
-          <li>RV2_Goal_Digest_Predator</li>
-        </feedingRecords>
+        <feedingPartGoals>
+          <li>Digest</li>
+        </feedingPartGoals>
+        <severityReductionPerBodySize>0.5</severityReductionPerBodySize>
         <starvationDays>10</starvationDays>
+        <!-- At max severity the Rakkle snaps: hunts animals (0.75) or vores a colonist (0.25) -->
+        <maxSeverityMentalBreaks>
+          <li>
+            <mentalState>RV2_LivestockSwallower</mentalState>
+            <weight>0.5</weight>
+          </li>
+          <li>
+            <mentalState>RV2_VoraciousHunt</mentalState>
+            <weight>0.25</weight>
+          </li>
+          <li>
+            <mentalState>RV2_Digesticutioner</mentalState>
+            <weight>0.175</weight>
+          </li>
+          <li>
+            <mentalState>RV2_VorederousRage</mentalState>
+            <weight>0.075</weight>
+          </li>
+        </maxSeverityMentalBreaks>
       </li>
     </comps>
     <stages>
@@ -109,7 +130,7 @@
       </li>
       <li>
         <label>hungry</label>
-        <minSeverity>0.2</minSeverity>
+        <minSeverity>1.2</minSeverity>
         <painOffset>0.05</painOffset>
         <statOffsets>
           <MoveSpeed>-0.4</MoveSpeed>
@@ -117,7 +138,7 @@
       </li>
       <li>
         <label>starving</label>
-        <minSeverity>0.55</minSeverity>
+        <minSeverity>1.5</minSeverity>
         <painOffset>0.15</painOffset>
         <statOffsets>
           <MoveSpeed>-0.9</MoveSpeed>
@@ -135,7 +156,7 @@
       </li>
       <li>
         <label>ravenous</label>
-        <minSeverity>0.85</minSeverity>
+        <minSeverity>1.8</minSeverity>
         <painOffset>0.3</painOffset>
         <statOffsets>
           <MoveSpeed>-1.5</MoveSpeed>
@@ -170,8 +191,8 @@
             <capacities>
               <li>RS_AnestheticBiteTool</li>
             </capacities>
-            <power>2</power>
-            <cooldownTime>2</cooldownTime>
+            <power>4</power>
+            <cooldownTime>1.5</cooldownTime>
             <chanceFactor>1.5</chanceFactor>
             <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
           </li>

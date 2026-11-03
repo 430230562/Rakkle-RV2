@@ -25,9 +25,15 @@ Changes in the fork:
      It cannot be crafted or bought.
    - Constriction charge: each melee hit builds a charge on the attacker;
      when full, the Rakkle automatically starts a RimVore-2 grapple.
+   - Venomous fangs: roughly a third of a Rakkle's melee attacks instead of a
+     punch or tail swipe. Each bite injects anesthetic venom (0.6 severity for a
+     body size 1 victim), so a couple of bites leave prey woozy or sedated.
    - Anesthetic needler: a craftable dart weapon that puts prey to sleep.
    - Predation dependency: a Rakkle that goes 10 days without digesting
-     someone weakens in stages, with its own mood penalties.
+     someone weakens in stages, with its own mood penalties. The hunger is eased
+     as soon as the digestion stage finishes, by 0.5 per point of prey body size.
+     At maximum hunger the Rakkle snaps into a forced mental break: 75% chance it
+     hunts animals to digest, 25% chance it fatally vores a colonist.
 6. A Rakkle never rolls negative vore-capability quirks - their toolkit is engineered in.
 7. The Cradle slaver faction starts at -80 relations with every faction, so relations can be
    improved. Only a Rakkle player colony (the `RS_PlayerFaction` of this mod) is their permanent
@@ -84,8 +90,12 @@ Unsubscribe from the Rakkle mods on the Steam Workshop and make sure you do not 
    - 吞噬长舌：将受害者拽回身边的远程能力。消化 10 名猎物后长出，
      消化 23 名后升级。无法制造或购买。
    - 缠绕蓄势：每次近战命中都会为攻击者累积蓄势；蓄满后自动发起 RimVore-2 擒抱。
+   - 毒牙：拉克约三分之一的近战攻击会用毒牙咬击（而非拳击或尾扫）。每次咬击注入麻醉毒液
+     （体型 1 的受害者 +0.6 严重度），几口就能让猎物眩晕甚至昏睡。
    - 麻醉针枪：可制造的飞针武器，使猎物陷入沉睡。
    - 吞噬依赖：10 天未消化生物便会逐级衰弱，并附带专属心情惩罚。
+     消化阶段一结束即缓解饥渴，缓解量为每点猎物体型 0.5。
+     饥渴达到满值时拉克会强制精神崩溃：75% 去猎食动物，25% 致命吞噬殖民者。
 6. 拉克不会随机到负面吞噬能力 quirk——她们的捕食构造是刻在身体里的。
 7. 响尾蛇奴隶商派系对所有派系初始关系为 -80，可以改善。只有玩家使用本模组的
    `RS_PlayerFaction`（拉克殖民地）时才是永久敌对，且无法改善。

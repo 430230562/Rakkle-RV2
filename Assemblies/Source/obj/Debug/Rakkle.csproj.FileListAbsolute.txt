@@ -1,6 +1,0 @@
-d:\steam\steamapps\common\RimWorld\Mods\Rakkle-RV2\Assemblies\Source\obj\Debug\Rakkle.csproj.AssemblyReference.cache
-d:\steam\steamapps\common\RimWorld\Mods\Rakkle-RV2\Assemblies\Source\obj\Debug\Rakkle.csproj.CoreCompileInputs.cache
-d:\steam\steamapps\common\RimWorld\Mods\Rakkle-RV2\Assemblies\Source\obj\Debug\Rakkle.dll
-d:\steam\steamapps\common\RimWorld\Mods\Rakkle-RV2\Assemblies\Source\obj\Debug\Rakkle.pdb
-d:\steam\steamapps\common\RimWorld\Mods\Rakkle-RV2\Assemblies\Rakkle.dll
-d:\steam\steamapps\common\RimWorld\Mods\Rakkle-RV2\Assemblies\Rakkle.pdb

@@ -1,0 +1,7 @@
+> Build output and IDE files. Never keep build artifacts under Assemblies/:
+> RimWorld loads every .dll found anywhere below Assemblies/ (recursive),
+> so a stale copy shadows the shipped assembly.
+obj/
+bin/
+Assemblies/Source/.vs/
+*.user

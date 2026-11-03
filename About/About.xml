@@ -81,8 +81,10 @@
         - High probability of food poisoning: When rakkle cook, there is a higher chance of causing
         food poisoning compared to humans.
         - High minimum adaptive temperature: Rakkle are very vulnerable to cold environments.
-        - Predation dependency: an engineered metabolism demands live prey. Go too long without
-        digesting someone and a Rakkle begins to weaken.
+        - Predation dependency: an engineered metabolism demands live prey. Digesting prey eases
+        the hunger (by 0.5 per point of prey body size, once its digestion stage finishes), but go
+        too long without a meal and a Rakkle begins to weaken - at maximum hunger it snaps and goes
+        hunting (75% animals, 25% a colonist).
 
 
         == Rakkle Mechanics (RimVore-2) ==
@@ -154,7 +156,7 @@
         - 成长缓慢：拉克的发育速度明显慢于人类。
         - 烹饪易中毒：拉克烹饪时更容易引发食物中毒。
         - 低温畏惧：拉克非常惧怕寒冷环境。
-        - 吞噬依赖：经过改造的代谢渴求活体猎物，太久未能消化生物便会逐渐衰弱。
+        - 吞噬依赖：经过改造的代谢渴求活体猎物。消化猎物可缓解饥渴（消化阶段结束后，按猎物体型每点缓解 0.5），但太久未能进食便会逐渐衰弱；饥饿满值时拉克会崩溃发狂（75% 猎食动物，25% 吞噬殖民者）。
 
         == 玩法机制（RimVore-2）==
 
