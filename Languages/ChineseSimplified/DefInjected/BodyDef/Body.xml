@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: Rakkle -->
   <Rakkle.label>拉克</Rakkle.label>
   <!-- EN: left lung -->
@@ -81,5 +81,5 @@
   <Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.lower_bellyscale.customLabel>下腹部</Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.lower_bellyscale.customLabel>
   <!-- EN: Rattle -->
   <Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.Rattle.customLabel>尾响环</Rakkle.corePart.parts.Upper_tail.parts.Lower_tail.parts.Rattle.customLabel>
-
+  
 </LanguageData>

@@ -1,37 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- EN: prosthetic wooden tail -->
-  <RS_WoodenTail.label>木制拉克尾</RS_WoodenTail.label>
-  <!-- EN: An installed prosthetic wooden tail. -->
-  <RS_WoodenTail.description>义肢木制拉克尾巴。</RS_WoodenTail.description>
-
+  
   <!-- EN: bionic Rakkle tail -->
   <RS_BionicTail.label>仿生拉克尾</RS_BionicTail.label>
-  <!-- EN: An installed bionic Rakkle tail. -->
+  <!-- EN: An advanced artificial Rakkle tail. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. With its powerful mini-servos it is better than a biological Rakkle tail in almost every way. -->
   <RS_BionicTail.description>仿生拉克尾巴。</RS_BionicTail.description>
-
-  <!-- EN: Rakkle Tongue -->
-  <RS_RakkleTongue.label>拉克舌头</RS_RakkleTongue.label>
-  <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere (the
-  crooked solution of the lack of language does not affect anything). -->
-  <RS_RakkleTongue.description>一条相当长的舌头，它会在口腔内卷曲起来以免造成妨碍（因缺乏语言能力而采取的这种迂回解决办法倒也没什么影响）。</RS_RakkleTongue.description>
-
+  
   <!-- EN: Rakkle hyporegulator -->
   <RS_Thermostat.label>拉克恒温装置</RS_Thermostat.label>
-  <!-- EN: An advanced body implant. It attempts to enhance the mental and physical temperature
-  resilience of a Rakkle. The implant increases the effectiveness of the HPA axis and the body's
-  thermoregulation. -->
-  <RS_Thermostat.description>一种先进的身体植入物。它试图增强拉克的精神和身体对温度的适应能力。该植入物提高了下丘脑 - 垂体 -
-    肾上腺（HPA）轴的效能以及身体的体温调节能力。</RS_Thermostat.description>
-
+  <!-- EN: An advanced body implant. It attempts to enhance the mental and physical temperature resilience of a Rakkle. The implant increases the effectiveness of the HPA axis and the body's thermoregulation. -->
+  <RS_Thermostat.description>一种先进的身体植入物。它试图增强拉克的精神和身体对温度的适应能力。该植入物提高了下丘脑 - 垂体 -\n    肾上腺（HPA）轴的效能以及身体的体温调节能力。</RS_Thermostat.description>
+  
   <!-- EN: Rakkle venom glands -->
   <RS_VenomGlands.label>拉克毒腺</RS_VenomGlands.label>
-  <!-- EN: A Rakkle's venom glands. They have been adapted from the salivary gland and secrete a
-  complex mixture of peptides and proteins channelled to the fangs through connecting ducts. The
-  venom delivered by a single bite is not strong enough to kill prey immediately but will build up
-  quickly when bitten repeatedly. -->
-  <RS_VenomGlands.description>
-    拉克的毒腺。它们是由唾液腺演化而来的，能分泌一种由肽类和蛋白质组成的复杂混合物，这些物质会通过连接的导管被输送至毒牙处。单次咬击所释放的毒液强度尚不足以立刻杀死猎物，但若是多次咬击，毒液就会迅速累积起来。</RS_VenomGlands.description>
-
+  <!-- EN: A Rakkle's venom glands. They have been adapted from the salivary gland and secrete a complex mixture of peptides and proteins channelled to the fangs through connecting ducts. The venom delivered by a single bite is not strong enough to kill prey immediately but will build up quickly when bitten repeatedly. -->
+  <RS_VenomGlands.description>\n    拉克的毒腺。它们是由唾液腺演化而来的，能分泌一种由肽类和蛋白质组成的复杂混合物，这些物质会通过连接的导管被输送至毒牙处。单次咬击所释放的毒液强度尚不足以立刻杀死猎物，但若是多次咬击，毒液就会迅速累积起来。</RS_VenomGlands.description>
+  
+  <!-- EN: prosthetic wooden tail -->
+  <RS_WoodenTail.label>木制拉克尾</RS_WoodenTail.label>
+  <!-- EN: A Rakkle tail prosthesis. While it lacks a neural interface, its complex arrangement of joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real tail. -->
+  <RS_WoodenTail.description>义肢木制拉克尾巴。</RS_WoodenTail.description>
+  
 </LanguageData>

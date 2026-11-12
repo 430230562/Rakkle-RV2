@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make beyond meat -->
+  <Making_BeyondMeat.label>制作超肉</Making_BeyondMeat.label>
+  <!-- EN: Make a slab of beyond meat. It kinda looks like real meat? -->
+  <Making_BeyondMeat.description>用甜菜和素食制作超肉</Making_BeyondMeat.description>
+  <!-- EN: Making beyond meat. -->
+  <Making_BeyondMeat.jobString>制作超肉中</Making_BeyondMeat.jobString>
+  
+  <!-- EN: making big lavish raw meatball -->
+  <Making_BigLavishRawMeatBall.label>做一个大丰盛的生肉丸</Making_BigLavishRawMeatBall.label>
+  <!-- EN: Prepare a more exquisite meatball by removing undesirable parts from the minced meat before shaping it into the perfect sphere for easy swallowing. -->
+  <Making_BigLavishRawMeatBall.description>把肉剁碎，很容易吞掉。去除质量不好的部分和不好吃的部分。</Making_BigLavishRawMeatBall.description>
+  <!-- EN: Gently cutting and shaping raw meat into flavorful spheres... -->
+  <Making_BigLavishRawMeatBall.jobString>正在揉肉…</Making_BigLavishRawMeatBall.jobString>
+  
+  <!-- EN: making big lavish raw meatball bulk -->
+  <Making_BigLavishRawMeatBall_Bulk.label>大把大把的生肉丸子</Making_BigLavishRawMeatBall_Bulk.label>
+  <!-- EN: Prepare 4 more exquisite meatballs by removing undesirable parts from the minced meat before shaping it into perfect spheres for easy swallowing. -->
+  <Making_BigLavishRawMeatBall_Bulk.description>把肉剁碎，很容易吞掉。去除质量不好的部分和不好吃的部分。一次做4个</Making_BigLavishRawMeatBall_Bulk.description>
+  <!-- EN: Gently cutting and shaping raw meat into flavorful spheres... -->
+  <Making_BigLavishRawMeatBall_Bulk.jobString>正在揉肉…</Making_BigLavishRawMeatBall_Bulk.jobString>
+  
+  <!-- EN: making big simple raw meatball -->
+  <Making_BigSimpleRawMeatBall.label>制作大而简单的生肉丸子</Making_BigSimpleRawMeatBall.label>
+  <!-- EN: Prepare a raw meatball by mincing meat and shaping it into spheres for easy swallowing. -->
+  <Making_BigSimpleRawMeatBall.description>把肉剁碎，很容易吞掉。</Making_BigSimpleRawMeatBall.description>
+  <!-- EN: Cutting and shaping raw meat into spheres... -->
+  <Making_BigSimpleRawMeatBall.jobString>正在揉肉…</Making_BigSimpleRawMeatBall.jobString>
+  
+  <!-- EN: making big simple raw meatball bulk -->
+  <Making_BigSimpleRawMeatBall_Bulk.label>制作大而简单的生肉丸子</Making_BigSimpleRawMeatBall_Bulk.label>
+  <!-- EN: Prepare 4 raw meatballs by mincing meat and shaping it into spheres for easy swallowing. -->
+  <Making_BigSimpleRawMeatBall_Bulk.description>把肉剁碎，很容易吞掉。一次做4个</Making_BigSimpleRawMeatBall_Bulk.description>
+  <!-- EN: Cutting and shaping raw meat into spheres... -->
+  <Making_BigSimpleRawMeatBall_Bulk.jobString>正在揉肉…</Making_BigSimpleRawMeatBall_Bulk.jobString>
+  
+</LanguageData>

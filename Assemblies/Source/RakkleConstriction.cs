@@ -91,9 +91,9 @@ namespace Rakkle
     public class HediffCompProperties_ConstrictCharge : HediffCompProperties
     {
         /// <summary>Charge added to the attacker per landed melee hit.</summary>
-        public float severityPerHit = 0.25f;
+        public float severityPerHit = 0.125f;
         /// <summary>Charge lost per in-game day while not attacking.</summary>
-        public float decayPerDay = 2f;
+        public float decayPerDay = 4f;
         /// <summary>Charge required to trigger an automatic vore grapple.</summary>
         public float triggerThreshold = 1f;
 

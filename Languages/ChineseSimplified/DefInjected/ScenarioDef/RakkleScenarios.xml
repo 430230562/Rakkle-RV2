@@ -1,10 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: New Rakkle Colony -->
   <RS_Scenario.label>拉克殖民地</RS_Scenario.label>
-  <RS_Scenario.description>
-    拉克种是爬虫类与人类的混种，被“响尾蛇”公司基因改造为活体捕食者——温顺、聪慧，天生就为吞下、容纳并消化其他生物而生。\n\n一小群获得自由的拉克种建立了新的定居点，准备面对“边缘”中严酷而无情的生存现实。</RS_Scenario.description>
+  <!-- EN: Rakkle are a reptilian-human hybrid, genetically engineered by The Cradle into\n			living predators - docile, intelligent beings born to swallow, hold and digest\n			others.\n\nA small band of freed Rakkle start a new settlement, preparing to face the\n			harsh and unforgiving reality of life in the Rim.\n		 -->
+  <RS_Scenario.description>\n    拉克种是爬虫类与人类的混种，被“响尾蛇”公司基因改造为活体捕食者——温顺、聪慧，天生就为吞下、容纳并消化其他生物而生。\n\n一小群获得自由的拉克种建立了新的定居点，准备面对“边缘”中严酷而无情的生存现实。</RS_Scenario.description>
+  <!-- EN: Rakkle are a reptilian-human hybrid, genetically engineered by The Cradle into\n			living predators - docile, intelligent beings born to swallow, hold and digest\n			others.\n\nA small band of freed Rakkle start a new settlement, preparing to face the\n			harsh and unforgiving reality of life in the Rim.\n		 -->
+  <RS_Scenario.scenario.description>\n    拉克种是爬虫类与人类的混种，被“响尾蛇”公司基因改造为活体捕食者——温顺、聪慧，天生就为吞下、容纳并消化其他生物而生。\n\n一小群获得自由的拉克种建立了新的定居点，准备面对“边缘”中严酷而无情的生存现实。</RS_Scenario.scenario.description>
+  <!-- EN: New Rakkle Colony -->
   <RS_Scenario.scenario.name>新拉克殖民地</RS_Scenario.scenario.name>
+  <!-- EN: A small band of freed Rakkle start a new settlement. -->
   <RS_Scenario.scenario.summary>一小群获得自由的拉克种建立了新的定居点。</RS_Scenario.scenario.summary>
-  <RS_Scenario.scenario.description>
-    拉克种是爬虫类与人类的混种，被“响尾蛇”公司基因改造为活体捕食者——温顺、聪慧，天生就为吞下、容纳并消化其他生物而生。\n\n一小群获得自由的拉克种建立了新的定居点，准备面对“边缘”中严酷而无情的生存现实。</RS_Scenario.scenario.description>
+  
 </LanguageData>

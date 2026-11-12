@@ -1,20 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-    <!-- EN: ate simple meal -->
-    <AteSimpleMeal.stages.0.label>吃了简单的饭菜</AteSimpleMeal.stages.0.label>
-    <AteSimpleMeal.stages.0.description>这是一顿简单的饭菜。</AteSimpleMeal.stages.0.description>
-
-    <!-- EN: ate simple meal -->
-    <RS_AteSimpleMeal.stages.0.label>吃了简单的饭菜</RS_AteSimpleMeal.stages.0.label>
-    <RS_AteSimpleMeal.stages.0.description>吃完这顿简单的饭菜后，我无法摆脱一种怀疑，它可能含有蔬菜...</RS_AteSimpleMeal.stages.0.description>
-
-    <!-- EN: ate fine meal -->
-    <RS_AteFineMeal.stages.0.label>吃了精致饭菜</RS_AteFineMeal.stages.0.label>
-    <RS_AteFineMeal.stages.0.description>尽管被标记为"精致饭菜"，我发现其中有蔬菜令人失望。这对我来说根本不"精致"！</RS_AteFineMeal.stages.0.description>
-
-    <!-- EN: ate lavish meal -->
-    <RS_AteLavishMeal.stages.0.label>吃了奢华饭菜</RS_AteLavishMeal.stages.0.label>
-    <RS_AteLavishMeal.stages.0.description>虽然这顿饭看起来很奢华，但蔬菜的存在对我来说很令人厌恶。我无法相信人们吃这种东西！</RS_AteLavishMeal.stages.0.description>
-
+  
+  <!-- EN: ate simple meal -->
+  <AteSimpleMeal.stages.ate_simple_meal.label>吃了简单的饭菜</AteSimpleMeal.stages.ate_simple_meal.label>
+  <!-- EN: It was a simple meal. -->
+  <AteSimpleMeal.stages.ate_simple_meal.description>这是一顿简单的饭菜。</AteSimpleMeal.stages.ate_simple_meal.description>
+  
+  <!-- EN: ate fine meal -->
+  <RS_AteFineMeal.stages.ate_fine_meal.label>吃了精致饭菜</RS_AteFineMeal.stages.ate_fine_meal.label>
+  <!-- EN: Despite being labeled as a "fine meal" I found it disappointing to discover vegetables in it. This was anything but "fine" to me! -->
+  <RS_AteFineMeal.stages.ate_fine_meal.description>尽管被标记为"精致饭菜"，我发现其中有蔬菜令人失望。这对我来说根本不"精致"！</RS_AteFineMeal.stages.ate_fine_meal.description>
+  
+  <!-- EN: ate lavish meal -->
+  <RS_AteLavishMeal.stages.ate_lavish_meal.label>吃了奢华饭菜</RS_AteLavishMeal.stages.ate_lavish_meal.label>
+  <!-- EN: Although this meal seems lavish, the presence of vegetables is repulsive to me. I can't believe people eat this! -->
+  <RS_AteLavishMeal.stages.ate_lavish_meal.description>虽然这顿饭看起来很奢华，但蔬菜的存在对我来说很令人厌恶。我无法相信人们吃这种东西！</RS_AteLavishMeal.stages.ate_lavish_meal.description>
+  
+  <!-- EN: ate lavish raw meatball -->
+  <RS_AteLavishRawFood.stages.ate_lavish_raw_meatball.label>TODO</RS_AteLavishRawFood.stages.ate_lavish_raw_meatball.label>
+  <!-- EN: Indulging in the lavish raw meatball is a culinary pleasure with its refined umami taste that brings a smile to my face. -->
+  <RS_AteLavishRawFood.stages.ate_lavish_raw_meatball.description>TODO</RS_AteLavishRawFood.stages.ate_lavish_raw_meatball.description>
+  
+  <!-- EN: ate simple meal -->
+  <RS_AteSimpleMeal.stages.ate_simple_meal.label>吃了简单的饭菜</RS_AteSimpleMeal.stages.ate_simple_meal.label>
+  <!-- EN: After finishing this simple meal, I can't shake the suspicion that it might have had vegetables in it... -->
+  <RS_AteSimpleMeal.stages.ate_simple_meal.description>吃完这顿简单的饭菜后，我无法摆脱一种怀疑，它可能含有蔬菜...</RS_AteSimpleMeal.stages.ate_simple_meal.description>
+  
+  <!-- EN: ate simple raw meatball -->
+  <RS_AteSimpleRawFood.stages.ate_simple_raw_meatball.label>TODO</RS_AteSimpleRawFood.stages.ate_simple_raw_meatball.label>
+  <!-- EN: This simple raw meatball is surprisingly delicious, the taste of the meat alone is enough to satisfy my cravings. -->
+  <RS_AteSimpleRawFood.stages.ate_simple_raw_meatball.description>TODO</RS_AteSimpleRawFood.stages.ate_simple_raw_meatball.description>
+  
 </LanguageData>

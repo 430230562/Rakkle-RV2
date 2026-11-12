@@ -1,91 +1,94 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- EN: Rakkle Tongue -->
-  <Hediff_RakkleTongue.label>拉克舌头</Hediff_RakkleTongue.label>
-  <!-- EN: A rather long tongue that curls up inside the mouth in order not to interfere. -->
-  <Hediff_RakkleTongue.description>一条相当长的舌头，它会在口腔内卷起来以免造成妨碍。</Hediff_RakkleTongue.description>
-  <!-- EN: Rakkle Tongue -->
-  <Hediff_RakkleTongue.labelNoun>拉克舌头</Hediff_RakkleTongue.labelNoun>
-
+  
+  <!-- EN: bionic Rakkle tail -->
+  <Hediff_BionicTail.label>仿生拉克尾巴</Hediff_BionicTail.label>
+  <!-- EN: An installed bionic Rakkle tail. -->
+  <Hediff_BionicTail.description>已安装的仿生拉克尾巴。</Hediff_BionicTail.description>
+  <!-- EN: a bionic Rakkle tail -->
+  <Hediff_BionicTail.labelNoun>仿生拉克尾巴</Hediff_BionicTail.labelNoun>
+  
+  <!-- EN: food poisoning immunity -->
+  <Hediff_FoodpoisoningImmunity.label>食物中毒免疫</Hediff_FoodpoisoningImmunity.label>
+  <!-- EN: Immune to food poisoning. -->
+  <Hediff_FoodpoisoningImmunity.description>免疫食物中毒。</Hediff_FoodpoisoningImmunity.description>
+  <!-- EN: food poisoning immunity -->
+  <Hediff_FoodpoisoningImmunity.labelNoun>食物中毒免疫</Hediff_FoodpoisoningImmunity.labelNoun>
+  
+  <!-- EN: Parasites treatment -->
+  <Hediff_helminthicHigh.label>寄生虫治疗</Hediff_helminthicHigh.label>
+  <!-- EN: Medicine against muscle parasites and gut worms. -->
+  <Hediff_helminthicHigh.description>治疗肌肉寄生虫和肠道蠕虫的药物。</Hediff_helminthicHigh.description>
+  <!-- EN: Parasites treatment -->
+  <Hediff_helminthicHigh.labelNoun>寄生虫治疗</Hediff_helminthicHigh.labelNoun>
+  
+  <!-- EN: Shedding -->
+  <Hediff_Shed.label>蜕皮</Hediff_Shed.label>
+  <!-- EN: Rakkles periodically shed their skin as they grow. -->
+  <Hediff_Shed.description>拉克在成长过程中会定期蜕掉皮肤。</Hediff_Shed.description>
+  <!-- EN: If you see this text, it's a bug. -->
+  <Hediff_Shed.labelNoun>TODO</Hediff_Shed.labelNoun>
+  
   <!-- EN: Rakkle hyporegulator -->
   <Hediff_Thermostat.label>拉克恒温装置</Hediff_Thermostat.label>
   <!-- EN: An installed Rakkle hyporegulator. -->
   <Hediff_Thermostat.description>一个安装好的拉克恒温装置</Hediff_Thermostat.description>
   <!-- EN: a Rakkle hyporegulator -->
   <Hediff_Thermostat.labelNoun>一个拉克恒温装置</Hediff_Thermostat.labelNoun>
-
+  
   <!-- EN: venom glands -->
   <Hediff_VenomGlands.label>毒腺</Hediff_VenomGlands.label>
   <!-- EN: A Rakkle's venom glands. -->
   <Hediff_VenomGlands.description>一个拉克的毒腺</Hediff_VenomGlands.description>
-  <!-- EN: venom fangs -->
-  <Hediff_VenomGlands.comps.HediffComp_VerbGiver.tools.venom_fangs.label>毒牙</Hediff_VenomGlands.comps.HediffComp_VerbGiver.tools.venom_fangs.label>
+  <!-- EN: fangs -->
+  <Hediff_VenomGlands.comps.HediffComp_VerbGiver.tools.fangs.label>TODO</Hediff_VenomGlands.comps.HediffComp_VerbGiver.tools.fangs.label>
   <!-- EN: venom glands -->
   <Hediff_VenomGlands.labelNoun>毒腺</Hediff_VenomGlands.labelNoun>
-
-  <!-- EN: food poisoning immunity -->
-  <Hediff_FoodpoisoningImmunity.label>食物中毒免疫</Hediff_FoodpoisoningImmunity.label>
-  <!-- EN: food poisoning immunity -->
-  <Hediff_FoodpoisoningImmunity.labelNoun>食物中毒免疫</Hediff_FoodpoisoningImmunity.labelNoun>
-  <!-- EN: Immune to food poisoning. -->
-  <Hediff_FoodpoisoningImmunity.description>免疫食物中毒。</Hediff_FoodpoisoningImmunity.description>
-
+  
+  <!-- UNUSED -->
+  <Hediff_VenomGlands.comps.HediffComp_VerbGiver.tools.venom_fangs.label>毒牙</Hediff_VenomGlands.comps.HediffComp_VerbGiver.tools.venom_fangs.label>
+  
   <!-- EN: predation growth -->
   <Hediff_VoreTongueGrowth.label>捕食成长</Hediff_VoreTongueGrowth.label>
+  <!-- EN: Tracks how much prey this Rakkle has digested and grows its engulfing tongue\n      accordingly. -->
+  <Hediff_VoreTongueGrowth.description>记录该拉克已消化的猎物数量，并据此长出吞噬长舌。</Hediff_VoreTongueGrowth.description>
   <!-- EN: predation growth -->
   <Hediff_VoreTongueGrowth.labelNoun>捕食成长</Hediff_VoreTongueGrowth.labelNoun>
-  <!-- EN: Tracks how much prey this Rakkle has digested and grows its engulfing tongue accordingly. -->
-  <Hediff_VoreTongueGrowth.description>记录该拉克已消化的猎物数量，并据此长出吞噬长舌。</Hediff_VoreTongueGrowth.description>
-
-  <!-- EN: predatory compulsion -->
-  <RS_PredatorObsession.label>捕食冲动</RS_PredatorObsession.label>
-  <!-- EN: predatory compulsion -->
-  <RS_PredatorObsession.labelNoun>捕食冲动</RS_PredatorObsession.labelNoun>
-  <!-- EN: Engineered instincts that drive this pawn to see other beings as prey. -->
-  <RS_PredatorObsession.description>经过改造的本能，驱使该个体将其他生物视作猎物。</RS_PredatorObsession.description>
-
-  <!-- EN: predation hunger -->
-  <RS_VoreDependency.label>捕食饥渴</RS_VoreDependency.label>
-  <!-- EN: predation hunger -->
-  <RS_VoreDependency.labelNoun>捕食饥渴</RS_VoreDependency.labelNoun>
-  <!-- EN: This pawn's engineered metabolism expects live prey. Digesting prey eases the
-  hunger - the larger the prey, the more it helps - but go too long without a meal and it
-  weakens, eventually snapping into a predatory frenzy. -->
-  <RS_VoreDependency.description>该个体经过改造的代谢渴求活体猎物。消化猎物可以缓解饥渴——猎物越大，缓解越多；但若太久未能进食，它便会逐渐衰弱，最终陷入捕食狂乱。</RS_VoreDependency.description>
-
-  <!-- EN: Shedding -->
-  <Hediff_Shed.label>蜕皮</Hediff_Shed.label>
-  <!-- EN: Rakkles periodically shed their skin as they grow. -->
-  <Hediff_Shed.description>拉克在成长过程中会定期蜕掉皮肤。</Hediff_Shed.description>
-
-  <!-- EN: Parasites treatment -->
-  <Hediff_helminthicHigh.label>寄生虫治疗</Hediff_helminthicHigh.label>
-  <!-- EN: Parasites treatment -->
-  <Hediff_helminthicHigh.labelNoun>寄生虫治疗</Hediff_helminthicHigh.labelNoun>
-  <!-- EN: Medicine against muscle parasites and gut worms. -->
-  <Hediff_helminthicHigh.description>治疗肌肉寄生虫和肠道蠕虫的药物。</Hediff_helminthicHigh.description>
-
-  <!-- EN: bionic Rakkle tail -->
-  <Hediff_BionicTail.label>仿生拉克尾巴</Hediff_BionicTail.label>
-  <!-- EN: a bionic Rakkle tail -->
-  <Hediff_BionicTail.labelNoun>仿生拉克尾巴</Hediff_BionicTail.labelNoun>
-  <!-- EN: An installed bionic Rakkle tail. -->
-  <Hediff_BionicTail.description>已安装的仿生拉克尾巴。</Hediff_BionicTail.description>
-
+  
   <!-- EN: prosthetic wooden tail -->
   <Hediff_WoodenTail.label>义肢木制尾巴</Hediff_WoodenTail.label>
-  <!-- EN: a prosthetic wooden tail -->
-  <Hediff_WoodenTail.labelNoun>义肢木制尾巴</Hediff_WoodenTail.labelNoun>
   <!-- EN: An installed prosthetic wooden tail. -->
   <Hediff_WoodenTail.description>已安装的义肢木制尾巴。</Hediff_WoodenTail.description>
-
+  <!-- EN: a prosthetic wooden tail -->
+  <Hediff_WoodenTail.labelNoun>义肢木制尾巴</Hediff_WoodenTail.labelNoun>
+  
   <!-- EN: constriction charge -->
   <RS_ConstrictCharge.label>缠绕蓄势</RS_ConstrictCharge.label>
+  <!-- EN: A Rakkle's body coiling up for a vore grapple. It builds with every melee hit and\n      drains away when the Rakkle stops attacking. -->
+  <RS_ConstrictCharge.description>拉克的身体正在为一次吞噬擒抱蓄势。每次近战命中都会使其积累，停止攻击后则逐渐消退。</RS_ConstrictCharge.description>
   <!-- EN: constriction charge -->
   <RS_ConstrictCharge.labelNoun>缠绕蓄势</RS_ConstrictCharge.labelNoun>
-  <!-- EN: A Rakkle's body coiling up for a vore grapple. It builds with every melee hit and drains
-  away when the Rakkle stops attacking. -->
-  <RS_ConstrictCharge.description>拉克的身体正在为一次吞噬擒抱蓄势。每次近战命中都会使其积累，停止攻击后则逐渐消退。</RS_ConstrictCharge.description>
-
+  
+  <!-- EN: predatory compulsion -->
+  <RS_PredatorObsession.label>捕食冲动</RS_PredatorObsession.label>
+  <!-- EN: Engineered instincts that drive this pawn to see other beings as prey. -->
+  <RS_PredatorObsession.description>经过改造的本能，驱使该个体将其他生物视作猎物。</RS_PredatorObsession.description>
+  <!-- EN: predatory compulsion -->
+  <RS_PredatorObsession.labelNoun>捕食冲动</RS_PredatorObsession.labelNoun>
+  
+  <!-- EN: predation hunger -->
+  <RS_VoreDependency.label>捕食饥渴</RS_VoreDependency.label>
+  <!-- EN: This pawn's engineered metabolism expects live prey. Digesting prey eases the\n      hunger - the larger the prey, the more it helps - but go too long without a meal and it\n      weakens, eventually snapping into a predatory frenzy. -->
+  <RS_VoreDependency.description>该个体经过改造的代谢渴求活体猎物。消化猎物可以缓解饥渴——猎物越大，缓解越多；但若太久未能进食，它便会逐渐衰弱，最终陷入捕食狂乱。</RS_VoreDependency.description>
+  <!-- EN: predation hunger -->
+  <RS_VoreDependency.labelNoun>捕食饥渴</RS_VoreDependency.labelNoun>
+  <!-- EN: sated -->
+  <RS_VoreDependency.stages.sated.label>TODO</RS_VoreDependency.stages.sated.label>
+  <!-- EN: hungry -->
+  <RS_VoreDependency.stages.hungry.label>TODO</RS_VoreDependency.stages.hungry.label>
+  <!-- EN: starving -->
+  <RS_VoreDependency.stages.starving.label>TODO</RS_VoreDependency.stages.starving.label>
+  <!-- EN: ravenous -->
+  <RS_VoreDependency.stages.ravenous.label>TODO</RS_VoreDependency.stages.ravenous.label>
+  
 </LanguageData>

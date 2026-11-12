@@ -1,6 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <RakkleTeenager.label>青少年</RakkleTeenager.label>
-  <RakkleTeenager.adjective>青少年</RakkleTeenager.adjective>
+  
+  <!-- EN: adult -->
   <RakkleAdult.label>成人</RakkleAdult.label>
+  
+  <!-- EN: teenager -->
+  <RakkleTeenager.label>青少年</RakkleTeenager.label>
+  <!-- EN: teenage -->
+  <RakkleTeenager.adjective>青少年</RakkleTeenager.adjective>
+  
 </LanguageData>

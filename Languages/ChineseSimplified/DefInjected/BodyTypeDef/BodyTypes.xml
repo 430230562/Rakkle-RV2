@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- EN: Rakkle Baby -->
-  <RakkleB.label>拉克 儿童</RakkleB.label>
-
+  
   <!-- EN: Rakkle Female -->
   <RakkleF.label>拉克 女性</RakkleF.label>
-
+  
   <!-- EN: Rakkle Male -->
   <RakkleM.label>拉克 男性</RakkleM.label>
-
+  
 </LanguageData>

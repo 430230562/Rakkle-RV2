@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-    <!-- EN: anesthetic dart -->
-    <RS_AnestheticDartDamage.label>麻醉飞针</RS_AnestheticDartDamage.label>
-
+  
+  <!-- EN: Anesthetic bite -->
+  <RS_AnestheticBite.label>TODO</RS_AnestheticBite.label>
+  <!-- EN: {0} has been bitten to death. -->
+  <RS_AnestheticBite.deathMessage>TODO</RS_AnestheticBite.deathMessage>
+  
 </LanguageData>

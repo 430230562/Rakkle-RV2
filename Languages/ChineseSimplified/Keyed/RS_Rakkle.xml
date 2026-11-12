@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-    <RS_TongueUnlocked>{0} 长出了新的吞噬长舌（{1}）。</RS_TongueUnlocked>
+    <!-- EN: {0} has grown a new engulfing tongue ({1}). -->
+  <RS_TongueUnlocked>{0} 长出了新的吞噬长舌（{1}）。</RS_TongueUnlocked>
 
 </LanguageData>
