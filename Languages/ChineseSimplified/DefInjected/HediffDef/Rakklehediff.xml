@@ -50,8 +50,8 @@
   
   <!-- EN: predation growth -->
   <Hediff_VoreTongueGrowth.label>捕食成长</Hediff_VoreTongueGrowth.label>
-  <!-- EN: Tracks how much prey this Rakkle has digested and grows its engulfing tongue\n      accordingly. -->
-  <Hediff_VoreTongueGrowth.description>记录该拉克已消化的猎物数量，并据此长出吞噬长舌。</Hediff_VoreTongueGrowth.description>
+  <!-- EN: Tracks how much prey this Rakkle has digested and develops its predatory leap accordingly. -->
+  <Hediff_VoreTongueGrowth.description>记录该拉克通过致命吞噬（重塑除外）摄入的猎物体型总量，并据此强化捕食跳跃。</Hediff_VoreTongueGrowth.description>
   <!-- EN: predation growth -->
   <Hediff_VoreTongueGrowth.labelNoun>捕食成长</Hediff_VoreTongueGrowth.labelNoun>
   

@@ -1,20 +1,20 @@
 using System.Collections.Generic;
+using HarmonyLib;
 using RimWorld;
+using RimVore2;
 using Verse;
 
 namespace Rakkle
 {
     /// <summary>
-    /// Grants (and upgrades) the engulfing tongue ability once the pawn has digested enough prey.
+    /// Grants (and upgrades) the predatory leap ability once the pawn has digested enough prey.
     /// Attach to an always-present Rakkle hediff. Thresholds and abilities are read from XML so the
     /// progression can be tuned without touching code.
     /// </summary>
     public class HediffCompProperties_VoreTongueUpgrade : HediffCompProperties
     {
-        /// <summary>RV2 record that counts how many prey this pawn has fully digested (RV2_Goal_Digest_Predator).</summary>
-        public RecordDef digestionRecord;
-        /// <summary>Digested prey required for each tier, matched by index with abilitiesToGrant.</summary>
-        public List<int> upgradeThresholds = new List<int>();
+        /// <summary>Cumulative prey body size required for each tier, matched by index with abilitiesToGrant.</summary>
+        public List<float> upgradeThresholds = new List<float>();
         /// <summary>The ability granted at each tier. Only the highest earned tier is kept.</summary>
         public List<AbilityDef> abilitiesToGrant = new List<AbilityDef>();
 
@@ -37,6 +37,14 @@ namespace Rakkle
             {
                 yield return $"{nameof(HediffCompProperties_VoreTongueUpgrade)} on {parentDef.defName}: upgradeThresholds and abilitiesToGrant must have the same length";
             }
+            for (int i = 0; i < upgradeThresholds.Count; i++)
+            {
+                if (upgradeThresholds[i] <= 0f || (i > 0 && upgradeThresholds[i] <= upgradeThresholds[i - 1]))
+                {
+                    yield return $"{nameof(HediffCompProperties_VoreTongueUpgrade)} on {parentDef.defName}: upgradeThresholds must be positive and strictly increasing";
+                    break;
+                }
+            }
         }
     }
 
@@ -45,12 +53,14 @@ namespace Rakkle
         private const int CheckIntervalTicks = 250;
 
         private int lastCheckTick = -1;
+        private float digestedPreyBodySize;
 
         private HediffCompProperties_VoreTongueUpgrade Props => (HediffCompProperties_VoreTongueUpgrade)props;
 
         public override void CompPostMake()
         {
             base.CompPostMake();
+            InitializeNaturalProgress();
             TryCheckForUpgrade();
         }
 
@@ -70,7 +80,7 @@ namespace Rakkle
         private void TryCheckForUpgrade()
         {
             Pawn pawn = parent?.pawn;
-            if (pawn == null || pawn.Dead || pawn.abilities == null || pawn.records == null || Props.digestionRecord == null)
+            if (pawn == null || pawn.Dead || pawn.abilities == null)
             {
                 return;
             }
@@ -79,11 +89,10 @@ namespace Rakkle
                 return;
             }
 
-            float digested = pawn.records.GetValue(Props.digestionRecord);
             int earnedTier = -1;
             for (int i = 0; i < Props.abilitiesToGrant.Count && i < Props.upgradeThresholds.Count; i++)
             {
-                if (digested >= Props.upgradeThresholds[i])
+                if (digestedPreyBodySize >= Props.upgradeThresholds[i])
                 {
                     earnedTier = i;
                 }
@@ -115,6 +124,70 @@ namespace Rakkle
                     pawn.abilities.RemoveAbility(ability);
                 }
             }
+        }
+
+        private void InitializeNaturalProgress()
+        {
+            float roll = Rand.Value;
+            if (roll < 0.30f)
+            {
+                digestedPreyBodySize = Rand.Range(0f, 8f);
+            }
+            else if (roll < 0.40f)
+            {
+                digestedPreyBodySize = Rand.Range(8f, 17f);
+            }
+            else if (roll < 0.45f)
+            {
+                digestedPreyBodySize = 17f;
+            }
+        }
+
+        public void RegisterDigestedPrey(Pawn prey)
+        {
+            if (prey == null)
+            {
+                return;
+            }
+
+            digestedPreyBodySize += prey.BodySize;
+            TryCheckForUpgrade();
+        }
+
+        public override void CompExposeData()
+        {
+            base.CompExposeData();
+            Scribe_Values.Look(ref digestedPreyBodySize, "digestedPreyBodySize", 0f);
+        }
+    }
+
+    [HarmonyPatch(typeof(PostVoreUtility), nameof(PostVoreUtility.ResolveVore))]
+    public static class Patch_PostVoreUtility_ResolveVore_TongueGrowth
+    {
+        [HarmonyPostfix]
+        public static void Postfix(VoreTrackerRecord record)
+        {
+            if (record == null
+                || record.IsInterrupted
+                || record.VoreGoal == null
+                || !record.VoreGoal.IsLethal
+                || record.VoreGoal.defName == "Reform"
+                || record.Predator == null
+                || record.Prey == null
+                || record.Predator.def?.defName != ConstrictionUtility.RakkleRaceDefName)
+            {
+                return;
+            }
+
+            HediffDef growthDef = DefDatabase<HediffDef>.GetNamed("Hediff_VoreTongueGrowth");
+            Hediff growth = record.Predator.health.hediffSet.GetFirstHediffOfDef(growthDef);
+            if (growth == null)
+            {
+                growth = HediffMaker.MakeHediff(growthDef, record.Predator);
+                record.Predator.health.AddHediff(growth);
+            }
+
+            growth.TryGetComp<HediffComp_VoreTongueUpgrade>()?.RegisterDigestedPrey(record.Prey);
         }
     }
 }

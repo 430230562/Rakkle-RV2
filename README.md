@@ -20,9 +20,12 @@ Changes in the fork:
    predatory compulsion, predation growth and predation dependency are applied to
    every Rakkle at spawn/birthday. The old `RS_Gene_*` gene defs were removed.
 5. Predation mechanics:
-   - Engulfing tongue: a ranged ability that drags a victim into reach.
-     A Rakkle grows it after digesting 10 prey, and upgrades it at 23.
-     It cannot be crafted or bought.
+   - Predatory leap: a jump toward a selected target, followed immediately by an
+     attempted RimVore-2 grapple upon landing. It unlocks after completing fatal
+     vore (except Reform) on prey with a cumulative body size of 8 and gains range
+     and a shorter cooldown at 17.
+     Naturally generated Rakkles can start with progress: 30% roll 0–7, 10% roll
+     8–16, 5% start at 17, and the remaining 55% start at 0. It cannot be crafted or bought.
    - Constriction charge: each melee hit builds a charge on the attacker;
      when full, the Rakkle automatically starts a RimVore-2 grapple.
    - Venomous fangs: roughly a third of a Rakkle's melee attacks instead of a
@@ -87,8 +90,11 @@ Unsubscribe from the Rakkle mods on the Steam Workshop and make sure you do not 
    食物中毒免疫、捕食冲动、捕食成长、吞噬依赖会在生成/生日时赋予每一名拉克。
    原有的 `RS_Gene_*` 基因定义已删除。
 5. 捕食机制：
-   - 吞噬长舌：将受害者拽回身边的远程能力。消化 10 名猎物后长出，
-     消化 23 名后升级。无法制造或购买。
+   - 捕食跳跃：跳向选中的目标，并在落地后立即尝试发动 RimVore-2 吞噬擒抱。
+     致命吞噬（重塑除外）的猎物体型累计达到 8 后解锁，达到 17 后提升跳跃距离并缩短冷却时间。
+     自然生成的拉克也可能已有成长进度：30%随机获得 0–7，10%随机获得 8–16，
+     5%直接达到 17，其余 55%从 0 开始。
+     无法制造或购买。
    - 缠绕蓄势：每次近战命中都会为攻击者累积蓄势；蓄满后自动发起 RimVore-2 擒抱。
    - 毒牙：拉克约三分之一的近战攻击会用毒牙咬击（而非拳击或尾扫）。每次咬击注入麻醉毒液
      （体型 1 的受害者 +0.6 严重度），几口就能让猎物眩晕甚至昏睡。

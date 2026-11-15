@@ -5,22 +5,6 @@
        Rakkle ranged vore weapons
        ========================================================================================== -->
 
-    <!-- Projectile that yanks the pawn it hits back to the caster (see RakkleVoreProjectile.cs) -->
-    <ThingDef ParentName="BaseBullet">
-        <defName>RS_VoreTongueProjectile</defName>
-        <label>engulfing tongue</label>
-        <thingClass>Rakkle.Projectile_VoreTongue</thingClass>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Small</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Blunt</damageDef>
-            <damageAmountBase>0</damageAmountBase>
-            <speed>40</speed>
-        </projectile>
-    </ThingDef>
-
     <!-- Dart that delivers the Rakkle's numbing venom at range, so prey stops struggling -->
     <ThingDef ParentName="BaseBullet">
         <defName>RS_AnestheticDart</defName>

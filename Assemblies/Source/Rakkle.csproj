@@ -75,7 +75,7 @@
     <Compile Include="RakkleTongueUpgrade.cs" />
     <Compile Include="RakkleVoreDependency.cs" />
     <Compile Include="RakkleVoreDependencyThought.cs" />
-    <Compile Include="RakkleVoreProjectile.cs" />
+    <Compile Include="RakkleVoreLeap.cs" />
     <Compile Include="ScalableBelt.cs" />
   </ItemGroup>
   <ItemGroup />

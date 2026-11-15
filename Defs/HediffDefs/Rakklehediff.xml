@@ -50,15 +50,15 @@
     </comps>
   </HediffDef>
 
-  <!-- Predation growth: grants and upgrades the Rakkle's engulfing tongue ability once it has
-       digested enough prey (see RakkleTongueUpgrade.cs) -->
+  <!-- Predation growth: grants and upgrades the Rakkle's predatory leap once it has digested
+       enough prey (see RakkleTongueUpgrade.cs) -->
   <HediffDef>
     <defName>Hediff_VoreTongueGrowth</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>predation growth</label>
     <labelNoun>predation growth</labelNoun>
-    <description>Tracks how much prey this Rakkle has digested and grows its engulfing tongue
-      accordingly.</description>
+    <description>Tracks the body size of prey consumed by this Rakkle in fatal vore (except Reform)
+      and develops its predatory leap accordingly.</description>
     <initialSeverity>0.01</initialSeverity>
     <maxSeverity>1</maxSeverity>
     <stages>
@@ -68,14 +68,15 @@
     </stages>
     <comps>
       <li Class="Rakkle.HediffCompProperties_VoreTongueUpgrade">
-        <digestionRecord>RV2_Goal_Digest_Predator</digestionRecord>
+        <!-- Cumulative prey body size, not the number of completed digestion records. -->
         <upgradeThresholds>
-          <li>10</li>
-          <li>23</li>
+          <li>8</li>
+          <li>17</li>
         </upgradeThresholds>
         <abilitiesToGrant>
-          <li>RS_VoreTongue1</li>
-          <li>RS_VoreTongue2</li>
+          <li>RS_predatoryLeap</li>
+          <li>RS_predatoryLeapMature</li>
+
         </abilitiesToGrant>
       </li>
     </comps>
@@ -99,9 +100,12 @@
       <li Class="Rakkle.HediffCompProperties_VoreDependency">
         <feedingPartGoals>
           <li>Digest</li>
+          <li>ConvertMilk</li>
+          <li>ConvertLube</li>
+          <li>ConvertSperm</li>
         </feedingPartGoals>
         <severityReductionPerBodySize>0.5</severityReductionPerBodySize>
-        <starvationDays>10</starvationDays>
+        <starvationDays>15</starvationDays>
         <!-- At max severity the Rakkle snaps: hunts animals (0.75) or vores a colonist (0.25) -->
         <maxSeverityMentalBreaks>
           <li>

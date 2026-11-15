@@ -92,9 +92,11 @@
         - Engineered traits: several Rakkle traits - food poisoning immunity, predatory
         compulsion, predation growth, the predation toolkit and predation dependency - are built
         into the race itself, along with their vore types and goals.
-        - Engulfing tongue: a ranged ability that lashes out with an adhesive tongue and drags the
-        victim back within reach. It cannot be crafted; a Rakkle grows it after digesting enough
-        prey, then later upgrades to a longer, faster version.
+        - Predatory leap: a jump toward a target, followed by an immediate attempt to start a
+        RimVore-2 grapple upon landing. It unlocks at 8 cumulative body size of prey consumed in
+        fatal vore (except Reform) and upgrades at 17, gaining range and a shorter cooldown.
+        Naturally generated Rakkles have a
+        30% chance to start with 0-7 progress, 10% with 8-16, 5% with 17, and otherwise start at 0.
         - Constriction charge: every Rakkle melee hit builds a constriction charge on the attacker.
         Once full, the Rakkle automatically seizes the victim in a RimVore-2 grapple.
         - Anesthetic needler: a craftable ranged weapon that fires darts coated in Rakkle venom,
@@ -161,7 +163,7 @@
         == 玩法机制（RimVore-2）==
 
         - 内置特性：若干拉克特性（食物中毒免疫、捕食冲动、捕食成长、捕食构造、吞噬依赖）直接内置于种族定义中，其吞噬类型与目标也一并内置。
-        - 吞噬长舌：一种远程能力，甩出黏性长舌将受害者拽回身边；它无法被制造——拉克在消化足够猎物后会自行长出，之后还会升级为更长、更快的版本。
+        - 捕食跳跃：跳向选中的目标，并在落地后立即尝试发动 RimVore-2 吞噬擒抱；重塑以外的致命吞噬猎物体型累计达到 8 后解锁、达到 17 后提升距离并缩短冷却。自然生成的拉克有 30% 获得 0–7 初始进度、10% 获得 8–16、5% 直接达到 17，其余从 0 开始。
         - 缠绕蓄势：拉克的每次近战命中都会为自身积累“缠绕蓄势”；蓄满后会自动对目标发起 RimVore-2 擒抱。
         - 麻醉针枪：可制造的远程武器，发射涂有拉克毒液的飞针，让挣扎的猎物陷入沉睡后再将其吞下。
 

@@ -11,10 +11,10 @@
 
     <!-- Tier 1 -->
     <AbilityDef>
-        <defName>RS_VoreTongue1</defName>
-        <label>engulfing tongue</label>
-        <description>A muscular, adhesive tongue the Rakkle can lash out with, latching onto a
-            distant victim and yanking them back within reach.</description>
+        <defName>RS_predatoryLeap</defName>
+        <label>predatory leap</label>
+        <description>The Rakkle leaps toward a distant target and immediately attempts to seize it
+            in a RimVore-2 grapple upon landing.</description>
         <iconPath>Icon/RS_Icon</iconPath>
         <category>RS_RakklePredation</category>
         <displayOrder>10</displayOrder>
@@ -23,31 +23,35 @@
         <showWhenDrafted>true</showWhenDrafted>
         <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
         <cooldownTicksRange>900</cooldownTicksRange>
+        <jobDef>CastJump</jobDef>
         <verbProperties>
-            <verbClass>Verb_CastAbility</verbClass>
+            <verbClass>Verb_CastAbilityJump</verbClass>
             <range>12.9</range>
             <warmupTime>1.0</warmupTime>
-            <soundCast>Shot_Revolver</soundCast>
+            <violent>false</violent>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <soundCast>Longjump_Jump</soundCast>
+            <soundLanding>Longjump_Land</soundLanding>
+            <requireLineOfSight>true</requireLineOfSight>
             <targetParams>
                 <canTargetPawns>true</canTargetPawns>
                 <canTargetAnimals>true</canTargetAnimals>
-                <canTargetMechs>true</canTargetMechs>
+                <canTargetMechs>false</canTargetMechs>
                 <canTargetLocations>false</canTargetLocations>
             </targetParams>
         </verbProperties>
         <comps>
-            <li Class="CompProperties_AbilityLaunchProjectile">
-                <projectileDef>RS_VoreTongueProjectile</projectileDef>
+            <li Class="Rakkle.CompProperties_AbilityEffect_VoreLeap">
             </li>
         </comps>
     </AbilityDef>
 
     <!-- Tier 2: longer reach and faster recovery -->
     <AbilityDef>
-        <defName>RS_VoreTongue2</defName>
-        <label>engulfing tongue (grown)</label>
-        <description>A mature Rakkle tongue. It reaches further and recovers faster than a freshly
-            grown one, allowing the predator to pluck prey from well beyond arm's reach.</description>
+        <defName>RS_predatoryLeapMature</defName>
+        <label>predatory leap (mature)</label>
+        <description>A mature predatory leap with greater range and a faster recovery, allowing
+            the Rakkle to close on distant prey and immediately attempt a RimVore-2 grapple.</description>
         <iconPath>Icon/RS_Icon</iconPath>
         <category>RS_RakklePredation</category>
         <displayOrder>11</displayOrder>
@@ -56,21 +60,25 @@
         <showWhenDrafted>true</showWhenDrafted>
         <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
         <cooldownTicksRange>600</cooldownTicksRange>
+        <jobDef>CastJump</jobDef>
         <verbProperties>
-            <verbClass>Verb_CastAbility</verbClass>
+            <verbClass>Verb_CastAbilityJump</verbClass>
             <range>18.9</range>
             <warmupTime>0.8</warmupTime>
-            <soundCast>Shot_Revolver</soundCast>
+            <violent>false</violent>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <soundCast>Longjump_Jump</soundCast>
+            <soundLanding>Longjump_Land</soundLanding>
+            <requireLineOfSight>true</requireLineOfSight>
             <targetParams>
                 <canTargetPawns>true</canTargetPawns>
                 <canTargetAnimals>true</canTargetAnimals>
-                <canTargetMechs>true</canTargetMechs>
+                <canTargetMechs>false</canTargetMechs>
                 <canTargetLocations>false</canTargetLocations>
             </targetParams>
         </verbProperties>
         <comps>
-            <li Class="CompProperties_AbilityLaunchProjectile">
-                <projectileDef>RS_VoreTongueProjectile</projectileDef>
+            <li Class="Rakkle.CompProperties_AbilityEffect_VoreLeap">
             </li>
         </comps>
     </AbilityDef>
