@@ -4,15 +4,15 @@
   <!-- EN: hungry for prey -->
   <RS_VoreDependencyMood.stages.hungry_for_prey.label>渴求猎物</RS_VoreDependencyMood.stages.hungry_for_prey.label>
   <!-- EN: The craving for live prey is becoming distracting. -->
-  <RS_VoreDependencyMood.stages.hungry_for_prey.description>对活体猎物的渴望开始令人分心。</RS_VoreDependencyMood.stages.hungry_for_prey.description>
+  <RS_VoreDependencyMood.stages.hungry_for_prey.description>我总是不由自主地想着活生生的猎物，这些念头一阵阵冒出来，让我越来越难以集中精神。</RS_VoreDependencyMood.stages.hungry_for_prey.description>
   <!-- EN: desperate for prey -->
   <RS_VoreDependencyMood.stages.desperate_for_prey.label>迫切渴求猎物</RS_VoreDependencyMood.stages.desperate_for_prey.label>
   <!-- EN: The need to digest live prey is weighing heavily on the mind. -->
-  <RS_VoreDependencyMood.stages.desperate_for_prey.description>必须消化活体猎物的需求沉重地压在心头。</RS_VoreDependencyMood.stages.desperate_for_prey.description>
+  <RS_VoreDependencyMood.stages.desperate_for_prey.description>我满脑子都是吞下并消化活物的需要，这种渴望沉甸甸地压在我心头，让我很难再去在意别的事。</RS_VoreDependencyMood.stages.desperate_for_prey.description>
   <!-- EN: ravaged by hunger -->
   <RS_VoreDependencyMood.stages.ravaged_by_hunger.label>饥渴折磨</RS_VoreDependencyMood.stages.ravaged_by_hunger.label>
   <!-- EN: The body's desperate need for prey leaves little room for anything else. -->
-  <RS_VoreDependencyMood.stages.ravaged_by_hunger.description>身体对猎物的极度渴求让它无暇顾及其他。</RS_VoreDependencyMood.stages.ravaged_by_hunger.description>
+  <RS_VoreDependencyMood.stages.ravaged_by_hunger.description>我的身体在尖叫着渴求猎物，饥饿几乎占满了我全部的念头，我很难再顾及其他事情。</RS_VoreDependencyMood.stages.ravaged_by_hunger.description>
   
   <!-- UNUSED -->
   <RS_VoreDependencyMood.stages.li0.label></RS_VoreDependencyMood.stages.li0.label>
